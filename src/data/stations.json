@@ -1097,7 +1097,8 @@
     "id": "station-804",
     "name": "NEEME SADAM",
     "location": "Harju maakond",
-    "coordinates"
+    "coordinates": [
+      59.5311366,
       25.1593135
     ],
     "hasStation": true,
