@@ -1,0 +1,5056 @@
+[
+    {
+        "id": "c155d197-2401-456b-9388-ae50a71bbf85",
+        "publicId": 2674,
+        "name": "ABAJA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Abaja küla, Abaja sadam Abaja sadam, 93411",
+        "phoneNumbers": [
+            "+37256647711",
+            "+37253403409"
+        ],
+        "email": "taavi@ait.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "WC",
+            "ELEKTERKAIL"
+        ]
+    },
+    {
+        "id": "ddba36c4-922c-45f4-9831-d18dd4edac2f",
+        "publicId": 53,
+        "name": "ABRUKA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Abruka küla, Sadama Sadama, 93826",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WIFI",
+            "KOHVIK_RESTO",
+            "DUSH",
+            "SLIP",
+            "PESU",
+            "WC"
+        ]
+    },
+    {
+        "id": "7ebde7ec-08c5-4abc-917c-96e1309f42f5",
+        "publicId": 710,
+        "name": "ADMIRALI VÄIKESADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Hõbesalu küla, Admirali Admirali, 88209",
+        "phoneNumbers": [
+            "+372 5118420"
+        ],
+        "email": "marko.puusepp@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JAHTIDE_RENT"
+        ]
+    },
+    {
+        "id": "46b4326a-2d7b-4c2f-8d2a-440cae5900d0",
+        "publicId": 101,
+        "name": "AEGNA SADAM",
+        "address": "Harju maakond, Tallinn, Kesklinna linnaosa, Tagamaa tee 1, 74021",
+        "phoneNumbers": [
+            "+372 6404618"
+        ],
+        "email": "tta@tallinnlv.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "c27a9962-ff22-429e-a195-ef2d4a167e96",
+        "publicId": 2662,
+        "name": "AHOI JÕESADAM",
+        "address": "Saare maakond, Saaremaa vald, Nasva alevik, Sadama tee 7a, 93872",
+        "phoneNumbers": [
+            "+372 5183187"
+        ],
+        "email": "hillarlipp@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NASVA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "JAHTIDE_RENT",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "c1a09bdd-1a21-4931-911e-e9fe54c7089b",
+        "publicId": 156,
+        "name": "ALAJÕE KALASADAM",
+        "address": "Ida-Viru maakond, Alutaguse vald, Alajõe küla, Kanarbiku tn 1, 41001",
+        "phoneNumbers": [
+            "+372 5033724"
+        ],
+        "email": "indekovara@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "WC",
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "3b682e6b-1867-4257-b3b6-c33fb552f2bc",
+        "publicId": 2659,
+        "name": "ALLIKLEPA SADAM",
+        "address": "Harju maakond, Lääne-Harju vald, Alliklepa küla, Päärbi Päärbi, 76018",
+        "phoneNumbers": [
+            "+372 6180820"
+        ],
+        "email": "mart.rask@rask.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI",
+            "WIFI",
+            "PARKLA",
+            "SLIP",
+            "WC",
+            "PRUGI",
+            "PESU",
+            "DUSH"
+        ]
+    },
+    {
+        "id": "cfd598b8-71ab-4749-bc4f-e54d04cc7639",
+        "publicId": 3703,
+        "name": "ASERI VÄIKESADAM (EHITAMISEL)",
+        "address": "Lääne-Viru maakond, Viru-Nigula vald, Aseri alevik, Mere tn 17, 43401",
+        "phoneNumbers": [
+            "+372 56216452"
+        ],
+        "email": "gaido.kentem@gkehitus.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "d5ef285d-5817-4317-b4d5-263d861bd389",
+        "publicId": 161,
+        "name": "ATLA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Atla küla, Atla sadam, 93322",
+        "phoneNumbers": [
+            "+372 5141492"
+        ],
+        "email": "toivo.naagel@mail.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "SLIP",
+            "JAHTIDE_RENT",
+            "JOOGIVESI",
+            "WC"
+        ]
+    },
+    {
+        "id": "1a952824-13d2-4c21-b611-ec1ebdb4d898",
+        "publicId": 150,
+        "name": "BEKKERI SADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Marati tn 14, 11712",
+        "phoneNumbers": [
+            "+372 6201600"
+        ],
+        "email": "info@tallinnbekkerport.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "ELEKTER",
+            "JOOGIVESI",
+            "MUU",
+            "MUU",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "15c803a8-0817-4e3a-ba10-15bbb5043e0a",
+        "publicId": 8403,
+        "name": "BERESJE SADAM",
+        "address": "Võru maakond, Setomaa vald, Beresje küla, Navoloki tn 3, 64303",
+        "phoneNumbers": [
+            "+372 7964733"
+        ],
+        "email": "vald@setomaa.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PSKOV",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "PARKLA",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "5731b644-350d-46c5-95dc-5630ba1f506e",
+        "publicId": 9173,
+        "name": "BÜRGERMEISTRI SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Kaluri tn 36, 90502",
+        "phoneNumbers": [
+            "+372 4725300"
+        ],
+        "email": "hlv@haapsalulv.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "3627a088-eb43-44fc-a468-a27c31402f34",
+        "publicId": 151,
+        "name": "DIRHAMI SADAM",
+        "address": "Lääne maakond, Lääne-Nigula vald, Dirhami küla / Derhamn, Dirhami sadam, 91214",
+        "phoneNumbers": [
+            "+372 56234523"
+        ],
+        "email": "info@portdirham.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "DUSH",
+            "TELEFON",
+            "KYTUS",
+            "JOOGIVESI",
+            "WIFI",
+            "PISIREMONT",
+            "PRUGI",
+            "SLIP",
+            "JALGRATTA_RENT",
+            "KOHVIK_RESTO"
+        ]
+    },
+    {
+        "id": "6806c75d-b22a-4e2b-85ce-a56bdb4871b7",
+        "publicId": 450,
+        "name": "EISMA SADAM",
+        "address": "Lääne-Viru maakond, Haljala vald, Eisma küla, Eisma sadam, 45411",
+        "phoneNumbers": [
+            "+372 5131442"
+        ],
+        "email": "tiiupedaja@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "DUSH",
+            "JOOGIVESI",
+            "PESU",
+            "SLIP",
+            "WC",
+            "WIFI",
+            "KYTUS",
+            "JAHTIDE_RENT",
+            "MUU",
+            "MUU",
+            "JALGRATTA_RENT",
+            "MUU",
+            "MUU",
+            "MUU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "49a70a84-a16c-4467-a0c1-0de3bb4bb92d",
+        "publicId": 6967,
+        "name": "HAAPSALU VANASADAM",
+        "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Sadama tn 32a, 90502",
+        "phoneNumbers": [
+            "+372 55623993"
+        ],
+        "email": "info@aiboland.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "ELEKTER",
+            "JOOGIVESI",
+            "SLIP",
+            "WC",
+            "MUU"
+        ]
+    },
+    {
+        "id": "7f2d6344-3f01-4a2f-9067-a73d81963799",
+        "publicId": 152,
+        "name": "HAAPSALU VESKIVIIGI SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Holmi tn 14, 90502",
+        "phoneNumbers": [
+            "+372 5652887"
+        ],
+        "email": "ieg@ieg.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC",
+            "DUSH",
+            "JOOGIVESI",
+            "WIFI",
+            "ELEKTER",
+            "MUU"
+        ]
+    },
+    {
+        "id": "e56b6331-b1bf-434a-b042-be78f8667eed",
+        "publicId": 708,
+        "name": "HALDI SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Haldi küla, Sadama, 92042",
+        "phoneNumbers": [
+            "+372 5031734"
+        ],
+        "email": "mihkel.harm@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "f9268634-8d41-4707-b3c7-cc3af6c299f6",
+        "publicId": 2114,
+        "name": "HARA SADAM",
+        "address": "Harju maakond, Kuusalu vald, Hara küla, Hara sadam, 74810",
+        "phoneNumbers": [
+            "+372 5021000"
+        ],
+        "email": "tarvi.velstrom@mail.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "KYTUS",
+            "PARKLA",
+            "SLIP",
+            "WC",
+            "MUU",
+            "DUSH",
+            "ELEKTER",
+            "JALGRATTA_RENT",
+            "KOHVIK_RESTO",
+            "PRUGI",
+            "KOHVIK_RESTO",
+            "JAHTIDE_RENT",
+            "MUU"
+        ]
+    },
+    {
+        "id": "0588c40e-3b21-41fd-9f3d-c7e3a1e92a88",
+        "publicId": 2259,
+        "name": "HARA SADAM",
+        "address": "Lääne maakond, Lääne-Nigula vald, Hara küla / Harga, Hara sadam Hara sadam, 91211",
+        "phoneNumbers": [
+            "+372 59191637"
+        ],
+        "email": "vv@laanenigula.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "PARKLA",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "90c89fb7-c00d-4846-8908-1404f47471ef",
+        "publicId": 154,
+        "name": "HELTERMAA SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Heltermaa küla, Heltermaa sadam 2, 92312",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WIFI",
+            "MUU",
+            "DUSH",
+            "ELEKTER",
+            "PRUGI",
+            "PARKLA",
+            "MUU",
+            "JOOGIVESI",
+            "KYTUS",
+            "PISIREMONT",
+            "KOHVIK_RESTO",
+            "MUU",
+            "MUU",
+            "MUU",
+            "MUU",
+            "WC"
+        ]
+    },
+    {
+        "id": "d156656f-5cd5-4705-a72b-1aa4d11c2957",
+        "publicId": 157,
+        "name": "HIIESSAARE SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Hiiessaare küla, Hiiessaare sadam, 92335",
+        "phoneNumbers": [
+            "+372 5051670"
+        ],
+        "email": "mart.varblane@mail.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "SLIP",
+            "PARKLA",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "7d638e70-f3d3-4718-8b74-593ea47df185",
+        "publicId": 158,
+        "name": "HUNDIPEA SADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Lume tn 9, 10416",
+        "phoneNumbers": [
+            "+372 55970048"
+        ],
+        "email": "sadam@riigilaevastik.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PRUGI",
+            "JOOGIVESI",
+            "WIFI",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "7f0f855a-5fcb-4aa9-8ea1-c0c2833c90e5",
+        "publicId": 159,
+        "name": "JAAGUPI SADAM",
+        "address": "Pärnu maakond, Häädemeeste vald, Penu küla, Jaagupi sadam Jaagupi sadam, 86014",
+        "phoneNumbers": [
+            "+372 56506638"
+        ],
+        "email": "silvernomm@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "f43a6be9-3851-4aa1-8667-5e600f9872b8",
+        "publicId": 3677,
+        "name": "JAPSI KALASADAM",
+        "address": "Pärnu maakond, Pärnu linn, Pärnu linn, J. V. Jannseni tn 36a, 80041",
+        "phoneNumbers": [
+            "+372 4459600"
+        ],
+        "email": "japs@japs.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_PARNU",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "ELEKTER",
+            "JOOGIVESI",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "58996ad3-d9b7-4923-ac45-ae5522060f35",
+        "publicId": 160,
+        "name": "JUHETA VÄIKESADAM",
+        "address": "Pärnu maakond, Pärnu linn, Saulepa küla, Saulepa lauter, 88322",
+        "phoneNumbers": [
+            "+372 5013489"
+        ],
+        "email": "siim.suursild@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "7739abae-8600-44f4-9ef2-abcc5d1e9ef4",
+        "publicId": 162,
+        "name": "JÕEKÄÄRU SADAM",
+        "address": "Ida-Viru maakond, Alutaguse vald, Rannapungerja küla, Sadama tee 6, 42208",
+        "phoneNumbers": [
+            "+372 5165123"
+        ],
+        "email": "andrus@rannapuura.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "6820d8c6-28cf-45f1-950c-bfe65c283149",
+        "publicId": 1939,
+        "name": "JÕE PAADISADAM",
+        "address": "Tartu maakond, Tartu linn, Tartu linn, Turu tn 18a, 51004",
+        "phoneNumbers": [
+            "+372 58026290"
+        ],
+        "email": "paadisadam@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "WIFI",
+            "ELEKTER",
+            "JOOGIVESI",
+            "WC",
+            "TELEFON"
+        ]
+    },
+    {
+        "id": "c0e2f556-7c12-4f57-a8f3-736bae225299",
+        "publicId": 9169,
+        "name": "JÕESUU SADAM",
+        "address": "Viljandi maakond, Viljandi vald, Vaibla küla, Jõesuu, 70314",
+        "phoneNumbers": [
+            "+372 5066426"
+        ],
+        "email": "anmar@vortsjarv.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "123ec240-9654-4c67-be8c-fb092b80993d",
+        "publicId": 9010,
+        "name": "JÕEÄÄRE PAADISADAM",
+        "address": "Tartu maakond, Kastre vald, Haaslava küla, Sadama tee 1, 62107",
+        "phoneNumbers": [
+            "+372 511 81 74"
+        ],
+        "email": "lauri@sahkar.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "WC",
+            "WIFI",
+            "ELEKTER",
+            "JOOGIVESI",
+            "PRUGI",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "e5210ad8-bd0b-4e46-bc0f-8e6eabad2a58",
+        "publicId": 2640,
+        "name": "KAAVI PAADISADAM",
+        "address": "Saare maakond, Saaremaa vald, Kaavi küla, Kaavi paadisadam, 93239",
+        "phoneNumbers": [
+            "+372 4525000 ",
+            "+372 5225547"
+        ],
+        "email": "vald@saaremaavald.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "6f2b5266-9e8f-4682-ad02-7e8763601113",
+        "publicId": 1210,
+        "name": "KABERNEEME SADAM",
+        "address": "Harju maakond, Jõelähtme vald, Kaberneeme küla, Kordoni tee 20, 74211",
+        "phoneNumbers": [
+            "+372 5040020"
+        ],
+        "email": "info@kaberneememarina.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PARKLA",
+            "ELEKTER",
+            "SLIP",
+            "KOHVIK_RESTO",
+            "JOOGIVESI",
+            "WIFI",
+            "DUSH",
+            "WC",
+            "KOHVIK_RESTO",
+            "WIFI",
+            "KYTUS",
+            "MUU",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "8de5898e-1f92-4a57-b840-3f3acf362ba5",
+        "publicId": 7151,
+        "name": "KADARIKU SADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Mereäärse küla, Sadama, 88220",
+        "phoneNumbers": [
+            "+372 502 2251",
+            "+3725022251"
+        ],
+        "email": "enriko@desala.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "WC",
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "268d0c39-7ff1-4232-9723-f7b5fb8a5edc",
+        "publicId": 8350,
+        "name": "KAKRI KALASADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Suuresadama küla, Kakri, 92346",
+        "phoneNumbers": [
+            "+372 5279424"
+        ],
+        "email": "tonis.teemets@mail.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "d55e318b-7c0a-42eb-b890-dfb8f98bd40f",
+        "publicId": 163,
+        "name": "KAKUMÄE SADAM",
+        "address": "Harju maakond, Tallinn, Haabersti linnaosa, Nooda tee 8, 13516",
+        "phoneNumbers": [
+            "+37253700023"
+        ],
+        "email": "marina@havenk.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "KYTUS",
+            "WIFI",
+            "ELEKTER",
+            "MUU",
+            "PRUGI",
+            "JOOGIVESI",
+            "KOHVIK_RESTO",
+            "WC",
+            "JALGRATTA_RENT",
+            "PARKLA",
+            "SLIP",
+            "PESU",
+            "DUSH",
+            "MUU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "d8f9eee6-95df-4136-a686-ae7bd89effef",
+        "publicId": 346,
+        "name": "KALANA JAHISADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Kalana küla, Kalana jahisadam, 92230",
+        "phoneNumbers": [
+            "+372 56662514"
+        ],
+        "email": "sadam@hiiumaa.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "WC",
+            "DUSH",
+            "PRUGI",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "e9735c0c-0d63-4037-8235-0f36fe61bfd6",
+        "publicId": 164,
+        "name": "KALANA SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Kalana küla, Kalana sadam Kalana sadam, 92230",
+        "phoneNumbers": [
+            "+372 5211380"
+        ],
+        "email": "jyri.tamm@jtholding.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "KOHVIK_RESTO",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "dde44527-3cb0-4823-a275-08409c13f872",
+        "publicId": 165,
+        "name": "KALASADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kalasadama  5, 10415",
+        "phoneNumbers": [
+            "6805400"
+        ],
+        "email": "info@kapitel.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "1c1edbec-1c60-4ac2-b513-729c786e7902",
+        "publicId": 8909,
+        "name": "KALDASILLA SADAM",
+        "address": "Jõgeva maakond, Mustvee vald, Kaasiku küla, Kaldasilla, 49502",
+        "phoneNumbers": [
+            "+372 7727240"
+        ],
+        "email": "peipsikalakuld@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "ELEKTER",
+            "JAHTIDE_RENT"
+        ]
+    },
+    {
+        "id": "a90848c1-55b8-4ee2-8220-c1f62a60bdf3",
+        "publicId": 1960,
+        "name": "KALDU SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kakuna küla, Kaldu sadam, 94532",
+        "phoneNumbers": [
+            "+372 4594258"
+        ],
+        "email": "helle.alas@mail.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "WC"
+        ]
+    },
+    {
+        "id": "50186f96-8c1b-41ac-a5e9-914874607569",
+        "publicId": 167,
+        "name": "KALEVI JAHTKLUBI SADAM",
+        "address": "Harju maakond, Tallinn, Pirita linnaosa, Pirita tee 17, 11911",
+        "phoneNumbers": [
+            "+372 6239154"
+        ],
+        "email": "info@kjk.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "DUSH",
+            "WC",
+            "JOOGIVESI",
+            "ELEKTER",
+            "MUU",
+            "KOHVIK_RESTO",
+            "PARKLA",
+            "SLIP",
+            "KOHVIK_RESTO",
+            "PRUGI",
+            "PISIREMONT",
+            "WIFI",
+            "WIFI",
+            "PESU"
+        ]
+    },
+    {
+        "id": "98263cf2-b84b-4dc7-86ac-db887d9c5384",
+        "publicId": 200,
+        "name": "KALLASTE SADAM",
+        "address": "Saare maakond, Muhu vald, Kallaste küla, Kallaste-Ranna, 94742",
+        "phoneNumbers": [
+            "+372 4530672"
+        ],
+        "email": "vald@muhu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "WC"
+        ]
+    },
+    {
+        "id": "d066fc25-0b04-47d1-ab56-42e4a1ad09cd",
+        "publicId": 201,
+        "name": "KALLASTE SADAM",
+        "address": "Tartu maakond, Peipsiääre vald, Kallaste linn, Tööstuse tn 1, 60104",
+        "phoneNumbers": [
+            "+372 56999132"
+        ],
+        "email": "info@rannapuura.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "TELEFON",
+            "KYTUS",
+            "PARKLA",
+            "WC",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "4a4fc73f-4eb0-4e1a-a2c1-898528e4909d",
+        "publicId": 2134,
+        "name": "KALMAKÜLA SADAM",
+        "address": "Jõgeva maakond, Mustvee vald, Kalmaküla, Keki, 42002",
+        "phoneNumbers": [
+            "+372 5528114"
+        ],
+        "email": "info@kalma.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "PARKLA",
+            "WIFI"
+        ]
+    },
+    {
+        "id": "7f7fa974-66be-4ca8-b734-2e630fb286e3",
+        "publicId": 2354,
+        "name": "KAREPA SADAM ",
+        "address": "Lääne-Viru maakond, Haljala vald, Karepa küla, Karepa sadam Karepa sadam, 45401",
+        "phoneNumbers": [
+            "+372 5036650"
+        ],
+        "email": "karepasadam@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "810b98a2-5514-4a79-955d-231537083276",
+        "publicId": 1403,
+        "name": "KARLOVA PAADISADAM",
+        "address": "Tartu maakond, Tartu linn, Tartu linn, Rebase tn 18, 50104",
+        "phoneNumbers": [
+            "+372 5037616"
+        ],
+        "email": "info@setoline.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "DUSH",
+            "ELEKTER",
+            "WIFI",
+            "JOOGIVESI",
+            "KOHVIK_RESTO",
+            "PARKLA",
+            "PESU",
+            "WC",
+            "WIFI",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "a87705bc-5a04-418c-9a5a-050a983d2632",
+        "publicId": 9354,
+        "name": "KASSARIOTSA SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Kassari küla, Lautri, 92111",
+        "phoneNumbers": [
+            "+372 5052661"
+        ],
+        "email": "sander@hiiumaale.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "16652bbd-5641-4957-9b93-f1f2e6cb4b28",
+        "publicId": 2611,
+        "name": "KASSARI SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Kassari küla, Kassari sadam, 92111",
+        "phoneNumbers": [
+            "+372 5063874"
+        ],
+        "email": "sadamayhing.kassari@mail.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "d1a2ccb1-a68e-4bef-822f-1fc89c332b20",
+        "publicId": 204,
+        "name": "KASTNA VÄIKESADAM",
+        "address": "Pärnu maakond, Pärnu linn, Kastna küla, Kastna sadam, 88106",
+        "phoneNumbers": [
+            "+372 4448200"
+        ],
+        "email": "linnavalitsus@parnu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "efee9668-be54-4074-ab78-f00152917fd5",
+        "publicId": 205,
+        "name": "KAUNISPE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kaunispe küla, Kaunispe sadam, 93242",
+        "phoneNumbers": [
+            "+372 5510326"
+        ],
+        "email": "kaunispesadam@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "DUSH",
+            "WC",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "c9be78bb-fd53-4d19-94cd-1cc37575c3f8",
+        "publicId": 206,
+        "name": "KAVARU SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Kavaru küla, Kavaru sadam, 88107",
+        "phoneNumbers": [
+            "+372 4448200"
+        ],
+        "email": "linnavalitsus@parnu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "a0070de2-0228-4fe1-be0f-30d8ebc984a4",
+        "publicId": 207,
+        "name": "KELNASE SADAM",
+        "address": "Harju maakond, Viimsi vald, Kelnase küla, Kelnase sadam, 74006",
+        "phoneNumbers": [
+            "+372 6028800"
+        ],
+        "email": "info@viimsi.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC",
+            "ELEKTER",
+            "KOHVIK_RESTO",
+            "JALGRATTA_RENT",
+            "JOOGIVESI",
+            "PARKLA",
+            "PRUGI",
+            "WIFI",
+            "MUU",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "3aa29f99-b3a6-4426-8c27-1ca939abe6e3",
+        "publicId": 208,
+        "name": "KELVINGI SADAM",
+        "address": "Harju maakond, Viimsi vald, Kelvingi küla, Kelvingi sadam, 74018",
+        "phoneNumbers": [
+            "+372 5032826"
+        ],
+        "email": "avo.frei@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "WC",
+            "SLIP",
+            "JOOGIVESI",
+            "PARKLA",
+            "WIFI",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "8b3f82ea-8d71-43b6-b173-2e1f574b917e",
+        "publicId": 854,
+        "name": "KESSE-JAANI SADAM",
+        "address": "Saare maakond, Muhu vald, Kesse küla, Jaani-Aadu, 94720",
+        "phoneNumbers": [
+            "+372 5177579"
+        ],
+        "email": "gtiivas@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "8f46501e-052d-44de-a284-4774dfaf88e3",
+        "publicId": 211,
+        "name": "KIHNU SADAM",
+        "address": "Pärnu maakond, Kihnu vald, Lemsi küla, Kihnu sadam Kihnu sadam, 88002",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WIFI",
+            "JALGRATTA_RENT",
+            "DUSH",
+            "WC"
+        ]
+    },
+    {
+        "id": "7f8d5682-04ab-4f74-9bc9-a2777f89adc0",
+        "publicId": 3989,
+        "name": "KIIDEVA SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Kiideva küla, Seltsimaja, 90409",
+        "phoneNumbers": [
+            "+372 56158443"
+        ],
+        "email": "kiidevakulaselts@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "WC"
+        ]
+    },
+    {
+        "id": "0f8ee594-116b-4aeb-9d74-66927d558523",
+        "publicId": 9005,
+        "name": "KIRDERANNA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kirderanna küla, Sadama, 94657",
+        "phoneNumbers": [
+            "+372 4525000"
+        ],
+        "email": "vald@saaremaavald.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "11ea8222-e77c-415e-a06c-1fd8de5c85fc",
+        "publicId": 212,
+        "name": "KOGUVA SADAM",
+        "address": "Saare maakond, Muhu vald, Koguva küla, Koguva sadam, 94724",
+        "phoneNumbers": [
+            "+372 5133446"
+        ],
+        "email": "info@koguva.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "WC",
+            "PARKLA",
+            "SLIP",
+            "ELEKTER",
+            "KOHVIK_RESTO"
+        ]
+    },
+    {
+        "id": "8d99b60b-e621-4240-97cc-fd8b97175126",
+        "publicId": 51,
+        "name": "KOLJUNUKI SADAM",
+        "address": "Harju maakond, Jõelähtme vald, Ülgase küla, Nuki tee 10, 74220",
+        "phoneNumbers": [
+            "+372 5235000"
+        ],
+        "email": "sadam@koljunuki.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "WC",
+            "ELEKTER",
+            "PARKLA",
+            "SLIP",
+            "KYTUS",
+            "MUU",
+            "WIFI"
+        ]
+    },
+    {
+        "id": "00fdf4d9-00ac-415a-bc30-3454a4aaf451",
+        "publicId": 1452,
+        "name": "KOLKJA SADAM",
+        "address": "Tartu maakond, Peipsiääre vald, Kolkja alevik, Sadama tn 5, 60306",
+        "phoneNumbers": [
+            "+372 5068581"
+        ],
+        "email": "kalamees@kodu.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "KYTUS",
+            "WC",
+            "MUU"
+        ]
+    },
+    {
+        "id": "0ddea99b-51d6-40c0-b2c9-45ece31db7e3",
+        "publicId": 250,
+        "name": "KUIVASTU SADAM",
+        "address": "Saare maakond, Muhu vald, Kuivastu küla, Kuivastu sadam Kuivastu sadam, 94702",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PRUGI",
+            "KYTUS",
+            "KOHVIK_RESTO",
+            "DUSH",
+            "PARKLA",
+            "SLIP",
+            "JALGRATTA_RENT",
+            "KOHVIK_RESTO",
+            "WC",
+            "WIFI",
+            "PESU",
+            "ELEKTER",
+            "WIFI",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "c99115b9-c792-4d1c-8072-c2cba647aa74",
+        "publicId": 300,
+        "name": "KUNDA SADAM",
+        "address": "Lääne-Viru maakond, Viru-Nigula vald, Kunda linn, Uus-Sadama tee 2, 44109",
+        "phoneNumbers": [
+            "+372 3229955"
+        ],
+        "email": "info@kundasadam.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "JOOGIVESI",
+            "MUU",
+            "MUU",
+            "ELEKTER",
+            "WIFI",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "d61db7f1-3c09-4800-839a-3406c0f02223",
+        "publicId": 301,
+        "name": "KUNGLA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kungla küla, Kungla sadam, 94311",
+        "phoneNumbers": [
+            "+372 56472104"
+        ],
+        "email": "andro@mkkonsult.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PRUGI",
+            "ELEKTER",
+            "SLIP",
+            "WC",
+            "JOOGIVESI",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "a074d847-9528-4ab4-ad6c-fbb2c58982ff",
+        "publicId": 302,
+        "name": "KURESSAARE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kuressaare linn, Tori tn 4, 93810",
+        "phoneNumbers": [
+            "+372 5092676"
+        ],
+        "email": "kommodoor@saaremaamerispordiselts.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "DUSH",
+            "MUU",
+            "KYTUS",
+            "WIFI",
+            "MUU",
+            "JOOGIVESI",
+            "MUU",
+            "PESU",
+            "JALGRATTA_RENT",
+            "KOHVIK_RESTO",
+            "PISIREMONT",
+            "SLIP",
+            "WC",
+            "MUU",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "adc1e7de-a74a-4fdf-8d8f-e0d9f6ecb696",
+        "publicId": 303,
+        "name": "KURKSE SADAM",
+        "address": "Harju maakond, Lääne-Harju vald, Kurkse küla, Sadama, 76017",
+        "phoneNumbers": [
+            "+372 5036435"
+        ],
+        "email": " info@kurksesadam.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "ELEKTER",
+            "PRUGI",
+            "JAHTIDE_RENT",
+            "JOOGIVESI",
+            "PARKLA",
+            "JALGRATTA_RENT",
+            "WC"
+        ]
+    },
+    {
+        "id": "a3cdb325-9187-4d7c-b632-5730c462d4a6",
+        "publicId": 1207,
+        "name": "KÕIGUSTE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kõiguste küla, Kõiguste sadam, 94421",
+        "phoneNumbers": [
+            "+372 5061922"
+        ],
+        "email": "koigustemarina@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "DUSH",
+            "WC",
+            "KOHVIK_RESTO",
+            "ELEKTER",
+            "JOOGIVESI",
+            "SLIP",
+            "PARKLA",
+            "MUU",
+            "JALGRATTA_RENT",
+            "KYTUS",
+            "PESU",
+            "WIFI",
+            "PRUGI",
+            "JAHTIDE_RENT",
+            "MUU"
+        ]
+    },
+    {
+        "id": "5e37e8cf-2a69-4a50-948c-18e81a4e8f7a",
+        "publicId": 304,
+        "name": "KÕRGESSAARE SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Kõrgessaare alevik, Sadama tee 15, 92201",
+        "phoneNumbers": [
+            "+372 5049165"
+        ],
+        "email": "priit.post@esmarehitus.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "PARKLA",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "c91650fd-cb17-493d-bcdf-607965615c34",
+        "publicId": 452,
+        "name": "KÄRDLA SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Kärdla linn, Sadama tn 30, 92411",
+        "phoneNumbers": [
+            "+372 56662514"
+        ],
+        "email": "sadam@hiiumaa.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "PARKLA",
+            "KYTUS",
+            "ELEKTER",
+            "SLIP",
+            "WIFI",
+            "DUSH",
+            "MUU",
+            "JOOGIVESI",
+            "WC",
+            "JALGRATTA_RENT",
+            "MUU",
+            "KOHVIK_RESTO",
+            "MUU",
+            "PESU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "c4d8acd8-b566-4f11-9b29-c7f949d05b9f",
+        "publicId": 306,
+        "name": "KÄRSA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Suure-Rootsi küla, Kärsa Kärsa, 94129",
+        "phoneNumbers": [
+            "+372 4521470"
+        ],
+        "email": "info@saarekala.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "3c3fe3a2-d82b-4bf6-9647-ae8ef019b79c",
+        "publicId": 8351,
+        "name": "KÄSMU MAJAKA SADAM",
+        "address": "Lääne-Viru maakond, Haljala vald, Käsmu küla, Merekooli tn 5, 45601",
+        "phoneNumbers": [
+            "+372 5066622"
+        ],
+        "email": "sadam@kasmusadam.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JALGRATTA_RENT",
+            "KOHVIK_RESTO",
+            "MUU",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "f565d640-b5b3-495e-8790-9572f7ac11c5",
+        "publicId": 9179,
+        "name": "KÜTIOJA SADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Paatsalu küla, Kütioja, 88204",
+        "phoneNumbers": [
+            "+372 6990000"
+        ],
+        "email": "andresn@haberst.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "b24ff9c8-538b-4dc3-af81-a727b931b9d3",
+        "publicId": 307,
+        "name": "LAAKSAARE SADAM",
+        "address": "Põlva maakond, Räpina vald, Parapalu küla, Laaksaare sadam Laaksaare sadam, 62508",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "ELEKTER",
+            "MUU",
+            "MUU",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "0ec0ee4a-ae43-4d5e-8b4d-e4e366d0f76b",
+        "publicId": 308,
+        "name": "LAHESUU SADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Paljassaare tee 16, 10313",
+        "phoneNumbers": [
+            "+372 6833363"
+        ],
+        "email": "info@lahesuu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PISIREMONT",
+            "MUU",
+            "ELEKTER",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "8cbbd412-aa68-4d12-bef6-cd39788ac961",
+        "publicId": 310,
+        "name": "LAO SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Lao küla, Lao sadam, 88110",
+        "phoneNumbers": [
+            "+372 5010011"
+        ],
+        "email": "arbetona@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "ef7aa0e8-113e-4a61-b1a6-8d1005b5ce5d",
+        "publicId": 805,
+        "name": "LAUTRI SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Kaleste küla, Putkaste metskond 9 Putkaste metskond 9, 92232",
+        "phoneNumbers": [
+            "+372 56626161"
+        ],
+        "email": "lautri@hot.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "606c7ed3-a598-4a0a-b6ed-4263a9431df9",
+        "publicId": 8392,
+        "name": "LEESIKALDA SADAM",
+        "address": "Harju maakond, Kuusalu vald, Leesi küla, Leesikalda sadam Leesikalda sadam, 74704",
+        "phoneNumbers": [
+            "+372 56268498"
+        ],
+        "email": "Raivo.Pukk@abiveod.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA",
+            "WC",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "a46c8834-338c-4624-8065-adfa616147cd",
+        "publicId": 2123,
+        "name": "LEHTMA KALURISADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Lehtma küla, Lehtma tee 5, 92219",
+        "phoneNumbers": [
+            "+372 6030700"
+        ],
+        "email": "tonu@ulemistearimaja.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": true,
+        "additionalServices": []
+    },
+    {
+        "id": "540071c2-3b20-4eab-953f-c29439e80431",
+        "publicId": 311,
+        "name": "LEHTMA SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Lehtma küla, Lehtma tee 3, 92219",
+        "phoneNumbers": [
+            "+372 6030700"
+        ],
+        "email": "merike@ulemistearimaja.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PARKLA",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "b64a814f-2e92-43b9-b882-239b6b8b86ce",
+        "publicId": 312,
+        "name": "LENNUSADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Vesilennuki tn 6, 10415",
+        "phoneNumbers": [
+            "+372 6411408"
+        ],
+        "email": "info@meremuuseum.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "ELEKTER",
+            "JOOGIVESI",
+            "WC",
+            "PARKLA",
+            "KOHVIK_RESTO",
+            "PESU",
+            "JAHTIDE_RENT",
+            "DUSH",
+            "PRUGI",
+            "MUU",
+            "SLIP",
+            "MUU",
+            "MUU",
+            "MUU",
+            "WIFI"
+        ]
+    },
+    {
+        "id": "770ef8ca-36b1-4cd5-a509-03b5cd8fd290",
+        "publicId": 314,
+        "name": "LEPPNEEME KALASADAM",
+        "address": "Harju maakond, Viimsi vald, Leppneeme küla, Leppneeme Sadama tee 25, 74009",
+        "phoneNumbers": [
+            "+372 5087786"
+        ],
+        "email": "erko.veltson@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "ELEKTER",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "388cb4b0-db31-478f-9c57-40bc515cc796",
+        "publicId": 313,
+        "name": "LEPPNEEME SADAM",
+        "address": "Harju maakond, Viimsi vald, Leppneeme küla, Leppneeme Sadama tee 18, 74009",
+        "phoneNumbers": [
+            "+372 6028800"
+        ],
+        "email": "info@viimsi.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC",
+            "MUU",
+            "PRUGI",
+            "SLIP",
+            "WIFI",
+            "PARKLA",
+            "ELEKTER",
+            "ELEKTER",
+            "KYTUS",
+            "MUU"
+        ]
+    },
+    {
+        "id": "85c84c40-4d80-4d5e-9210-889f0bed5704",
+        "publicId": 315,
+        "name": "LINDI SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Lindi küla, Kaluri tee 15, 88302",
+        "phoneNumbers": [
+            "+372 5092768"
+        ],
+        "email": "lindi.sadam@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "4a938a37-c24c-4e8f-b866-8b0fbad91b48",
+        "publicId": 317,
+        "name": "LIU VÄIKESADAM",
+        "address": "Pärnu maakond, Pärnu linn, Liu küla, Liu sadam, 88313",
+        "phoneNumbers": [
+            "+372 56218848"
+        ],
+        "email": "arnetaggo@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "5207c610-3521-4311-af90-e9c27d4a9a4c",
+        "publicId": 318,
+        "name": "LOHUSALU SADAM",
+        "address": "Harju maakond, Lääne-Harju vald, Lohusalu küla, Lohusalu tee 152, 76709",
+        "phoneNumbers": [
+            "+372 6272020"
+        ],
+        "email": "nordiccontractors@nordiccontractors.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "KOHVIK_RESTO",
+            "WIFI",
+            "PARKLA",
+            "KYTUS",
+            "DUSH",
+            "WC",
+            "ELEKTER",
+            "SLIP",
+            "PESU",
+            "WIFI",
+            "JOOGIVESI",
+            "JALGRATTA_RENT",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "d2dabcf3-a349-4ab0-a8af-85be405e8dde",
+        "publicId": 320,
+        "name": "LOHUSUU SADAM",
+        "address": "Jõgeva maakond, Mustvee vald, Lohusuu alevik, Järve tee 41, 42001",
+        "phoneNumbers": [
+            "+372 5033724"
+        ],
+        "email": "indekovara@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "JOOGIVESI",
+            "ELEKTER",
+            "TELEFON"
+        ]
+    },
+    {
+        "id": "b33163b3-27cf-44d0-ad90-986c140c246a",
+        "publicId": 321,
+        "name": "LOKSA SADAM",
+        "address": "Harju maakond, Loksa linn, Tallinna tn 2e, 74806",
+        "phoneNumbers": [
+            "+372 5091383"
+        ],
+        "email": "erich.reimets@marsalis.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": []
+    },
+    {
+        "id": "f73629fb-1dc4-41fb-afdf-27ace5ef7c9f",
+        "publicId": 801,
+        "name": "LUIGE VÄIKESADAM",
+        "address": "Lääne maakond, Haapsalu linn, Mäeküla, Luige Luige, 90437",
+        "phoneNumbers": [
+            "+372 5010136"
+        ],
+        "email": "hannosaar@hotmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "WC"
+        ]
+    },
+    {
+        "id": "96a17138-c4ba-4605-9791-e131f709a79c",
+        "publicId": 3934,
+        "name": "LUUNJA JÕESADAM",
+        "address": "Tartu maakond, Luunja vald, Luunja alevik, Jõesadama tn 10, 62222",
+        "phoneNumbers": [
+            "+372 5166213"
+        ],
+        "email": "sadam@luunja.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "WC",
+            "ELEKTER",
+            "JOOGIVESI",
+            "PRUGI",
+            "PARKLA",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "1ba34032-e052-4286-a55a-1441ee667bbb",
+        "publicId": 322,
+        "name": "LÕMALA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Lõmala küla, Lõmala sadam Lõmala sadam, 93217",
+        "phoneNumbers": [
+            "+372 564 72104"
+        ],
+        "email": "info@lomalasadam.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "ELEKTER",
+            "WIFI",
+            "DUSH",
+            "JALGRATTA_RENT",
+            "SLIP",
+            "PESU",
+            "WC",
+            "JOOGIVESI",
+            "PARKLA",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "259f377f-fcd6-4c3d-a643-bb825b75fcc7",
+        "publicId": 1964,
+        "name": "LÕPESUU SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kõrkvere küla, Sadama, 94535",
+        "phoneNumbers": [
+            "+372 5044169"
+        ],
+        "email": "mty.rannamaa@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "396346af-f7cc-4884-ae40-09c4ef88d738",
+        "publicId": 324,
+        "name": "LÕUNARANNA SADAM",
+        "address": "Saare maakond, Muhu vald, Simiste küla, Lõunaranna sadam, 94719",
+        "phoneNumbers": [
+            "+372 5036640"
+        ],
+        "email": "olaf@lounaranna.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JALGRATTA_RENT",
+            "JOOGIVESI",
+            "MUU",
+            "PESU",
+            "ELEKTER",
+            "DUSH",
+            "WIFI",
+            "KOHVIK_RESTO",
+            "WC",
+            "JAHTIDE_RENT",
+            "MUU",
+            "SLIP",
+            "KYTUS",
+            "MUU"
+        ]
+    },
+    {
+        "id": "56339755-fda1-467c-9f80-d8977d6b57ce",
+        "publicId": 707,
+        "name": "LÄÄNE SADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Paatsalu küla, Reinu, 88204",
+        "phoneNumbers": [
+            "+372 5028040",
+            "5028040"
+        ],
+        "email": "rein@paatsalu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "PARKLA",
+            "JOOGIVESI",
+            "MUU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "ab7e7447-f681-4a1b-9651-d369c630f58b",
+        "publicId": 325,
+        "name": "LÄÄTSA PAADISADAM",
+        "address": "Saare maakond, Saaremaa vald, Läätsa küla, Sadama Sadama, 93216",
+        "phoneNumbers": [
+            "+372 457 1639"
+        ],
+        "email": "marujaan@hot.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU"
+        ]
+    },
+    {
+        "id": "7cc19b98-101d-4fea-9520-428f8356a12e",
+        "publicId": 2501,
+        "name": "MAHU SADAM",
+        "address": "Lääne-Viru maakond, Viru-Nigula vald, Mahu küla, Sadama, 44015",
+        "phoneNumbers": [
+            "+372 3255960"
+        ],
+        "email": "vallavalitsus@viru-nigula.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "1d7ca6b6-007c-49e9-bdf1-95213fade30e",
+        "publicId": 309,
+        "name": "MANILAIU SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Manija küla, Manija sadam Manija sadam, 88112",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC"
+        ]
+    },
+    {
+        "id": "3c035d4c-2a85-4ca6-8b1a-486808040e23",
+        "publicId": 9008,
+        "name": "MEERAPALU SADAM",
+        "address": "Põlva maakond, Räpina vald, Meerapalu küla, Sadama tee 27, 62502",
+        "phoneNumbers": [
+            "5291015"
+        ],
+        "email": "gerrit@brggrupp.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "SLIP",
+            "WC"
+        ]
+    },
+    {
+        "id": "63862539-eaab-4a5c-a01a-0c03d85b1a43",
+        "publicId": 327,
+        "name": "MEERUSE SADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kopliranna tn 49, 11713",
+        "phoneNumbers": [
+            "+372 58550008"
+        ],
+        "email": "info@tallinnbekkerport.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "MUU",
+            "JOOGIVESI",
+            "MUU"
+        ]
+    },
+    {
+        "id": "cb580c6d-aa52-433b-ade1-c8ba4de8624a",
+        "publicId": 2266,
+        "name": "MEHIKOORMA SADAM",
+        "address": "Põlva maakond, Räpina vald, Mehikoorma alevik, Kalda tn 10, 62511",
+        "phoneNumbers": [
+            "+372 5235915"
+        ],
+        "email": "mehikoormasadam@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_LAMMIJARV",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "SLIP",
+            "KYTUS",
+            "ELEKTER",
+            "KOHVIK_RESTO",
+            "WC",
+            "MUU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "f3a29cd3-f7bf-4abb-99c6-6f8c9574fd56",
+        "publicId": 316,
+        "name": "MERELAIU VÄIKESADAM",
+        "address": "Pärnu maakond, Pärnu linn, Tõlli küla, Merelaiu Merelaiu, 88119",
+        "phoneNumbers": [
+            "+372 501 7067"
+        ],
+        "email": "merelaiu@hot.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI",
+            "MUU"
+        ]
+    },
+    {
+        "id": "f7da9445-342e-4629-8b75-c32805a4efd1",
+        "publicId": 9000,
+        "name": "MEREMÄE SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Salinõmme küla, 92317",
+        "phoneNumbers": [
+            "+372 5185857"
+        ],
+        "email": "helenaveanes@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "df65e2c5-9007-42c8-9f6c-ad1b23e09015",
+        "publicId": 2314,
+        "name": "MIHKLI SADAM",
+        "address": "Jõgeva maakond, Mustvee vald, Omedu küla, Laine, 49507",
+        "phoneNumbers": [
+            "+372 5150220"
+        ],
+        "email": "miflaine@mail.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "dd020aa3-7eec-4fe8-9311-43e29bdd1555",
+        "publicId": 52,
+        "name": "MIIDURANNA SADAM",
+        "address": "Harju maakond, Viimsi vald, Miiduranna küla, Sadama Sadama, 74015",
+        "phoneNumbers": [
+            "+372 6054311"
+        ],
+        "email": "juhataja@miidurannasadam.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "794de0dd-dcc8-4ef4-ba61-d4df7b3e6c0f",
+        "publicId": 319,
+        "name": "MUNALAIU SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Lao küla, Munalaiu sadam Munalaiu sadam, 88110",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC",
+            "DUSH",
+            "PARKLA",
+            "WIFI",
+            "PESU"
+        ]
+    },
+    {
+        "id": "52606386-a2ba-43be-b0b0-a16f5a178129",
+        "publicId": 2201,
+        "name": "MURATSI SADAM",
+        "address": "Saare maakond, Saaremaa vald, Muratsi küla, Muratsi sadam, 93859",
+        "phoneNumbers": [
+            "+372 53974722"
+        ],
+        "email": "sadam@muratsi.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "SLIP",
+            "PRUGI",
+            "WC",
+            "PARKLA",
+            "MANGUPLATS"
+        ]
+    },
+    {
+        "id": "f646d2af-83a0-4a51-bbf6-798d0dd5b469",
+        "publicId": 323,
+        "name": "MUSTVEE SADAM",
+        "address": "Jõgeva maakond, Mustvee vald, Mustvee linn, Pihkva tn 2u, 49604",
+        "phoneNumbers": [
+            "+372 772 6161"
+        ],
+        "email": "info@mustvee.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "JOOGIVESI",
+            "PRUGI",
+            "DUSH",
+            "ELEKTER",
+            "WIFI",
+            "KOHVIK_RESTO",
+            "SLIP",
+            "MUU",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "1461c451-2f69-4c22-8f98-836fe351adb7",
+        "publicId": 210,
+        "name": "MUUGA SADAM",
+        "address": "Harju maakond, Maardu linn, Muuga sadam 215 Muuga sadam 215, 74115",
+        "phoneNumbers": [
+            "+372 6318002 ",
+            "+372 6318555"
+        ],
+        "email": "ts@ts.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "JOOGIVESI",
+            "WIFI",
+            "ELEKTER",
+            "WC",
+            "PISIREMONT",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "4ec74ca5-0f9d-417c-b106-1121c8e3705f",
+        "publicId": 330,
+        "name": "MÕNTU SADAM",
+        "address": "Saare maakond, Saaremaa vald, Mõntu küla, Mõntu kai Mõntu kai, 93122",
+        "phoneNumbers": [
+            "+372 5145578"
+        ],
+        "email": "mihkel@undrest.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "ad486a86-f785-4464-88b5-724914422baa",
+        "publicId": 2101,
+        "name": "MÕNTU VÄIKELAEVADE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Mõntu küla, Kaluri Kaluri, 93122",
+        "phoneNumbers": [
+            "+3725145578"
+        ],
+        "email": "info@montusadam.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "DUSH",
+            "JOOGIVESI",
+            "ELEKTER",
+            "WC",
+            "PRUGI",
+            "TELEFON",
+            "KYTUS",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "69563b3e-990a-480e-a1c9-63a2a77fd33f",
+        "publicId": 9119,
+        "name": "MÄNNIKU SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Orjaku küla, Männiku sadam Männiku sadam, 92114",
+        "phoneNumbers": [
+            "-"
+        ],
+        "email": "indrek@paavli.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "b78970c0-cfea-4544-91d6-42d2e58bbb86",
+        "publicId": 331,
+        "name": "MÄNNI VÄIKESADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Muriste küla, Kuuse Kuuse, 88221",
+        "phoneNumbers": [
+            "+372 503 3070"
+        ],
+        "email": "valivaino@hot.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "7444782b-eb86-45a5-9a8b-1e0c14bc28dd",
+        "publicId": 326,
+        "name": "NAISSAARE SADAM",
+        "address": "Harju maakond, Viimsi vald, Lõunaküla / Storbyn, 74001",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "KOHVIK_RESTO",
+            "JALGRATTA_RENT",
+            "WC",
+            "DUSH",
+            "WIFI",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "d85257af-4794-4734-9e20-7059cc3b5da7",
+        "publicId": 2139,
+        "name": "NAISTLAIU SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Sarve küla, Naistlaiu sadam, 92322",
+        "phoneNumbers": [
+            "+ 372 463 6082 ",
+            "+372 506 4565"
+        ],
+        "email": "valitsus@hiiumaa.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "PARKLA",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "9aa2a87f-95cd-4e4d-90fb-9ee7058a4543",
+        "publicId": 9001,
+        "name": "NARVA-JÕESUU JAHTKLUBI SADAM",
+        "address": "Ida-Viru maakond, Narva-Jõesuu linn, Narva-Jõesuu linn, Kalda tn 20, 29022",
+        "phoneNumbers": [
+            "+372 5280804"
+        ],
+        "email": "sadam@njjahtklubi.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "WC",
+            "MUU"
+        ]
+    },
+    {
+        "id": "d4163b5c-5d4c-404c-8275-9bcb726836fb",
+        "publicId": 6155,
+        "name": "NARVA-JÕESUU KALURISADAM",
+        "address": "Ida-Viru maakond, Narva-Jõesuu linn, Narva-Jõesuu linn, Kalda tn 32a, 29022",
+        "phoneNumbers": [
+            "+372 3599580"
+        ],
+        "email": "info@narva-joesuu.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "1eb4a219-14ec-44c0-a606-dab112bc92e2",
+        "publicId": 2115,
+        "name": "NARVA-JÕESUU SADAM",
+        "address": "Ida-Viru maakond, Narva-Jõesuu linn, Narva-Jõesuu linn, Suur-Lootsi tn 4, 29023",
+        "phoneNumbers": [
+            "53329984"
+        ],
+        "email": "sadam@narva-joesuu.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PARKLA",
+            "PRUGI",
+            "PESU",
+            "SLIP",
+            "WIFI",
+            "KYTUS",
+            "ELEKTER",
+            "DUSH",
+            "WC",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "40c8f1ce-3a80-4435-9edb-a32d56c5c97a",
+        "publicId": 1553,
+        "name": "NARVA KULGU SADAM",
+        "address": "Ida-Viru maakond, Narva linn, Kulgusadama tee 10, 20104",
+        "phoneNumbers": [
+            "+372 55699195"
+        ],
+        "email": "tolik.ivanov@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA",
+            "WC"
+        ]
+    },
+    {
+        "id": "d25c5d3c-5cb1-474b-8451-e32cbda11665",
+        "publicId": 1552,
+        "name": "NARVA LINNASADAM",
+        "address": "Ida-Viru maakond, Narva linn, Jõe tn 3, 20609",
+        "phoneNumbers": [
+            "+372 55699195"
+        ],
+        "email": "info@narvasadam.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WIFI",
+            "WC",
+            "JOOGIVESI",
+            "PRUGI",
+            "DUSH",
+            "ELEKTER",
+            "PARKLA",
+            "KOHVIK_RESTO",
+            "WIFI",
+            "SLIP",
+            "PESU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "a42cc377-47c2-4ef2-883e-2275e47634c0",
+        "publicId": 2200,
+        "name": "NASVA JÕESADAM",
+        "address": "Saare maakond, Saaremaa vald, Nasva alevik, Ülejõe tn 4, 93872",
+        "phoneNumbers": [
+            "+372 4525000",
+            "+372 5228547"
+        ],
+        "email": "vald@saaremaavald.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NASVA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "JOOGIVESI",
+            "ELEKTER",
+            "WC"
+        ]
+    },
+    {
+        "id": "6e5b11f9-534a-4319-97c5-9db55fc62968",
+        "publicId": 328,
+        "name": "NASVA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Nasva alevik, Sadama tee 2, 93872",
+        "phoneNumbers": [
+            "+372 4521140"
+        ],
+        "email": "teade@bwb.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": []
+    },
+    {
+        "id": "3bb29d2f-1317-44bc-9195-7016c6bb564d",
+        "publicId": 804,
+        "name": "NEEME SADAM",
+        "address": "Harju maakond, Jõelähtme vald, Neeme küla, Sadama tee 5, 74226",
+        "phoneNumbers": [
+            "+372 56973676"
+        ],
+        "email": "info@neememarina.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "SLIP",
+            "ELEKTER",
+            "JOOGIVESI",
+            "KOHVIK_RESTO",
+            "DUSH",
+            "PARKLA",
+            "MUU",
+            "WC",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "e60f1111-f1a0-4c9b-8801-a2af47417bd3",
+        "publicId": 353,
+        "name": "NOBLESSNERI SADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Peetri tänav T5, 10416",
+        "phoneNumbers": [
+            "+372 6102408"
+        ],
+        "email": "noblessner@noblessner.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "PESU",
+            "WC",
+            "DUSH",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "c94ddab4-2dd5-4ac6-80bb-c2adef9efd41",
+        "publicId": 329,
+        "name": "NURME SADAM",
+        "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Männiku Männiku, 74012",
+        "phoneNumbers": [
+            "+372 527 9233"
+        ],
+        "email": "aivarosa@hot.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "04e690de-6327-45d7-a99f-d1ff354e5fc2",
+        "publicId": 2152,
+        "name": "NÕVA SADAM",
+        "address": "Lääne maakond, Lääne-Nigula vald, Rannaküla, Sadama, 91104",
+        "phoneNumbers": [
+            "+372 4720300"
+        ],
+        "email": "vv@laanenigula.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "cc314fb6-1ca2-491f-9574-88095016d632",
+        "publicId": 332,
+        "name": "OIU SADAM",
+        "address": "Viljandi maakond, Viljandi vald, Oiu küla, Oiu-Võitööstuse, 70317",
+        "phoneNumbers": [
+            "+372 5070712"
+        ],
+        "email": "info@iglucraft.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_VÕRTS_JARV",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "WC",
+            "JOOGIVESI",
+            "ELEKTER",
+            "KOHVIK_RESTO",
+            "SLIP",
+            "PRUGI",
+            "WIFI",
+            "KYTUS",
+            "JAHTIDE_RENT",
+            "PARKLA",
+            "MUU",
+            "MUU",
+            "DUSH"
+        ]
+    },
+    {
+        "id": "008767c6-b623-4aac-aa6c-370e976633e0",
+        "publicId": 334,
+        "name": "OMEDU RAND",
+        "address": "Jõgeva maakond, Mustvee vald, Omedu küla, Mustvee ranna-ala V30, 49507",
+        "phoneNumbers": [
+            "+372 5033724"
+        ],
+        "email": "indekovara@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "28a93db7-4143-464c-bbcd-04aa1bd7d04e",
+        "publicId": 335,
+        "name": "ORISSAARE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Orissaare alevik, Sadama tn 16, 94601",
+        "phoneNumbers": [
+            "+372 56239358"
+        ],
+        "email": "piidivabrik@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PISIREMONT",
+            "JOOGIVESI",
+            "PRUGI",
+            "PARKLA",
+            "JALGRATTA_RENT",
+            "ELEKTER",
+            "JAHTIDE_RENT",
+            "KOHVIK_RESTO",
+            "SLIP",
+            "WC",
+            "DUSH",
+            "MUU"
+        ]
+    },
+    {
+        "id": "03e9575a-1c88-4156-854b-9169bb749f00",
+        "publicId": 336,
+        "name": "ORJAKU SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Orjaku küla, Orjaku sadam, 92114",
+        "phoneNumbers": [
+            "+372 56662514"
+        ],
+        "email": "sadam@hiiumaa.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "PARKLA",
+            "MUU",
+            "ELEKTER",
+            "WIFI",
+            "KOHVIK_RESTO",
+            "WC",
+            "SLIP",
+            "DUSH",
+            "MUU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "f59615bd-b0ed-4f90-a5e5-0d292154dd1e",
+        "publicId": 2456,
+        "name": "OSMUSSAARE SADAM",
+        "address": "Lääne maakond, Lääne-Nigula vald, Osmussaare küla / Odensholm, Ranna Ranna, 91217",
+        "phoneNumbers": [
+            "+372 59191637"
+        ],
+        "email": "vv@laanenigula.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "dbe1c43c-67e8-4cb0-a947-d84ede2b4967",
+        "publicId": 337,
+        "name": "OTI SADAM",
+        "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Sääre tee 33, 74012",
+        "phoneNumbers": [
+            "+372 527 9233"
+        ],
+        "email": "aivarosa@hot.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "04fc11f4-39fe-49c9-bd39-e9f49ca8ad04",
+        "publicId": 338,
+        "name": "OTSA VÄIKESADAM",
+        "address": "Tartu maakond, Peipsiääre vald, Pusi küla, Otsa Otsa, 60217",
+        "phoneNumbers": [
+            "+372 53495035"
+        ],
+        "email": "kalux@hot.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "3feb096e-1782-4208-a911-97689d5c435c",
+        "publicId": 705,
+        "name": "PAATSALU SADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Paatsalu küla, Polümeeri, 88204",
+        "phoneNumbers": [
+            "+372 5028040",
+            "5028040"
+        ],
+        "email": "rein@paatsalu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "DUSH",
+            "ELEKTERKAIL",
+            "JOOGIVESI",
+            "WC",
+            "PARKLA",
+            "MAJUTUS"
+        ]
+    },
+    {
+        "id": "cf354820-4c2d-4f22-afe8-d3eac70f292f",
+        "publicId": 1968,
+        "name": "PAE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kõrkvere küla, Paeranna, 94535",
+        "phoneNumbers": [
+            "+372 5017548"
+        ],
+        "email": "raivo@peri.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "d91a2eec-6125-444f-aa92-4f50a4f53927",
+        "publicId": 8457,
+        "name": "PAKRINEEME SADAM",
+        "address": "Harju maakond, Lääne-Harju vald, Paldiski linn, Pakrineeme Pakrineeme, 76806",
+        "phoneNumbers": [
+            "+372 6600900"
+        ],
+        "email": "info@espa.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": []
+    },
+    {
+        "id": "af92ec36-350e-4ef7-a42a-759dd4eec84e",
+        "publicId": 333,
+        "name": "PALDISKI LÕUNASADAM",
+        "address": "Harju maakond, Lääne-Harju vald, Paldiski linn, Lõunasadama tee 11, 76806",
+        "phoneNumbers": [
+            "+372 6318555"
+        ],
+        "email": "ts@ts.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "WIFI",
+            "JOOGIVESI",
+            "PARKLA",
+            "ELEKTER",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "789a2301-d9fc-4472-8203-c507f484b34d",
+        "publicId": 347,
+        "name": "PALDISKI PÕHJASADAM",
+        "address": "Harju maakond, Lääne-Harju vald, Paldiski linn, Peetri tn 11, 76805",
+        "phoneNumbers": [
+            "+372 6391367"
+        ],
+        "email": "info@portofpaldiski.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "KYTUS",
+            "JOOGIVESI",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "d33a0343-2825-467c-a5c7-67443c8b9652",
+        "publicId": 203,
+        "name": "PALJASSAARE SADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Paljassaare tee 28d, 10313",
+        "phoneNumbers": [
+            "+372 5199 2509"
+        ],
+        "email": "info@hundipea.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "JOOGIVESI",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "d9fecf02-36d7-4033-95f7-6b44922355df",
+        "publicId": 2257,
+        "name": "PAPISSAARE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Rootsiküla, Papissaare sadam Papissaare sadam, 93413",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "b2c94ce2-ef2d-41b8-949a-bbc1c28364cf",
+        "publicId": 2132,
+        "name": "PASLEPA-VIIGI SADAM",
+        "address": "Lääne maakond, Lääne-Nigula vald, Paslepa küla / Pasklep, Suveresidentsi Suveresidentsi, 91204",
+        "phoneNumbers": [
+            "+372 6671250"
+        ],
+        "email": "info@hansaassets.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "e251e7d4-2c73-4530-8276-1158ad2f34ad",
+        "publicId": 348,
+        "name": "PATAREISADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kalasadama tänav T7, 10415",
+        "phoneNumbers": [
+            "+372 6404618"
+        ],
+        "email": "tta@tallinnlv.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "WC",
+            "WIFI",
+            "PARKLA",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "a2563918-f97e-4df6-b2c9-422c4ae53731",
+        "publicId": 350,
+        "name": "PEERNI SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Peerni küla, Peerni sadam Peerni sadam, 88114",
+        "phoneNumbers": [
+            "+372 566 53088",
+            "56653088"
+        ],
+        "email": "maidokaja@hotmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "9d9c4a69-e900-4154-a655-54391dbfd6cf",
+        "publicId": 1659,
+        "name": "PIHELGALAIU SADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Mereäärse küla, Pihelgalaiu 1, 88220",
+        "phoneNumbers": [
+            "+372 5042165"
+        ],
+        "email": "Olav@eften.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "a449ac84-9888-4afc-9a81-efc59b71624b",
+        "publicId": 1930,
+        "name": "PIIRISSAARE SADAM",
+        "address": "Tartu maakond, Tartu vald, Tooni küla, Piirissaare sadam Piirissaare sadam, 62603",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC"
+        ]
+    },
+    {
+        "id": "1ad6c7e4-e259-43d5-9fcf-bf1c27245e21",
+        "publicId": 356,
+        "name": "PIIRIVALVESADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Süsta tn 15, 11712",
+        "phoneNumbers": [
+            "1247"
+        ],
+        "email": "ppa@politsei.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "7490a2cd-3d83-4def-813f-41d29e5ab986",
+        "publicId": 168,
+        "name": "PIRITA SADAM",
+        "address": "Harju maakond, Tallinn, Pirita linnaosa, Purje tn 13, 11911",
+        "phoneNumbers": [
+            "+372 6398800"
+        ],
+        "email": "top@piritatop.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "DUSH",
+            "PESU",
+            "SLIP",
+            "KOHVIK_RESTO",
+            "WIFI",
+            "KYTUS",
+            "PARKLA",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "46e91dd0-8d81-42df-a1ff-dc1924a5cd5e",
+        "publicId": 1202,
+        "name": "PRANGLI LÕUNASADAM",
+        "address": "Harju maakond, Viimsi vald, Lääneotsa küla, Mölgisilla, 74007",
+        "phoneNumbers": [
+            "+372 5048275"
+        ],
+        "email": "kahroracing@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "0ce2311d-5cb4-4bc7-8a42-4fd5ac164b0e",
+        "publicId": 377,
+        "name": "PUISE KALASADAM",
+        "address": "Lääne maakond, Haapsalu linn, Puise küla, Puise kalasadam, 90420",
+        "phoneNumbers": [
+            "+372 4725300"
+        ],
+        "email": "hlv@haapsalulv.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "PARKLA",
+            "ELEKTER",
+            "SLIP",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "6a44404b-f44f-457e-8cfb-76eb202c983f",
+        "publicId": 808,
+        "name": "PURTSE JAHTSADAM",
+        "address": "Ida-Viru maakond, Lüganuse vald, Liimala küla, Jahtsadama Jahtsadama, 43306",
+        "phoneNumbers": [
+            "+372 5058695"
+        ],
+        "email": "heigoprits@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "DUSH",
+            "WC",
+            "JOOGIVESI",
+            "WIFI",
+            "SLIP",
+            "JAHTIDE_RENT",
+            "ELEKTER",
+            "PRUGI",
+            "PARKLA",
+            "JALGRATTA_RENT",
+            "KOHVIK_RESTO"
+        ]
+    },
+    {
+        "id": "a89d19b9-5f31-4e98-ade1-7e67aba3cdfe",
+        "publicId": 2103,
+        "name": "PURTSE KALASADAM",
+        "address": "Ida-Viru maakond, Lüganuse vald, Purtse küla, Purtse kalasadam Purtse kalasadam, 43302",
+        "phoneNumbers": [
+            "+372 53303930"
+        ],
+        "email": "reili.soppe@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_PURTSE",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "748ec597-cd03-47ac-923b-09c08e928b3a",
+        "publicId": 359,
+        "name": "PURTSE SADAM",
+        "address": "Ida-Viru maakond, Lüganuse vald, Purtse küla, Purtse sadam Purtse sadam, 43302",
+        "phoneNumbers": [
+            "+372 5018881"
+        ],
+        "email": "-",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "d82808e4-aeb0-4436-a537-0d0ec3a2b31e",
+        "publicId": 369,
+        "name": "PUSI VÄIKESADAM",
+        "address": "Tartu maakond, Peipsiääre vald, Pusi küla, Pusila, 60217",
+        "phoneNumbers": [
+            "+372 5034729"
+        ],
+        "email": "jannotomson@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "66811a33-a5e4-4757-87ed-c9cf58e4955a",
+        "publicId": 1201,
+        "name": "PÄRNU JAHTKLUBI JAHISADAM",
+        "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Lootsi tn 6, 80012",
+        "phoneNumbers": [
+            "+372 4471750"
+        ],
+        "email": "info@jahtklubi.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_PARNU",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "WIFI",
+            "JOOGIVESI",
+            "WIFI",
+            "KYTUS",
+            "PARKLA",
+            "SLIP",
+            "WC",
+            "PISIREMONT",
+            "DUSH",
+            "KOHVIK_RESTO",
+            "JALGRATTA_RENT",
+            "PESU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "5c33abed-b462-424c-ba6b-855325fe1413",
+        "publicId": 370,
+        "name": "PÄRNU SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Kaubasadama tee 2, 80010",
+        "phoneNumbers": [
+            "+372 4471700"
+        ],
+        "email": "sadam@parnusadam.eu",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "ELEKTER",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "2e8a9567-8ec6-47d6-abe1-062014a06e38",
+        "publicId": 9009,
+        "name": "PÄRNU VANASADAM",
+        "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Kalda tn 2, 80011",
+        "phoneNumbers": [
+            "+372 5166317"
+        ],
+        "email": "kaspar.kokk@transcom.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_PARNU",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "c49f23c5-6c7b-4386-9652-5ad47f0872c0",
+        "publicId": 9003,
+        "name": "RAHUSTE SADAM (EHITAMISEL)",
+        "address": "Saare maakond, Saaremaa vald, Rahuste küla, Lodja, 93235",
+        "phoneNumbers": [
+            "+372 53483783"
+        ],
+        "email": "siim@heysip.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "90f1eea8-fb5d-47e2-881f-c706e8754a6c",
+        "publicId": 341,
+        "name": "RAJA VÄIKESADAM",
+        "address": "Jõgeva maakond, Mustvee vald, Raja küla, Kalda tn 2a, 49509",
+        "phoneNumbers": [
+            "+372 5061001"
+        ],
+        "email": "grigori.blinnikov@mail.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "MUU",
+            "SLIP",
+            "MUU"
+        ]
+    },
+    {
+        "id": "79ffad51-7e23-4a48-8293-263391caf847",
+        "publicId": 3956,
+        "name": "RANNAAUGU SADAM",
+        "address": "Saare maakond, Saaremaa vald, Tagaranna küla, Rannaaugu, 93616",
+        "phoneNumbers": [
+            "+372 5154271"
+        ],
+        "email": "andrestarvis@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "SLIP",
+            "WC",
+            "DUSH"
+        ]
+    },
+    {
+        "id": "598c6e09-7ed6-47d9-98d3-35fccd02e1db",
+        "publicId": 339,
+        "name": "RANNAMETSA SADAM",
+        "address": "Pärnu maakond, Häädemeeste vald, Rannametsa küla, Merikulla, 86016",
+        "phoneNumbers": [
+            "+372 5535296"
+        ],
+        "email": "rannametsapaadisadam@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "c5a2cceb-3b4c-40be-9997-ede8be03bf01",
+        "publicId": 342,
+        "name": "REBASE PAADISADAM",
+        "address": "Tartu maakond, Tartu linn, Tartu linn, Rebase tn 27b, 50104",
+        "phoneNumbers": [
+            "+372 5023176"
+        ],
+        "email": "mrennu@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "6a57530a-0476-4422-8d0f-2b02ae253bec",
+        "publicId": 343,
+        "name": "REMNIKU VANASADAM",
+        "address": "Ida-Viru maakond, Alutaguse vald, Remniku küla, Vanakooli tee 8, 41004",
+        "phoneNumbers": [
+            "+372 5033724"
+        ],
+        "email": "karumetsaou2020@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "JOOGIVESI",
+            "ELEKTER",
+            "MUU"
+        ]
+    },
+    {
+        "id": "914219f1-4d5d-4036-a1b6-1317452d1e36",
+        "publicId": 349,
+        "name": "RISTNA LÕUNASADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Kalana küla, Ristna lõunasadam, 92230",
+        "phoneNumbers": [
+            "+372 5652060"
+        ],
+        "email": "endelevert@hotmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "PARKLA",
+            "WIFI",
+            "MUU",
+            "MUU",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "391ae9be-4760-49cd-8963-726ea8139b81",
+        "publicId": 345,
+        "name": "RISTNA SADAM",
+        "address": "Harju maakond, Lääne-Harju vald, Keibu küla, Tõnissoo, 76019",
+        "phoneNumbers": [
+            "+372 5059038"
+        ],
+        "email": "enn.ristna@mail.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "JOOGIVESI",
+            "ELEKTER",
+            "PRUGI",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "ad5eefb9-e9c8-486a-ad7d-8fc81f328480",
+        "publicId": 351,
+        "name": "ROHUKÜLA SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Rohuküla, Rohuküla sadam 1 Rohuküla sadam 1, 90441",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "WC",
+            "MUU",
+            "MUU",
+            "WIFI",
+            "DUSH",
+            "PARKLA",
+            "ELEKTER",
+            "PISIREMONT",
+            "KOHVIK_RESTO",
+            "JOOGIVESI",
+            "PRUGI",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "bf8104c2-0787-4f7c-88e6-4bc6ca078362",
+        "publicId": 352,
+        "name": "ROHUNEEME SADAM",
+        "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Sadama tee 9, 74012",
+        "phoneNumbers": [
+            "+372 55970048"
+        ],
+        "email": "sadam@riigilaevastik.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "d73f597f-c557-4708-ba03-10646ee5dcd5",
+        "publicId": 354,
+        "name": "ROHUNEEME VÄIKESADAM",
+        "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Sadama tee 11, 74012",
+        "phoneNumbers": [
+            "+372 56224146"
+        ],
+        "email": "info@watersport.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "WC",
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "fbf36b5f-8ae7-4f4b-a896-e4c7a0ce3216",
+        "publicId": 355,
+        "name": "ROOGRAHU SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Hiiessaare küla, Roograhu Roograhu, 92335",
+        "phoneNumbers": [
+            "+372 463 6609"
+        ],
+        "email": "jari.lindroos@roograhu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "ELEKTER",
+            "MUU",
+            "DUSH",
+            "MUU",
+            "KOHVIK_RESTO",
+            "PESU"
+        ]
+    },
+    {
+        "id": "0add59f3-0216-4efe-94a9-2ff668d7af51",
+        "publicId": 357,
+        "name": "ROOMASSAARE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kuressaare linn, Roomassaare tee 12, 93815",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WIFI",
+            "DUSH",
+            "KOHVIK_RESTO",
+            "KOHVIK_RESTO",
+            "PESU",
+            "KYTUS",
+            "WIFI",
+            "SLIP",
+            "WC"
+        ]
+    },
+    {
+        "id": "ab31a216-d50e-422f-b869-b762e71799ce",
+        "publicId": 358,
+        "name": "ROOPA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Karala küla, Roopa sadam, 93325",
+        "phoneNumbers": [
+            "+372 53403242"
+        ],
+        "email": "mihkelraud@hotmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "3a9a2e36-bc39-42f7-9193-7f85ccc24213",
+        "publicId": 344,
+        "name": "RUHNU SADAM",
+        "address": "Saare maakond, Ruhnu vald, Ruhnu küla, Ruhnu sadam Ruhnu sadam, 93001",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC",
+            "PESU",
+            "SLIP",
+            "KOHVIK_RESTO",
+            "WIFI",
+            "WIFI",
+            "JALGRATTA_RENT",
+            "DUSH",
+            "KOHVIK_RESTO",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "424bfd34-7a7c-42ec-856c-0e8f566a4185",
+        "publicId": 1203,
+        "name": "RUHVE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Ruhve küla, Sadama Sadama, 94423",
+        "phoneNumbers": [
+            "+372 56485300"
+        ],
+        "email": "taivo@linford.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "3282346a-bb74-4373-8364-cdae56b688b8",
+        "publicId": 2059,
+        "name": "RÄLBY SADAM",
+        "address": "Lääne maakond, Vormsi vald, Rälby küla, Rälbyranna, 91310",
+        "phoneNumbers": [
+            "+372 5296318"
+        ],
+        "email": "vv@vormsi.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "d553e33f-2757-4998-a593-e78358c185fc",
+        "publicId": 360,
+        "name": "RÄPINA SADAM",
+        "address": "Põlva maakond, Räpina vald, Raigla küla, Sadama, 64417",
+        "phoneNumbers": [
+            "+372 7999500"
+        ],
+        "email": "vald@rapina.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_LAMMIJARV",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "KOHVIK_RESTO",
+            "WIFI",
+            "SLIP",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "238a8a37-ffff-4bff-95fa-324ccfb490bc",
+        "publicId": 1966,
+        "name": "SAAGA SADAM",
+        "address": "Tartu maakond, Luunja vald, Kikaste küla, Saaga tee 9c, 62205",
+        "phoneNumbers": [
+            "+372 53461647"
+        ],
+        "email": "urmas@silvernet.eu",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "KYTUS",
+            "ELEKTER",
+            "PARKLA",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "c847fbd2-5d16-49fb-a767-3b06b46a683e",
+        "publicId": 305,
+        "name": "SAAREMAA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Ninase küla, Saaremaa sadam, 93613",
+        "phoneNumbers": [
+            "+372 6318555"
+        ],
+        "email": "ts@ts.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "JOOGIVESI",
+            "WIFI",
+            "DUSH",
+            "KOHVIK_RESTO",
+            "ELEKTER",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "c089a3ea-c1e6-4888-8eaa-a3e78ead08c0",
+        "publicId": 361,
+        "name": "SAAREPERA SADAM",
+        "address": "Põlva maakond, Räpina vald, Linte küla, Saarepera sadam Saarepera sadam, 64402",
+        "phoneNumbers": [
+            "+372 7999500"
+        ],
+        "email": "vald@rapina.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_LAMMIJARV",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU"
+        ]
+    },
+    {
+        "id": "73d1d328-ccee-41ad-8a2e-c51b50025738",
+        "publicId": 362,
+        "name": "SAASTNA VANASADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Saastna küla, Sadama Sadama, 90233",
+        "phoneNumbers": [
+            "+372 5030430"
+        ],
+        "email": "margo.karp@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "278ae545-bf6d-499d-b4e3-77cf298838cd",
+        "publicId": 1650,
+        "name": "SALINÕMME PAADISADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Salinõmme küla, Sadama, 92317",
+        "phoneNumbers": [
+            "+372 5135680"
+        ],
+        "email": "imre@kivikala.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "SLIP",
+            "ELEKTER",
+            "DUSH",
+            "JOOGIVESI",
+            "PRUGI",
+            "WC",
+            "MUU"
+        ]
+    },
+    {
+        "id": "182ba9ae-e702-4738-9919-82b731fcdc26",
+        "publicId": 363,
+        "name": "SALINÕMME SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Salinõmme küla, Salinõmme sadam Salinõmme sadam, 92317",
+        "phoneNumbers": [
+            "+372 523 1888"
+        ],
+        "email": "paatrandi@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "ecef4f38-ab5f-485b-8d06-b553da7c83fa",
+        "publicId": 365,
+        "name": "SALME JÕESADAM",
+        "address": "Saare maakond, Saaremaa vald, Salme alevik, Rannapargi tee 4, 93201",
+        "phoneNumbers": [
+            "+372 4525000",
+            "+372 5228547"
+        ],
+        "email": "vald@saaremaavald.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "JOOGIVESI",
+            "MUU"
+        ]
+    },
+    {
+        "id": "66391e9a-2fdf-4612-8d29-fdb79f6fb112",
+        "publicId": 366,
+        "name": "SALMISTU SADAM",
+        "address": "Harju maakond, Kuusalu vald, Salmistu küla, Sadama tee 26, 74629",
+        "phoneNumbers": [
+            "+372 606 6370"
+        ],
+        "email": "vallavalitsus@kuusalu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "SLIP",
+            "MUU",
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "37112d22-a70b-4dbf-bcda-2d9956334e13",
+        "publicId": 367,
+        "name": "SASSUKVERE SADAM",
+        "address": "Tartu maakond, Peipsiääre vald, Ranna küla, Sadama, 49417",
+        "phoneNumbers": [
+            "+372 5163059"
+        ],
+        "email": "info@sassukvere.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "f85fe25a-65b2-466c-a2ae-91dc663595d2",
+        "publicId": 1936,
+        "name": "SIGATSUARU VÄIKESADAM",
+        "address": "Pärnu maakond, Kihnu vald, Sääre küla, Sigatsuaru lauter, 88005",
+        "phoneNumbers": [
+            "+372 4469910"
+        ],
+        "email": "info@kihnu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "8b1712ee-c43f-47eb-a284-daf6b66c1c26",
+        "publicId": 368,
+        "name": "SILLAMÄE SADAM",
+        "address": "Ida-Viru maakond, Sillamäe linn, Kesk tn 2d, 40231",
+        "phoneNumbers": [
+            "+372 3929150"
+        ],
+        "email": "silport@silport.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "3abac625-0fdf-4c3e-b4dc-079f049c3de8",
+        "publicId": 7401,
+        "name": "SITME SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kanissaare küla, Sitme paadisadam, 94533",
+        "phoneNumbers": [
+            "+372 5135104"
+        ],
+        "email": "tiiu@vaher.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "WC"
+        ]
+    },
+    {
+        "id": "7e8eaaf0-7d51-4708-9736-fc8a0dec5057",
+        "publicId": 371,
+        "name": "SOELA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Soela küla, Sadama, 94274",
+        "phoneNumbers": [
+            "+372 57222222"
+        ],
+        "email": "info@soelasadam.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "SLIP",
+            "WIFI",
+            "JOOGIVESI",
+            "PARKLA",
+            "KOHVIK_RESTO",
+            "ELEKTER",
+            "WC",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "d10643ac-9e9c-413e-81b7-7501d5cdf8b4",
+        "publicId": 372,
+        "name": "SOO SADAM",
+        "address": "Tartu maakond, Peipsiääre vald, Ranna küla, Ennuaadu Ennuaadu, 49417",
+        "phoneNumbers": [
+            "+372 565 3250"
+        ],
+        "email": "olevratsep@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "09668019-85ae-4b86-a9c9-9945f2cdddb8",
+        "publicId": 2670,
+        "name": "SUARU KALASADAM",
+        "address": "Pärnu maakond, Kihnu vald, Lemsi küla, Suaru sadam, 88002",
+        "phoneNumbers": [
+            "+372 5119242"
+        ],
+        "email": "ingvar.saare@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "85d83b2e-3966-4ead-b18a-cda07ccba7a8",
+        "publicId": 1907,
+        "name": "SUARU SADAM",
+        "address": "Pärnu maakond, Kihnu vald, Lemsi küla, Suaru sadam, 88002",
+        "phoneNumbers": [
+            "+372 4469910"
+        ],
+        "email": "info@kihnu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI",
+            "KYTUS",
+            "DUSH",
+            "PESU",
+            "SLIP",
+            "WC"
+        ]
+    },
+    {
+        "id": "de6a4aac-3e28-49a6-87d7-ea4f731f5aa7",
+        "publicId": 373,
+        "name": "SUUR-HOLMI SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Westmeri tn 3, 90502",
+        "phoneNumbers": [
+            "+372 5652887"
+        ],
+        "email": "ieg@ieg.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC",
+            "WIFI",
+            "MUU",
+            "KOHVIK_RESTO",
+            "JOOGIVESI",
+            "JALGRATTA_RENT",
+            "KYTUS",
+            "ELEKTER",
+            "DUSH",
+            "SLIP",
+            "MUU"
+        ]
+    },
+    {
+        "id": "cd9e488f-4a1f-4611-b919-a17cd03d5a21",
+        "publicId": 1251,
+        "name": "SUUR-LOOTSI SADAM",
+        "address": "Ida-Viru maakond, Narva-Jõesuu linn, Narva-Jõesuu linn, Suur-Lootsi tn 1d, 29023",
+        "phoneNumbers": [
+            "+372 5031805"
+        ],
+        "email": "mart.lee@agency.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "8a7b9918-fd5a-47a5-8c90-eceb30442cba",
+        "publicId": 1154,
+        "name": "SUURPEA SADAM",
+        "address": "Harju maakond, Kuusalu vald, Suurpea küla, Suurpea sadam Suurpea sadam, 74812",
+        "phoneNumbers": [
+            "+372 6218828"
+        ],
+        "email": "peep@mahtra.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "602adb84-a1b0-4e10-8a94-942bd7e86d39",
+        "publicId": 374,
+        "name": "SUURSADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Suuresadama küla, Suursadama, 92346",
+        "phoneNumbers": [
+            "+372 4632031"
+        ],
+        "email": "ene@hiiukalur.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU",
+            "JOOGIVESI",
+            "MUU",
+            "KYTUS",
+            "WC",
+            "DUSH"
+        ]
+    },
+    {
+        "id": "1bfefc82-75b5-45ad-9bb4-d7207486a7bb",
+        "publicId": 375,
+        "name": "SVIBY SADAM",
+        "address": "Lääne maakond, Vormsi vald, Sviby küla, Sviby sadam, 91313",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "WC",
+            "PRUGI",
+            "SLIP",
+            "DUSH",
+            "JOOGIVESI",
+            "PESU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "a3928c03-f0a0-41ed-9e31-58d44b4d2884",
+        "publicId": 1400,
+        "name": "SÕRU JAHISADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Pärna küla, Sadama Sadama, 92017",
+        "phoneNumbers": [
+            "+372 56662514"
+        ],
+        "email": "sadam@hiiumaa.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "ELEKTER",
+            "PESU",
+            "PRUGI",
+            "DUSH",
+            "WC"
+        ]
+    },
+    {
+        "id": "e74630cc-c6cd-4dfd-ba95-73a4e8b28be3",
+        "publicId": 376,
+        "name": "SÕRU SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Pärna küla, Liini Liini, 92017",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC",
+            "ELEKTER",
+            "JOOGIVESI",
+            "PRUGI",
+            "KYTUS",
+            "PISIREMONT"
+        ]
+    },
+    {
+        "id": "a2861dab-053d-487e-a613-fa09140404f6",
+        "publicId": 2058,
+        "name": "TAALIKU SADAM",
+        "address": "Saare maakond, Saaremaa vald, Pulli küla, Taaliku sadam, 94612",
+        "phoneNumbers": [
+            "+372 53452698"
+        ],
+        "email": "urmasmagi1963@hot.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "WC",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "01386ed1-9f78-4835-b678-cf1daa911484",
+        "publicId": 709,
+        "name": "TALVESADAM",
+        "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Sadama tn 2, 80012",
+        "phoneNumbers": [
+            "+372 5500400"
+        ],
+        "email": "lauri@paal.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_PARNU",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "de93863c-ba00-4b69-9ee4-b6cb95846080",
+        "publicId": 2680,
+        "name": "TAMMNEEME SADAM",
+        "address": "Harju maakond, Viimsi vald, Tammneeme küla, Mereääre tee 11, 74017",
+        "phoneNumbers": [
+            "+372 5044434"
+        ],
+        "email": "alotamm@mail.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "4836d175-fceb-4795-b9c3-88e9a99bcef9",
+        "publicId": 380,
+        "name": "TAPURLA SADAM",
+        "address": "Harju maakond, Kuusalu vald, Tapurla küla, Tapurla sadam, 74721",
+        "phoneNumbers": [
+            "+372 6061990"
+        ],
+        "email": "rannasadam@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "873a8380-ef7f-4ce1-8461-4d412c7ebe55",
+        "publicId": 1943,
+        "name": "TARVASTU SADAM",
+        "address": "Viljandi maakond, Viljandi vald, Kivilõppe küla, Poldri puhkeala, 69706",
+        "phoneNumbers": [
+            "+372 53035482"
+        ],
+        "email": "viljandivald@viljandivald.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_VÕRTS_JARV",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "66982cfd-31b7-4250-a294-f89e70df09b8",
+        "publicId": 381,
+        "name": "TILGU SADAM",
+        "address": "Harju maakond, Harku vald, Meriküla, Tilgu sadam Tilgu sadam, 76925",
+        "phoneNumbers": [
+            "+372 6003848"
+        ],
+        "email": "harku@harku.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "SLIP",
+            "JOOGIVESI",
+            "KOHVIK_RESTO"
+        ]
+    },
+    {
+        "id": "6ef22262-53dc-4817-b356-f92eddb38bc1",
+        "publicId": 382,
+        "name": "TOILA SADAM",
+        "address": "Ida-Viru maakond, Toila vald, Toila alevik, Sadama tee 2, 41702",
+        "phoneNumbers": [
+            "+372 5209403"
+        ],
+        "email": "sadam@toila.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "MUU",
+            "WC",
+            "KOHVIK_RESTO",
+            "PRUGI",
+            "PESU",
+            "ELEKTER",
+            "SLIP",
+            "PARKLA",
+            "KYTUS",
+            "JOOGIVESI",
+            "WIFI"
+        ]
+    },
+    {
+        "id": "b5684aff-70d5-453c-93fa-0e65f04cd762",
+        "publicId": 9007,
+        "name": "TOOMINGA VÄIKESADAM",
+        "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Uuetalu tee 8, 74012",
+        "phoneNumbers": [
+            "+3725264873"
+        ],
+        "email": "mihkelpiilmann@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "4c5d175e-2273-4b84-b3ad-9ac1f1b24057",
+        "publicId": 704,
+        "name": "TOPU SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Kiviküla, Topu sadam Topu sadam, 90433",
+        "phoneNumbers": [
+            "+372 56986655"
+        ],
+        "email": "topusadam@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "SLIP",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "d6e0b7c7-01f6-48f9-af6f-fb96a95e2928",
+        "publicId": 2665,
+        "name": "TORI JÕESADAM",
+        "address": "Saare maakond, Saaremaa vald, Kuressaare linn, Kaluri tee L1, 93810",
+        "phoneNumbers": [
+            "+372 4525000",
+            "372 5225547"
+        ],
+        "email": "vald@saaremaavald.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "6564ce54-54dc-40fa-a38b-606d99833120",
+        "publicId": 383,
+        "name": "TREIMANI SADAM",
+        "address": "Pärnu maakond, Häädemeeste vald, Treimani küla, Treimani sadam, 86003",
+        "phoneNumbers": [
+            "+372 5114860"
+        ],
+        "email": "sander.rebane@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "85926eb5-1aff-4e02-b447-78406cda9f9c",
+        "publicId": 385,
+        "name": "TRIIGI SADAM",
+        "address": "Saare maakond, Saaremaa vald, Triigi küla, Saare Saare, 94243",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "WC",
+            "ELEKTER",
+            "DUSH"
+        ]
+    },
+    {
+        "id": "aa72a806-c083-4c17-981e-2b262a1c3bbb",
+        "publicId": 386,
+        "name": "TULETORNI KAI",
+        "address": "Hiiu maakond, Hiiumaa vald, Orjaku küla, Tuletorni kai Tuletorni kai, 92114",
+        "phoneNumbers": [
+            "+372 5051012"
+        ],
+        "email": "andres.taukar@utilitas.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "87fc0aca-19be-42e0-9c88-db203baac153",
+        "publicId": 2122,
+        "name": "TURJA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Turja küla, Sadama, 94317",
+        "phoneNumbers": [
+            "+372 56982579"
+        ],
+        "email": "sadamturja@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "315ec2ca-4584-4f37-ba59-f5c6a62e03d9",
+        "publicId": 2133,
+        "name": "TURUSADAM",
+        "address": "Tartu maakond, Tartu linn, Tartu linn, Soola tn 5, 51004",
+        "phoneNumbers": [
+            "+372 7385172"
+        ],
+        "email": "giga@giga.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "c4695da6-62d9-4895-af06-bdf700cdddc2",
+        "publicId": 387,
+        "name": "TÄRKMA SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Tärkma küla, Kastani, 92026",
+        "phoneNumbers": [
+            "+372 56651395"
+        ],
+        "email": "margus.kastein@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA",
+            "WC"
+        ]
+    },
+    {
+        "id": "4c4a00b6-3680-438c-a3b6-e620a7573367",
+        "publicId": 3921,
+        "name": "UISUSADAM",
+        "address": "Saare maakond, Saaremaa vald, Orissaare alevik, Ranna pst 17, 94601",
+        "phoneNumbers": [
+            "+372 5012507"
+        ],
+        "email": "jlem@online.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "WC"
+        ]
+    },
+    {
+        "id": "3207bda5-6914-434d-b966-82189e95bda1",
+        "publicId": 9168,
+        "name": "ULGE SADAM",
+        "address": "Viljandi maakond, Viljandi vald, Oiu küla, Ulge puhkeala, 70317",
+        "phoneNumbers": [
+            "+372 5066426"
+        ],
+        "email": "anmar@vortsjarv.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_VÕRTS_JARV",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "033e71cc-e9ac-4f13-8cda-5a29fbeede90",
+        "publicId": 378,
+        "name": "UNGUMA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Unguma küla, Unguma sadam, 94545",
+        "phoneNumbers": [
+            "+372 5150221",
+            "+372 5160792",
+            "+372 53454830"
+        ],
+        "email": "unguma.paadisadam@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PRUGI",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "97db39a7-2781-4331-b629-beac69c7f2c7",
+        "publicId": 9011,
+        "name": "UUS SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Uus-Sadama tn 45, 90502",
+        "phoneNumbers": [
+            "5030777"
+        ],
+        "email": "aivar.lohmist@ieg.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "7138a303-a9b1-43ad-99c5-997eb0c1962f",
+        "publicId": 9184,
+        "name": "VAALA SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Vaala sadam Vaala sadam, 80042",
+        "phoneNumbers": [
+            "+372 5189433"
+        ],
+        "email": "tiit.valdaru@mail.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_PARNU",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "9a33fff6-877e-4e60-864f-339632009254",
+        "publicId": 3826,
+        "name": "VAHTREPA SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Vahtrepa küla, Vahtrepa väikepaadisadam Vahtrepa väikepaadisadam, 92318",
+        "phoneNumbers": [
+            "+372 5535722"
+        ],
+        "email": "vahtrepapaadisadam@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "WC",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "8729a7e5-58a7-4c35-9104-b3f4555ff14a",
+        "publicId": 4651,
+        "name": "VAINUPEA SADAM",
+        "address": "Lääne-Viru maakond, Haljala vald, Vainupea küla, Paadisadama Paadisadama, 45446",
+        "phoneNumbers": [
+            "+372 53431027"
+        ],
+        "email": "signe.somelar@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA",
+            "MUU"
+        ]
+    },
+    {
+        "id": "b6849ddb-8d84-4c78-a5d8-3028a94789cd",
+        "publicId": 7101,
+        "name": "VAINU SADAM",
+        "address": "Harju maakond, Kuusalu vald, Andineeme küla, Vainu Vainu, 74605",
+        "phoneNumbers": [
+            "+372 5013211"
+        ],
+        "email": "sulo.nigul@metro.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "0c5b4b6b-84e2-4ae9-b0c0-27f8a66e5859",
+        "publicId": 1962,
+        "name": "VALMERANNA SADAM",
+        "address": "Saare maakond, Saaremaa vald, Kõrkvere küla, Valmeranna, 94535",
+        "phoneNumbers": [
+            "+372 56887199"
+        ],
+        "email": "kaimarnuut@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "WC"
+        ]
+    },
+    {
+        "id": "881d7a7e-0eba-47a1-98cf-ececc86d9411",
+        "publicId": 166,
+        "name": "VANASADAM",
+        "address": "Harju maakond, Tallinn, Kesklinna linnaosa, Sadama tn 25, 10111",
+        "phoneNumbers": [
+            "+372 6318555"
+        ],
+        "email": "ts@ts.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PRUGI",
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "a951019e-200e-48ce-8448-4e1a7fc34c79",
+        "publicId": 2147,
+        "name": "VANA-SAUGA SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Vana-Sauga kai L1, 80031",
+        "phoneNumbers": [
+            "+372 4443170"
+        ],
+        "email": "lasnmati@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_SAUGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI",
+            "PARKLA",
+            "SLIP",
+            "WC"
+        ]
+    },
+    {
+        "id": "8971fdfd-61e7-4d1a-ad40-475283a9c314",
+        "publicId": 8977,
+        "name": "VANASAUNA SADAM",
+        "address": "Viljandi maakond, Viljandi vald, Valma küla, Vanasauna sadam, 70121",
+        "phoneNumbers": [
+            "+372 53035482"
+        ],
+        "email": "viljandivald@viljandivald.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_VÕRTS_JARV",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "5a94af76-159a-4ce1-9d4b-a9b071230e13",
+        "publicId": 1401,
+        "name": "VARBLA SADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Rannaküla, Tamme 1, 88228",
+        "phoneNumbers": [
+            "+372 5061879"
+        ],
+        "email": "varblapk@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "WC",
+            "JOOGIVESI",
+            "KOHVIK_RESTO",
+            "JAHTIDE_RENT",
+            "PRUGI",
+            "PESU",
+            "DUSH",
+            "WIFI",
+            "PARKLA",
+            "JALGRATTA_RENT",
+            "ELEKTER",
+            "SLIP",
+            "KYTUS"
+        ]
+    },
+    {
+        "id": "9489ce8e-58ae-4aed-b939-28f1b9a8461f",
+        "publicId": 1212,
+        "name": "VARESE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Pahapilli küla, Varese sadam Varese sadam, 93633",
+        "phoneNumbers": [
+            "+372 5066740"
+        ],
+        "email": "harry@windrose.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "PARKLA",
+            "JOOGIVESI",
+            "ELEKTER",
+            "WIFI",
+            "WC",
+            "MUU",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "5b38a0b2-3b02-4467-9ef9-8bc667bc4455",
+        "publicId": 2158,
+        "name": "VARNJA SADAM",
+        "address": "Tartu maakond, Peipsiääre vald, Varnja alevik, Kesk tn 94, 60305",
+        "phoneNumbers": [
+            "+372 5052231"
+        ],
+        "email": "varnjasadam@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PEIPUS",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "ELEKTER",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "37143a97-0452-497d-9a8f-ff30f9eb1e1c",
+        "publicId": 384,
+        "name": "VASKNARVA",
+        "address": "Ida-Viru maakond, Alutaguse vald, Vasknarva küla, Sõrenetsi tee 88, 41007",
+        "phoneNumbers": [
+            "+372 5061841"
+        ],
+        "email": "peipus1@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "DUSH",
+            "ELEKTER",
+            "WC",
+            "WIFI",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "baf423e7-691d-4a88-9f7e-bed325ef2fd5",
+        "publicId": 389,
+        "name": "VASKNARVA PAADISADAM",
+        "address": "Ida-Viru maakond, Alutaguse vald, Vasknarva küla, Paadisadama, 41007",
+        "phoneNumbers": [
+            "+372 5304 0818"
+        ],
+        "email": "sadam@alutagusemaa.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "DUSH",
+            "JOOGIVESI",
+            "WC",
+            "PARKLA",
+            "SLIP",
+            "KYTUS",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "d069b033-0dec-40be-bd3b-5cc769c228f2",
+        "publicId": 393,
+        "name": "VASKNARVA UUSSADAM",
+        "address": "Ida-Viru maakond, Alutaguse vald, Vasknarva küla, Sõrenetsi tee 90, 41007",
+        "phoneNumbers": [
+            "+372 5033724"
+        ],
+        "email": "indekovara@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_NARVA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "785d6679-ed74-4412-81c9-a7c1dfc0417b",
+        "publicId": 388,
+        "name": "VEERE SADAM",
+        "address": "Saare maakond, Saaremaa vald, Veeremäe küla, Veere sadam, 93453",
+        "phoneNumbers": [
+            "+372 5291115"
+        ],
+        "email": "merike@ulemistearimaja.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "PARKLA",
+            "JOOGIVESI",
+            "PRUGI",
+            "DUSH",
+            "WC",
+            "TELEFON",
+            "WIFI"
+        ]
+    },
+    {
+        "id": "087b90af-c155-48fc-aa3a-1830e4b9de2d",
+        "publicId": 901,
+        "name": "VEERE VANASADAM",
+        "address": "Saare maakond, Saaremaa vald, Veeremäe küla, Kala, 93453",
+        "phoneNumbers": [
+            "+372 5208274"
+        ],
+        "email": "mikk@sfe.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "cd1bea70-e7a8-4a7b-8482-b443bf66b159",
+        "publicId": 3870,
+        "name": "VEIBRI SADAM",
+        "address": "Tartu maakond, Luunja vald, Veibri küla, Jõekaare tee 15, 62220",
+        "phoneNumbers": [
+            "+372 59187171"
+        ],
+        "email": "info@alrey.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "a405c52e-ce2e-410a-8292-8e01346c0c9f",
+        "publicId": 390,
+        "name": "VENE-BALTI SADAM",
+        "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kopli tn 103, 11712",
+        "phoneNumbers": [
+            "+372 6102408"
+        ],
+        "email": "blrt@blrt.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "JOOGIVESI",
+            "WIFI",
+            "KYTUS",
+            "PARKLA",
+            "WC",
+            "ELEKTER",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "7f1503e3-03f1-4fe2-8d54-2117d6eefbe9",
+        "publicId": 1150,
+        "name": "VERGI SADAM",
+        "address": "Lääne-Viru maakond, Haljala vald, Vergi küla, Sadama tee 51, 45404",
+        "phoneNumbers": [
+            "+372 55567325"
+        ],
+        "email": "sardis@kroonikeskus.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "WIFI",
+            "JALGRATTA_RENT",
+            "JOOGIVESI",
+            "KOHVIK_RESTO",
+            "PARKLA",
+            "SLIP",
+            "KOHVIK_RESTO",
+            "WC",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "de9e7282-efeb-497e-a682-7951903130c1",
+        "publicId": 9006,
+        "name": "VESTSILLA SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Nõmme küla, Vestsilla, 90439",
+        "phoneNumbers": [
+            "+3725161460"
+        ],
+        "email": "andres@weldmets.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "DUSH",
+            "ELEKTER",
+            "JAHTIDE_RENT",
+            "JALGRATTA_RENT",
+            "MUU"
+        ]
+    },
+    {
+        "id": "eb21cf68-63bc-4773-9d3a-dfcf5f265d70",
+        "publicId": 2645,
+        "name": "VIINISTU SADAM",
+        "address": "Harju maakond, Kuusalu vald, Viinistu küla, Ranna Ranna, 74701",
+        "phoneNumbers": [
+            "+372 5142372"
+        ],
+        "email": "jmanitski@hotmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "KOHVIK_RESTO",
+            "SLIP",
+            "MUU",
+            "DUSH",
+            "JALGRATTA_RENT",
+            "MUU"
+        ]
+    },
+    {
+        "id": "a1a7505d-580f-490f-a61f-c34f742655c2",
+        "publicId": 2551,
+        "name": "VIKATI SADAM",
+        "address": "Saare maakond, Saaremaa vald, Vilsandi küla, Vikati sadam Vikati sadam, 93421",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "3d0276e4-aa66-46e1-81e7-cd637b43781c",
+        "publicId": 395,
+        "name": "VIRTSU KALASADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Virtsu alevik, Vanalinna tänav lõik 2, 90101",
+        "phoneNumbers": [
+            "+372 4724630"
+        ],
+        "email": "vallavalitsus@laaneranna.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "BALTIC_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "MUU"
+        ]
+    },
+    {
+        "id": "4faf26ab-bdc4-4f3b-8148-d67d41b26073",
+        "publicId": 394,
+        "name": "VIRTSU SADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Virtsu alevik, Virtsu sadam Virtsu sadam, 90101",
+        "phoneNumbers": [
+            "+372 4530140"
+        ],
+        "email": "info@saarteliinid.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "DUSH",
+            "WC",
+            "KOHVIK_RESTO",
+            "ELEKTER",
+            "PARKLA",
+            "WIFI",
+            "JOOGIVESI",
+            "SLIP",
+            "KOHVIK_RESTO",
+            "WIFI",
+            "PESU",
+            "PRUGI",
+            "JALGRATTA_RENT"
+        ]
+    },
+    {
+        "id": "fa852955-2f88-4922-b08a-a23918624c89",
+        "publicId": 396,
+        "name": "VIRTSU VANASADAM",
+        "address": "Pärnu maakond, Lääneranna vald, Virtsu alevik, Tallinna mnt 31, 90101",
+        "phoneNumbers": [
+            "+372 4775380"
+        ],
+        "email": "kmet@kmet.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "4617ef4b-5235-43f2-b91e-4e95e7c5165d",
+        "publicId": 397,
+        "name": "VÕIDU SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Tõlli küla, Võidu-Sadama, 88119",
+        "phoneNumbers": [
+            "+372 4448200"
+        ],
+        "email": "linnavalitsus@parnu.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": []
+    },
+    {
+        "id": "98f0b6e4-4141-48a5-b53e-39ffcba2dcb4",
+        "publicId": 398,
+        "name": "VÕISTE SADAM",
+        "address": "Pärnu maakond, Häädemeeste vald, Võiste alevik, Kaluri tn 1, 86501",
+        "phoneNumbers": [
+            "+372 5527892"
+        ],
+        "email": "argomengel@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "JOOGIVESI",
+            "SLIP",
+            "ELEKTER"
+        ]
+    },
+    {
+        "id": "eadac707-17b4-400b-8444-457abed9953e",
+        "publicId": 399,
+        "name": "VÕRKAIA SADAM",
+        "address": "Saare maakond, Muhu vald, Nõmmküla, Võrkaia, 94752",
+        "phoneNumbers": [
+            "+372 5050090"
+        ],
+        "email": "kreis2002@hot.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP"
+        ]
+    },
+    {
+        "id": "3cf3b9de-f7e7-4713-9d0e-2631d4d0b0eb",
+        "publicId": 1600,
+        "name": "VÕSU SADAM",
+        "address": "Lääne-Viru maakond, Haljala vald, Võsu alevik, Piiri tn 6, 45501",
+        "phoneNumbers": [
+            "+372 5106244"
+        ],
+        "email": "haljala@haljala.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_FINLAND",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA",
+            "WC",
+            "KOHVIK_RESTO",
+            "WIFI",
+            "JOOGIVESI",
+            "PESU",
+            "DUSH",
+            "KYTUS",
+            "ELEKTER",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "170023ef-d5bb-4920-8964-8f4bbb1b9515",
+        "publicId": 3811,
+        "name": "VÕÕPSU KÜLASADAM",
+        "address": "Võru maakond, Setomaa vald, Võõpsu küla, Silla tn 3, 64318",
+        "phoneNumbers": [
+            "+372 5153793"
+        ],
+        "email": "enn051@hot.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_LAMMIJARV",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "e06bb334-e6f2-4b5f-81fb-62be0db98729",
+        "publicId": 401,
+        "name": "VÕÕPSU SADAM",
+        "address": "Põlva maakond, Räpina vald, Võõpsu alevik, Vana-Sadama Vana-Sadama, 64401",
+        "phoneNumbers": [
+            "+372 7999500"
+        ],
+        "email": "vald@rapina.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PSKOV",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PRUGI",
+            "WC",
+            "MUU"
+        ]
+    },
+    {
+        "id": "6ddef17b-dc63-45a6-bf33-82dc97eff253",
+        "publicId": 400,
+        "name": "VÄIKE-TURU SADAM",
+        "address": "Tartu maakond, Tartu linn, Väike-Turu tn 10, 51004",
+        "phoneNumbers": [
+            "+372 55970048"
+        ],
+        "email": "sadam@riigilaevastik.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "9a1a9639-20d0-42c1-8bb5-fba5a2c3ed93",
+        "publicId": 402,
+        "name": "VÄRATI SADAM",
+        "address": "Pärnu maakond, Pärnu linn, Värati küla, Värati sadam Värati sadam, 88120",
+        "phoneNumbers": [
+            "+372 5257934"
+        ],
+        "email": "sufe@tostamaa.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "GULF_OF_RIGA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "SLIP",
+            "WC",
+            "KYTUS",
+            "WIFI",
+            "KOHVIK_RESTO",
+            "ELEKTER",
+            "PARKLA",
+            "PRUGI"
+        ]
+    },
+    {
+        "id": "48429ff9-ff1f-462f-8de0-1c5494e77329",
+        "publicId": 6600,
+        "name": "VÄRSKA SADAM",
+        "address": "Võru maakond, Setomaa vald, Värska alevik, Allika tn 15, 64001",
+        "phoneNumbers": [
+            "+372 5037616"
+        ],
+        "email": "info@setoline.ee",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "LAKE_PSKOV",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "DUSH",
+            "ELEKTER",
+            "JOOGIVESI",
+            "KOHVIK_RESTO",
+            "KYTUS",
+            "PARKLA",
+            "SLIP"
+        ]
+    },
+    {
+        "id": "c68b3dae-381c-45f5-967b-ac4b9457e82c",
+        "publicId": 1056,
+        "name": "VÄRSSU SADAM",
+        "address": "Hiiu maakond, Hiiumaa vald, Värssu küla, Sadama, 92349",
+        "phoneNumbers": [
+            "+372 5651560"
+        ],
+        "email": "kiur.aarma@gmail.com",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 3,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "c670f149-b435-435d-ba4f-ba1591430999",
+        "publicId": 404,
+        "name": "WESTMERI JAHISADAM",
+        "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Westmeri tn 1, 90502",
+        "phoneNumbers": [
+            "+372 5303 9129"
+        ],
+        "email": "info@westmeri.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": true,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI",
+            "WC",
+            "DUSH",
+            "KYTUS",
+            "WIFI",
+            "PRUGI",
+            "SLIP",
+            "PARKLA",
+            "PESU",
+            "MUU"
+        ]
+    },
+    {
+        "id": "79c1a29e-de57-406b-9214-f9ab9b1d95af",
+        "publicId": 403,
+        "name": "WESTMERI SADAM",
+        "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Kaluri tn 32, 90502",
+        "phoneNumbers": [
+            "+372 5303 9129"
+        ],
+        "email": "info@westmeri.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 1,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI"
+        ]
+    },
+    {
+        "id": "e35cb1c5-e713-48d2-8bf7-da47d5e4c6be",
+        "publicId": 405,
+        "name": "ÖSTERBY SADAM",
+        "address": "Lääne maakond, Lääne-Nigula vald, Österby küla, Österby sadam Österby sadam, 91207",
+        "phoneNumbers": [
+            "+372 59191637"
+        ],
+        "email": "vv@laanenigula.ee",
+        "bodyOfWaterType": 2,
+        "bodyOfWaterName": "VAINAMERI_SEA",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "ELEKTER",
+            "JOOGIVESI",
+            "SLIP",
+            "KOHVIK_RESTO",
+            "DUSH",
+            "PARKLA"
+        ]
+    },
+    {
+        "id": "6a322e2a-f4be-482d-b378-080e11c0e8da",
+        "publicId": 2669,
+        "name": "ÜRGORU PAADISADAM",
+        "address": "Tartu maakond, Kastre vald, Veskimäe küla, Ürgoru tn 8, 62314",
+        "phoneNumbers": [
+            "+372 5266794"
+        ],
+        "email": "allanlill78@gmail.com",
+        "bodyOfWaterType": 1,
+        "bodyOfWaterName": "RIVER_EMAJOGI",
+        "portFunction": 2,
+        "isForForeignVessels": false,
+        "additionalServices": [
+            "SLIP",
+            "PARKLA"
+        ]
+    }
+]

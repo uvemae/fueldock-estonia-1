@@ -1,0 +1,2270 @@
+[
+  {
+    "publicId": 2674,
+    "name": "ABAJA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Abaja küla, Abaja sadam Abaja sadam, 93411",
+    "coordinates": [
+      58.3696637,
+      22.0181579
+    ]
+  },
+  {
+    "publicId": 53,
+    "name": "ABRUKA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Abruka küla, Sadama Sadama, 93826",
+    "coordinates": [
+      58.16249579999999,
+      22.5253685
+    ]
+  },
+  {
+    "publicId": 710,
+    "name": "ADMIRALI VÄIKESADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Hõbesalu küla, Admirali Admirali, 88209",
+    "coordinates": [
+      58.53543579999999,
+      23.666902
+    ]
+  },
+  {
+    "publicId": 101,
+    "name": "AEGNA SADAM",
+    "address": "Harju maakond, Tallinn, Kesklinna linnaosa, Tagamaa tee 1, 74021",
+    "coordinates": [
+      59.572335,
+      24.7566554
+    ]
+  },
+  {
+    "publicId": 2662,
+    "name": "AHOI JÕESADAM",
+    "address": "Saare maakond, Saaremaa vald, Nasva alevik, Sadama tee 7a, 93872",
+    "coordinates": [
+      58.22565530000001,
+      22.3821256
+    ]
+  },
+  {
+    "publicId": 156,
+    "name": "ALAJÕE KALASADAM",
+    "address": "Ida-Viru maakond, Alutaguse vald, Alajõe küla, Kanarbiku tn 1, 41001",
+    "coordinates": [
+      59.00882,
+      27.4337842
+    ]
+  },
+  {
+    "publicId": 2659,
+    "name": "ALLIKLEPA SADAM",
+    "address": "Harju maakond, Lääne-Harju vald, Alliklepa küla, Päärbi Päärbi, 76018",
+    "coordinates": [
+      59.27239220000001,
+      23.8056657
+    ]
+  },
+  {
+    "publicId": 3703,
+    "name": "ASERI VÄIKESADAM (EHITAMISEL)",
+    "address": "Lääne-Viru maakond, Viru-Nigula vald, Aseri alevik, Mere tn 17, 43401",
+    "coordinates": [
+      59.4576809,
+      26.8747694
+    ]
+  },
+  {
+    "publicId": 161,
+    "name": "ATLA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Atla küla, Atla sadam, 93322",
+    "coordinates": [
+      58.30199939999999,
+      21.8940655
+    ]
+  },
+  {
+    "publicId": 150,
+    "name": "BEKKERI SADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Marati tn 14, 11712",
+    "coordinates": [
+      59.45616860000001,
+      24.6708261
+    ]
+  },
+  {
+    "publicId": 8403,
+    "name": "BERESJE SADAM",
+    "address": "Võru maakond, Setomaa vald, Beresje küla, Navoloki tn 3, 64303",
+    "coordinates": [
+      58.0895792,
+      27.5818058
+    ]
+  },
+  {
+    "publicId": 9173,
+    "name": "BÜRGERMEISTRI SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Kaluri tn 36, 90502",
+    "coordinates": [
+      58.9601744,
+      23.5215834
+    ]
+  },
+  {
+    "publicId": 151,
+    "name": "DIRHAMI SADAM",
+    "address": "Lääne maakond, Lääne-Nigula vald, Dirhami küla / Derhamn, Dirhami sadam, 91214",
+    "coordinates": [
+      59.20089290000001,
+      23.4952879
+    ]
+  },
+  {
+    "publicId": 450,
+    "name": "EISMA SADAM",
+    "address": "Lääne-Viru maakond, Haljala vald, Eisma küla, Eisma sadam, 45411",
+    "coordinates": [
+      59.5681735,
+      26.3030274
+    ]
+  },
+  {
+    "publicId": 6967,
+    "name": "HAAPSALU VANASADAM",
+    "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Sadama tn 32a, 90502",
+    "coordinates": [
+      58.9560087,
+      23.5285171
+    ]
+  },
+  {
+    "publicId": 152,
+    "name": "HAAPSALU VESKIVIIGI SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Holmi tn 14, 90502",
+    "coordinates": [
+      58.95763849999999,
+      23.5265577
+    ]
+  },
+  {
+    "publicId": 708,
+    "name": "HALDI SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Haldi küla, Sadama, 92042",
+    "coordinates": [
+      58.80869949999999,
+      22.4703107
+    ]
+  },
+  {
+    "publicId": 2114,
+    "name": "HARA SADAM",
+    "address": "Harju maakond, Kuusalu vald, Hara küla, Hara sadam, 74810",
+    "coordinates": [
+      59.58879529999999,
+      25.6140075
+    ]
+  },
+  {
+    "publicId": 2259,
+    "name": "HARA SADAM",
+    "address": "Lääne maakond, Lääne-Nigula vald, Hara küla / Harga, Hara sadam Hara sadam, 91211",
+    "coordinates": [
+      59.0895614,
+      23.528604
+    ]
+  },
+  {
+    "publicId": 154,
+    "name": "HELTERMAA SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Heltermaa küla, Heltermaa sadam 2, 92312",
+    "coordinates": [
+      58.86623830000001,
+      23.0472653
+    ]
+  },
+  {
+    "publicId": 157,
+    "name": "HIIESSAARE SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Hiiessaare küla, Hiiessaare sadam, 92335",
+    "coordinates": [
+      59.00218570000001,
+      22.8419739
+    ]
+  },
+  {
+    "publicId": 158,
+    "name": "HUNDIPEA SADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Lume tn 9, 10416",
+    "coordinates": [
+      59.4575127,
+      24.7159067
+    ]
+  },
+  {
+    "publicId": 159,
+    "name": "JAAGUPI SADAM",
+    "address": "Pärnu maakond, Häädemeeste vald, Penu küla, Jaagupi sadam Jaagupi sadam, 86014",
+    "coordinates": [
+      58.0364337,
+      24.4626735
+    ]
+  },
+  {
+    "publicId": 3677,
+    "name": "JAPSI KALASADAM",
+    "address": "Pärnu maakond, Pärnu linn, Pärnu linn, J. V. Jannseni tn 36a, 80041",
+    "coordinates": [
+      58.38966929999999,
+      24.4870285
+    ]
+  },
+  {
+    "publicId": 160,
+    "name": "JUHETA VÄIKESADAM",
+    "address": "Pärnu maakond, Pärnu linn, Saulepa küla, Saulepa lauter, 88322",
+    "coordinates": [
+      58.3606782,
+      24.2728236
+    ]
+  },
+  {
+    "publicId": 162,
+    "name": "JÕEKÄÄRU SADAM",
+    "address": "Ida-Viru maakond, Alutaguse vald, Rannapungerja küla, Sadama tee 6, 42208",
+    "coordinates": [
+      58.9820244,
+      27.1777953
+    ]
+  },
+  {
+    "publicId": 1939,
+    "name": "JÕE PAADISADAM",
+    "address": "Tartu maakond, Tartu linn, Tartu linn, Turu tn 18a, 51004",
+    "coordinates": [
+      58.3719368,
+      26.7402542
+    ]
+  },
+  {
+    "publicId": 9169,
+    "name": "JÕESUU SADAM",
+    "address": "Viljandi maakond, Viljandi vald, Vaibla küla, Jõesuu, 70314",
+    "coordinates": [
+      58.3870546,
+      26.131879
+    ]
+  },
+  {
+    "publicId": 9010,
+    "name": "JÕEÄÄRE PAADISADAM",
+    "address": "Tartu maakond, Kastre vald, Haaslava küla, Sadama tee 1, 62107",
+    "coordinates": [
+      58.3341391,
+      26.7867735
+    ]
+  },
+  {
+    "publicId": 2640,
+    "name": "KAAVI PAADISADAM",
+    "address": "Saare maakond, Saaremaa vald, Kaavi küla, Kaavi paadisadam, 93239",
+    "coordinates": [
+      57.9815627,
+      22.2023884
+    ]
+  },
+  {
+    "publicId": 1210,
+    "name": "KABERNEEME SADAM",
+    "address": "Harju maakond, Jõelähtme vald, Kaberneeme küla, Kordoni tee 20, 74211",
+    "coordinates": [
+      59.52039389999999,
+      25.276988
+    ]
+  },
+  {
+    "publicId": 7151,
+    "name": "KADARIKU SADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Mereäärse küla, Sadama, 88220",
+    "coordinates": [
+      58.46334040000001,
+      23.6945187
+    ]
+  },
+  {
+    "publicId": 8350,
+    "name": "KAKRI KALASADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Suuresadama küla, Kakri, 92346",
+    "coordinates": [
+      58.97790860000001,
+      22.8975891
+    ]
+  },
+  {
+    "publicId": 163,
+    "name": "KAKUMÄE SADAM",
+    "address": "Harju maakond, Tallinn, Haabersti linnaosa, Nooda tee 8, 13516",
+    "coordinates": [
+      59.45122749999999,
+      24.6003474
+    ]
+  },
+  {
+    "publicId": 346,
+    "name": "KALANA JAHISADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Kalana küla, Kalana jahisadam, 92230",
+    "coordinates": [
+      58.9210205,
+      22.0567145
+    ]
+  },
+  {
+    "publicId": 164,
+    "name": "KALANA SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Kalana küla, Kalana sadam Kalana sadam, 92230",
+    "coordinates": [
+      58.9250066,
+      22.0619314
+    ]
+  },
+  {
+    "publicId": 165,
+    "name": "KALASADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kalasadama  5, 10415",
+    "coordinates": [
+      59.4464103,
+      24.7491124
+    ]
+  },
+  {
+    "publicId": 8909,
+    "name": "KALDASILLA SADAM",
+    "address": "Jõgeva maakond, Mustvee vald, Kaasiku küla, Kaldasilla, 49502",
+    "coordinates": [
+      58.7744574,
+      26.9613841
+    ]
+  },
+  {
+    "publicId": 1960,
+    "name": "KALDU SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kakuna küla, Kaldu sadam, 94532",
+    "coordinates": [
+      58.454343,
+      23.2690089
+    ]
+  },
+  {
+    "publicId": 167,
+    "name": "KALEVI JAHTKLUBI SADAM",
+    "address": "Harju maakond, Tallinn, Pirita linnaosa, Pirita tee 17, 11911",
+    "coordinates": [
+      59.4654159,
+      24.8300155
+    ]
+  },
+  {
+    "publicId": 200,
+    "name": "KALLASTE SADAM",
+    "address": "Saare maakond, Muhu vald, Kallaste küla, Kallaste-Ranna, 94742",
+    "coordinates": [
+      58.6664746,
+      23.25147
+    ]
+  },
+  {
+    "publicId": 201,
+    "name": "KALLASTE SADAM",
+    "address": "Tartu maakond, Peipsiääre vald, Kallaste linn, Tööstuse tn 1, 60104",
+    "coordinates": [
+      58.6687429,
+      27.166668
+    ]
+  },
+  {
+    "publicId": 2134,
+    "name": "KALMAKÜLA SADAM",
+    "address": "Jõgeva maakond, Mustvee vald, Kalmaküla, Keki, 42002",
+    "coordinates": [
+      58.89234,
+      26.9701051
+    ]
+  },
+  {
+    "publicId": 2354,
+    "name": "KAREPA SADAM ",
+    "address": "Lääne-Viru maakond, Haljala vald, Karepa küla, Karepa sadam Karepa sadam, 45401",
+    "coordinates": [
+      59.5435694,
+      26.4070365
+    ]
+  },
+  {
+    "publicId": 1403,
+    "name": "KARLOVA PAADISADAM",
+    "address": "Tartu maakond, Tartu linn, Tartu linn, Rebase tn 18, 50104",
+    "coordinates": [
+      58.369196,
+      26.7443354
+    ]
+  },
+  {
+    "publicId": 9354,
+    "name": "KASSARIOTSA SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Kassari küla, Lautri, 92111",
+    "coordinates": [
+      58.7899646,
+      22.8251612
+    ]
+  },
+  {
+    "publicId": 2611,
+    "name": "KASSARI SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Kassari küla, Kassari sadam, 92111",
+    "coordinates": [
+      58.7899646,
+      22.8251612
+    ]
+  },
+  {
+    "publicId": 204,
+    "name": "KASTNA VÄIKESADAM",
+    "address": "Pärnu maakond, Pärnu linn, Kastna küla, Kastna sadam, 88106",
+    "coordinates": [
+      58.350374,
+      23.9130336
+    ]
+  },
+  {
+    "publicId": 205,
+    "name": "KAUNISPE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kaunispe küla, Kaunispe sadam, 93242",
+    "coordinates": [
+      58.0419444,
+      22.0719444
+    ]
+  },
+  {
+    "publicId": 206,
+    "name": "KAVARU SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Kavaru küla, Kavaru sadam, 88107",
+    "coordinates": [
+      58.26976130000001,
+      24.1929898
+    ]
+  },
+  {
+    "publicId": 207,
+    "name": "KELNASE SADAM",
+    "address": "Harju maakond, Viimsi vald, Kelnase küla, Kelnase sadam, 74006",
+    "coordinates": [
+      59.6371514,
+      25.0119466
+    ]
+  },
+  {
+    "publicId": 208,
+    "name": "KELVINGI SADAM",
+    "address": "Harju maakond, Viimsi vald, Kelvingi küla, Kelvingi sadam, 74018",
+    "coordinates": [
+      59.55461529999999,
+      24.8394489
+    ]
+  },
+  {
+    "publicId": 854,
+    "name": "KESSE-JAANI SADAM",
+    "address": "Saare maakond, Muhu vald, Kesse küla, Jaani-Aadu, 94720",
+    "coordinates": [
+      58.6314913,
+      23.4294849
+    ]
+  },
+  {
+    "publicId": 211,
+    "name": "KIHNU SADAM",
+    "address": "Pärnu maakond, Kihnu vald, Lemsi küla, Kihnu sadam Kihnu sadam, 88002",
+    "coordinates": [
+      58.1405812,
+      24.0170308
+    ]
+  },
+  {
+    "publicId": 3989,
+    "name": "KIIDEVA SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Kiideva küla, Seltsimaja, 90409",
+    "coordinates": [
+      58.78302399999999,
+      23.564169
+    ]
+  },
+  {
+    "publicId": 9005,
+    "name": "KIRDERANNA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kirderanna küla, Sadama, 94657",
+    "coordinates": [
+      58.6193,
+      22.869
+    ]
+  },
+  {
+    "publicId": 212,
+    "name": "KOGUVA SADAM",
+    "address": "Saare maakond, Muhu vald, Koguva küla, Koguva sadam, 94724",
+    "coordinates": [
+      58.5960754,
+      23.075541
+    ]
+  },
+  {
+    "publicId": 51,
+    "name": "KOLJUNUKI SADAM",
+    "address": "Harju maakond, Jõelähtme vald, Ülgase küla, Nuki tee 10, 74220",
+    "coordinates": [
+      59.50574870000001,
+      25.0883982
+    ]
+  },
+  {
+    "publicId": 1452,
+    "name": "KOLKJA SADAM",
+    "address": "Tartu maakond, Peipsiääre vald, Kolkja alevik, Sadama tn 5, 60306",
+    "coordinates": [
+      58.55388439999999,
+      27.2190435
+    ]
+  },
+  {
+    "publicId": 250,
+    "name": "KUIVASTU SADAM",
+    "address": "Saare maakond, Muhu vald, Kuivastu küla, Kuivastu sadam Kuivastu sadam, 94702",
+    "coordinates": [
+      58.57339640000001,
+      23.3931041
+    ]
+  },
+  {
+    "publicId": 300,
+    "name": "KUNDA SADAM",
+    "address": "Lääne-Viru maakond, Viru-Nigula vald, Kunda linn, Uus-Sadama tee 2, 44109",
+    "coordinates": [
+      59.52105830000001,
+      26.5416709
+    ]
+  },
+  {
+    "publicId": 301,
+    "name": "KUNGLA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kungla küla, Kungla sadam, 94311",
+    "coordinates": [
+      58.3624992,
+      22.9544315
+    ]
+  },
+  {
+    "publicId": 302,
+    "name": "KURESSAARE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kuressaare linn, Tori tn 4, 93810",
+    "coordinates": [
+      58.24517489999999,
+      22.4703425
+    ]
+  },
+  {
+    "publicId": 303,
+    "name": "KURKSE SADAM",
+    "address": "Harju maakond, Lääne-Harju vald, Kurkse küla, Sadama, 76017",
+    "coordinates": [
+      59.285001,
+      24.0219682
+    ]
+  },
+  {
+    "publicId": 1207,
+    "name": "KÕIGUSTE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kõiguste küla, Kõiguste sadam, 94421",
+    "coordinates": [
+      58.3702645,
+      22.9759687
+    ]
+  },
+  {
+    "publicId": 304,
+    "name": "KÕRGESSAARE SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Kõrgessaare alevik, Sadama tee 15, 92201",
+    "coordinates": [
+      58.9895309,
+      22.4668674
+    ]
+  },
+  {
+    "publicId": 452,
+    "name": "KÄRDLA SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Kärdla linn, Sadama tn 30, 92411",
+    "coordinates": [
+      59.00862900000001,
+      22.7513976
+    ]
+  },
+  {
+    "publicId": 306,
+    "name": "KÄRSA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Suure-Rootsi küla, Kärsa Kärsa, 94129",
+    "coordinates": [
+      58.2286732,
+      22.7280573
+    ]
+  },
+  {
+    "publicId": 8351,
+    "name": "KÄSMU MAJAKA SADAM",
+    "address": "Lääne-Viru maakond, Haljala vald, Käsmu küla, Merekooli tn 5, 45601",
+    "coordinates": [
+      59.604451,
+      25.9234608
+    ]
+  },
+  {
+    "publicId": 9179,
+    "name": "KÜTIOJA SADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Paatsalu küla, Kütioja, 88204",
+    "coordinates": [
+      58.5212122,
+      23.7241667
+    ]
+  },
+  {
+    "publicId": 307,
+    "name": "LAAKSAARE SADAM",
+    "address": "Põlva maakond, Räpina vald, Parapalu küla, Laaksaare sadam Laaksaare sadam, 62508",
+    "coordinates": [
+      58.33949999999999,
+      27.4156999
+    ]
+  },
+  {
+    "publicId": 308,
+    "name": "LAHESUU SADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Paljassaare tee 16, 10313",
+    "coordinates": [
+      59.4579385,
+      24.7015101
+    ]
+  },
+  {
+    "publicId": 310,
+    "name": "LAO SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Lao küla, Lao sadam, 88110",
+    "coordinates": [
+      58.2486468,
+      24.10536
+    ]
+  },
+  {
+    "publicId": 805,
+    "name": "LAUTRI SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Kaleste küla, Putkaste metskond 9 Putkaste metskond 9, 92232",
+    "coordinates": [
+      58.83805040000001,
+      22.8026378
+    ]
+  },
+  {
+    "publicId": 8392,
+    "name": "LEESIKALDA SADAM",
+    "address": "Harju maakond, Kuusalu vald, Leesi küla, Leesikalda sadam Leesikalda sadam, 74704",
+    "coordinates": [
+      59.6028579,
+      25.509776
+    ]
+  },
+  {
+    "publicId": 2123,
+    "name": "LEHTMA KALURISADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Lehtma küla, Lehtma tee 5, 92219",
+    "coordinates": [
+      59.0688713,
+      22.6941507
+    ]
+  },
+  {
+    "publicId": 311,
+    "name": "LEHTMA SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Lehtma küla, Lehtma tee 3, 92219",
+    "coordinates": [
+      59.06908619999999,
+      22.6962279
+    ]
+  },
+  {
+    "publicId": 312,
+    "name": "LENNUSADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Vesilennuki tn 6, 10415",
+    "coordinates": [
+      59.45254190000001,
+      24.7360424
+    ]
+  },
+  {
+    "publicId": 314,
+    "name": "LEPPNEEME KALASADAM",
+    "address": "Harju maakond, Viimsi vald, Leppneeme küla, Leppneeme Sadama tee 25, 74009",
+    "coordinates": [
+      59.55057499999999,
+      24.8656476
+    ]
+  },
+  {
+    "publicId": 313,
+    "name": "LEPPNEEME SADAM",
+    "address": "Harju maakond, Viimsi vald, Leppneeme küla, Leppneeme Sadama tee 18, 74009",
+    "coordinates": [
+      59.5503678,
+      24.8662629
+    ]
+  },
+  {
+    "publicId": 315,
+    "name": "LINDI SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Lindi küla, Kaluri tee 15, 88302",
+    "coordinates": [
+      58.3295778,
+      24.2897078
+    ]
+  },
+  {
+    "publicId": 317,
+    "name": "LIU VÄIKESADAM",
+    "address": "Pärnu maakond, Pärnu linn, Liu küla, Liu sadam, 88313",
+    "coordinates": [
+      58.2828172,
+      24.2606931
+    ]
+  },
+  {
+    "publicId": 318,
+    "name": "LOHUSALU SADAM",
+    "address": "Harju maakond, Lääne-Harju vald, Lohusalu küla, Lohusalu tee 152, 76709",
+    "coordinates": [
+      59.40079110000001,
+      24.2018662
+    ]
+  },
+  {
+    "publicId": 320,
+    "name": "LOHUSUU SADAM",
+    "address": "Jõgeva maakond, Mustvee vald, Lohusuu alevik, Järve tee 41, 42001",
+    "coordinates": [
+      58.94231670000001,
+      27.053111
+    ]
+  },
+  {
+    "publicId": 321,
+    "name": "LOKSA SADAM",
+    "address": "Harju maakond, Loksa linn, Tallinna tn 2e, 74806",
+    "coordinates": [
+      59.58381379999999,
+      25.7085703
+    ]
+  },
+  {
+    "publicId": 801,
+    "name": "LUIGE VÄIKESADAM",
+    "address": "Lääne maakond, Haapsalu linn, Mäeküla, Luige Luige, 90437",
+    "coordinates": [
+      58.8746111,
+      23.483089
+    ]
+  },
+  {
+    "publicId": 3934,
+    "name": "LUUNJA JÕESADAM",
+    "address": "Tartu maakond, Luunja vald, Luunja alevik, Jõesadama tn 10, 62222",
+    "coordinates": [
+      58.3551917,
+      26.8836592
+    ]
+  },
+  {
+    "publicId": 322,
+    "name": "LÕMALA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Lõmala küla, Lõmala sadam Lõmala sadam, 93217",
+    "coordinates": [
+      58.1813927,
+      22.1277892
+    ]
+  },
+  {
+    "publicId": 1964,
+    "name": "LÕPESUU SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kõrkvere küla, Sadama, 94535",
+    "coordinates": [
+      58.48191479999999,
+      23.2544376
+    ]
+  },
+  {
+    "publicId": 324,
+    "name": "LÕUNARANNA SADAM",
+    "address": "Saare maakond, Muhu vald, Simiste küla, Lõunaranna sadam, 94719",
+    "coordinates": [
+      58.54274999999999,
+      23.316336
+    ]
+  },
+  {
+    "publicId": 707,
+    "name": "LÄÄNE SADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Paatsalu küla, Reinu, 88204",
+    "coordinates": [
+      58.5212122,
+      23.7241667
+    ]
+  },
+  {
+    "publicId": 325,
+    "name": "LÄÄTSA PAADISADAM",
+    "address": "Saare maakond, Saaremaa vald, Läätsa küla, Sadama Sadama, 93216",
+    "coordinates": [
+      58.1413839,
+      22.2509315
+    ]
+  },
+  {
+    "publicId": 2501,
+    "name": "MAHU SADAM",
+    "address": "Lääne-Viru maakond, Viru-Nigula vald, Mahu küla, Sadama, 44015",
+    "coordinates": [
+      59.5128967,
+      26.6980892
+    ]
+  },
+  {
+    "publicId": 309,
+    "name": "MANILAIU SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Manija küla, Manija sadam Manija sadam, 88112",
+    "coordinates": [
+      58.22227849999999,
+      24.1247841
+    ]
+  },
+  {
+    "publicId": 9008,
+    "name": "MEERAPALU SADAM",
+    "address": "Põlva maakond, Räpina vald, Meerapalu küla, Sadama tee 27, 62502",
+    "coordinates": [
+      58.3878511,
+      27.3694481
+    ]
+  },
+  {
+    "publicId": 327,
+    "name": "MEERUSE SADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kopliranna tn 49, 11713",
+    "coordinates": [
+      59.451917,
+      24.6730135
+    ]
+  },
+  {
+    "publicId": 2266,
+    "name": "MEHIKOORMA SADAM",
+    "address": "Põlva maakond, Räpina vald, Mehikoorma alevik, Kalda tn 10, 62511",
+    "coordinates": [
+      58.2370563,
+      27.4740889
+    ]
+  },
+  {
+    "publicId": 316,
+    "name": "MERELAIU VÄIKESADAM",
+    "address": "Pärnu maakond, Pärnu linn, Tõlli küla, Merelaiu Merelaiu, 88119",
+    "coordinates": [
+      58.3051718,
+      24.0241628
+    ]
+  },
+  {
+    "publicId": 9000,
+    "name": "MEREMÄE SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Salinõmme küla, 92317",
+    "coordinates": [
+      58.84468620000001,
+      22.9373696
+    ]
+  },
+  {
+    "publicId": 2314,
+    "name": "MIHKLI SADAM",
+    "address": "Jõgeva maakond, Mustvee vald, Omedu küla, Laine, 49507",
+    "coordinates": [
+      58.7689241,
+      27.013329
+    ]
+  },
+  {
+    "publicId": 52,
+    "name": "MIIDURANNA SADAM",
+    "address": "Harju maakond, Viimsi vald, Miiduranna küla, Sadama Sadama, 74015",
+    "coordinates": [
+      59.5003172,
+      24.8167049
+    ]
+  },
+  {
+    "publicId": 319,
+    "name": "MUNALAIU SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Lao küla, Munalaiu sadam Munalaiu sadam, 88110",
+    "coordinates": [
+      58.22946699999999,
+      24.1180188
+    ]
+  },
+  {
+    "publicId": 2201,
+    "name": "MURATSI SADAM",
+    "address": "Saare maakond, Saaremaa vald, Muratsi küla, Muratsi sadam, 93859",
+    "coordinates": [
+      58.2302762,
+      22.5760898
+    ]
+  },
+  {
+    "publicId": 323,
+    "name": "MUSTVEE SADAM",
+    "address": "Jõgeva maakond, Mustvee vald, Mustvee linn, Pihkva tn 2u, 49604",
+    "coordinates": [
+      58.8471551,
+      26.950497
+    ]
+  },
+  {
+    "publicId": 210,
+    "name": "MUUGA SADAM",
+    "address": "Harju maakond, Maardu linn, Muuga sadam 215 Muuga sadam 215, 74115",
+    "coordinates": [
+      59.49499029999999,
+      24.9636009
+    ]
+  },
+  {
+    "publicId": 330,
+    "name": "MÕNTU SADAM",
+    "address": "Saare maakond, Saaremaa vald, Mõntu küla, Mõntu kai Mõntu kai, 93122",
+    "coordinates": [
+      57.96083540000001,
+      22.1159759
+    ]
+  },
+  {
+    "publicId": 2101,
+    "name": "MÕNTU VÄIKELAEVADE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Mõntu küla, Kaluri Kaluri, 93122",
+    "coordinates": [
+      57.96083540000001,
+      22.1159759
+    ]
+  },
+  {
+    "publicId": 9119,
+    "name": "MÄNNIKU SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Orjaku küla, Männiku sadam Männiku sadam, 92114",
+    "coordinates": [
+      58.7874363,
+      22.7818914
+    ]
+  },
+  {
+    "publicId": 331,
+    "name": "MÄNNI VÄIKESADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Muriste küla, Kuuse Kuuse, 88221",
+    "coordinates": [
+      58.52884580000001,
+      23.6384985
+    ]
+  },
+  {
+    "publicId": 326,
+    "name": "NAISSAARE SADAM",
+    "address": "Harju maakond, Viimsi vald, Lõunaküla / Storbyn, 74001",
+    "coordinates": [
+      59.5432703,
+      24.5317483
+    ]
+  },
+  {
+    "publicId": 2139,
+    "name": "NAISTLAIU SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Sarve küla, Naistlaiu sadam, 92322",
+    "coordinates": [
+      58.82473230000001,
+      23.0324017
+    ]
+  },
+  {
+    "publicId": 9001,
+    "name": "NARVA-JÕESUU JAHTKLUBI SADAM",
+    "address": "Ida-Viru maakond, Narva-Jõesuu linn, Narva-Jõesuu linn, Kalda tn 20, 29022",
+    "coordinates": [
+      59.4594774,
+      28.0581927
+    ]
+  },
+  {
+    "publicId": 6155,
+    "name": "NARVA-JÕESUU KALURISADAM",
+    "address": "Ida-Viru maakond, Narva-Jõesuu linn, Narva-Jõesuu linn, Kalda tn 32a, 29022",
+    "coordinates": [
+      59.4590957,
+      28.0652082
+    ]
+  },
+  {
+    "publicId": 2115,
+    "name": "NARVA-JÕESUU SADAM",
+    "address": "Ida-Viru maakond, Narva-Jõesuu linn, Narva-Jõesuu linn, Suur-Lootsi tn 4, 29023",
+    "coordinates": [
+      59.4646011,
+      28.0452754
+    ]
+  },
+  {
+    "publicId": 1553,
+    "name": "NARVA KULGU SADAM",
+    "address": "Ida-Viru maakond, Narva linn, Kulgusadama tee 10, 20104",
+    "coordinates": [
+      59.3443954,
+      28.1733375
+    ]
+  },
+  {
+    "publicId": 1552,
+    "name": "NARVA LINNASADAM",
+    "address": "Ida-Viru maakond, Narva linn, Jõe tn 3, 20609",
+    "coordinates": [
+      59.3831379,
+      28.2058984
+    ]
+  },
+  {
+    "publicId": 2200,
+    "name": "NASVA JÕESADAM",
+    "address": "Saare maakond, Saaremaa vald, Nasva alevik, Ülejõe tn 4, 93872",
+    "coordinates": [
+      58.2294787,
+      22.3808474
+    ]
+  },
+  {
+    "publicId": 328,
+    "name": "NASVA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Nasva alevik, Sadama tee 2, 93872",
+    "coordinates": [
+      58.2269312,
+      22.3783734
+    ]
+  },
+  {
+    "publicId": 804,
+    "name": "NEEME SADAM",
+    "address": "Harju maakond, Jõelähtme vald, Neeme küla, Sadama tee 5, 74226",
+    "coordinates": [
+      59.5311366,
+      25.1593135
+    ]
+  },
+  {
+    "publicId": 353,
+    "name": "NOBLESSNERI SADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Peetri tänav T5, 10416",
+    "coordinates": [
+      59.4534723,
+      24.7325651
+    ]
+  },
+  {
+    "publicId": 329,
+    "name": "NURME SADAM",
+    "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Männiku Männiku, 74012",
+    "coordinates": [
+      59.5534,
+      24.8184196
+    ]
+  },
+  {
+    "publicId": 2152,
+    "name": "NÕVA SADAM",
+    "address": "Lääne maakond, Lääne-Nigula vald, Rannaküla, Sadama, 91104",
+    "coordinates": [
+      59.2359314,
+      23.6625477
+    ]
+  },
+  {
+    "publicId": 332,
+    "name": "OIU SADAM",
+    "address": "Viljandi maakond, Viljandi vald, Oiu küla, Oiu-Võitööstuse, 70317",
+    "coordinates": [
+      58.4106437,
+      25.9735615
+    ]
+  },
+  {
+    "publicId": 334,
+    "name": "OMEDU RAND",
+    "address": "Jõgeva maakond, Mustvee vald, Omedu küla, Mustvee ranna-ala V30, 49507",
+    "coordinates": [
+      58.834279,
+      26.9457923
+    ]
+  },
+  {
+    "publicId": 335,
+    "name": "ORISSAARE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Orissaare alevik, Sadama tn 16, 94601",
+    "coordinates": [
+      58.56267599999999,
+      23.0885419
+    ]
+  },
+  {
+    "publicId": 336,
+    "name": "ORJAKU SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Orjaku küla, Orjaku sadam, 92114",
+    "coordinates": [
+      58.789072,
+      22.772354
+    ]
+  },
+  {
+    "publicId": 2456,
+    "name": "OSMUSSAARE SADAM",
+    "address": "Lääne maakond, Lääne-Nigula vald, Osmussaare küla / Odensholm, Ranna Ranna, 91217",
+    "coordinates": [
+      59.2943469,
+      23.38744
+    ]
+  },
+  {
+    "publicId": 337,
+    "name": "OTI SADAM",
+    "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Sääre tee 33, 74012",
+    "coordinates": [
+      59.5661686,
+      24.7961503
+    ]
+  },
+  {
+    "publicId": 338,
+    "name": "OTSA VÄIKESADAM",
+    "address": "Tartu maakond, Peipsiääre vald, Pusi küla, Otsa Otsa, 60217",
+    "coordinates": [
+      58.6424902,
+      27.1677861
+    ]
+  },
+  {
+    "publicId": 705,
+    "name": "PAATSALU SADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Paatsalu küla, Polümeeri, 88204",
+    "coordinates": [
+      58.5284363,
+      23.6855202
+    ]
+  },
+  {
+    "publicId": 1968,
+    "name": "PAE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kõrkvere küla, Paeranna, 94535",
+    "coordinates": [
+      58.48191479999999,
+      23.2544376
+    ]
+  },
+  {
+    "publicId": 8457,
+    "name": "PAKRINEEME SADAM",
+    "address": "Harju maakond, Lääne-Harju vald, Paldiski linn, Pakrineeme Pakrineeme, 76806",
+    "coordinates": [
+      59.38888889999999,
+      24.0369444
+    ]
+  },
+  {
+    "publicId": 333,
+    "name": "PALDISKI LÕUNASADAM",
+    "address": "Harju maakond, Lääne-Harju vald, Paldiski linn, Lõunasadama tee 11, 76806",
+    "coordinates": [
+      59.33474280000001,
+      24.0817798
+    ]
+  },
+  {
+    "publicId": 347,
+    "name": "PALDISKI PÕHJASADAM",
+    "address": "Harju maakond, Lääne-Harju vald, Paldiski linn, Peetri tn 11, 76805",
+    "coordinates": [
+      59.34726389999999,
+      24.0576413
+    ]
+  },
+  {
+    "publicId": 203,
+    "name": "PALJASSAARE SADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Paljassaare tee 28d, 10313",
+    "coordinates": [
+      59.46102399999999,
+      24.7100426
+    ]
+  },
+  {
+    "publicId": 2257,
+    "name": "PAPISSAARE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Rootsiküla, Papissaare sadam Papissaare sadam, 93413",
+    "coordinates": [
+      58.3598884,
+      21.985745
+    ]
+  },
+  {
+    "publicId": 2132,
+    "name": "PASLEPA-VIIGI SADAM",
+    "address": "Lääne maakond, Lääne-Nigula vald, Paslepa küla / Pasklep, Suveresidentsi Suveresidentsi, 91204",
+    "coordinates": [
+      59.05363999999999,
+      23.4479989
+    ]
+  },
+  {
+    "publicId": 348,
+    "name": "PATAREISADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kalasadama tänav T7, 10415",
+    "coordinates": [
+      59.4464395,
+      24.750468
+    ]
+  },
+  {
+    "publicId": 350,
+    "name": "PEERNI SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Peerni küla, Peerni sadam Peerni sadam, 88114",
+    "coordinates": [
+      58.2477127,
+      24.1341228
+    ]
+  },
+  {
+    "publicId": 1659,
+    "name": "PIHELGALAIU SADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Mereäärse küla, Pihelgalaiu 1, 88220",
+    "coordinates": [
+      58.46334040000001,
+      23.6945187
+    ]
+  },
+  {
+    "publicId": 1930,
+    "name": "PIIRISSAARE SADAM",
+    "address": "Tartu maakond, Tartu vald, Tooni küla, Piirissaare sadam Piirissaare sadam, 62603",
+    "coordinates": [
+      58.3755537,
+      27.5113058
+    ]
+  },
+  {
+    "publicId": 356,
+    "name": "PIIRIVALVESADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Süsta tn 15, 11712",
+    "coordinates": [
+      59.45835459999999,
+      24.6652975
+    ]
+  },
+  {
+    "publicId": 168,
+    "name": "PIRITA SADAM",
+    "address": "Harju maakond, Tallinn, Pirita linnaosa, Purje tn 13, 11911",
+    "coordinates": [
+      59.46802750000001,
+      24.8224978
+    ]
+  },
+  {
+    "publicId": 1202,
+    "name": "PRANGLI LÕUNASADAM",
+    "address": "Harju maakond, Viimsi vald, Lääneotsa küla, Mölgisilla, 74007",
+    "coordinates": [
+      59.6204751,
+      24.9966726
+    ]
+  },
+  {
+    "publicId": 377,
+    "name": "PUISE KALASADAM",
+    "address": "Lääne maakond, Haapsalu linn, Puise küla, Puise kalasadam, 90420",
+    "coordinates": [
+      58.7835441,
+      23.4985324
+    ]
+  },
+  {
+    "publicId": 808,
+    "name": "PURTSE JAHTSADAM",
+    "address": "Ida-Viru maakond, Lüganuse vald, Liimala küla, Jahtsadama Jahtsadama, 43306",
+    "coordinates": [
+      59.4351228,
+      26.9910739
+    ]
+  },
+  {
+    "publicId": 2103,
+    "name": "PURTSE KALASADAM",
+    "address": "Ida-Viru maakond, Lüganuse vald, Purtse küla, Purtse kalasadam Purtse kalasadam, 43302",
+    "coordinates": [
+      59.41760720000001,
+      27.0157108
+    ]
+  },
+  {
+    "publicId": 359,
+    "name": "PURTSE SADAM",
+    "address": "Ida-Viru maakond, Lüganuse vald, Purtse küla, Purtse sadam Purtse sadam, 43302",
+    "coordinates": [
+      59.41760720000001,
+      27.0157108
+    ]
+  },
+  {
+    "publicId": 369,
+    "name": "PUSI VÄIKESADAM",
+    "address": "Tartu maakond, Peipsiääre vald, Pusi küla, Pusila, 60217",
+    "coordinates": [
+      58.6424902,
+      27.1677861
+    ]
+  },
+  {
+    "publicId": 1201,
+    "name": "PÄRNU JAHTKLUBI JAHISADAM",
+    "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Lootsi tn 6, 80012",
+    "coordinates": [
+      58.38602309999999,
+      24.4892564
+    ]
+  },
+  {
+    "publicId": 370,
+    "name": "PÄRNU SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Kaubasadama tee 2, 80010",
+    "coordinates": [
+      58.3840905,
+      24.473416
+    ]
+  },
+  {
+    "publicId": 9009,
+    "name": "PÄRNU VANASADAM",
+    "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Kalda tn 2, 80011",
+    "coordinates": [
+      58.3873588,
+      24.4928887
+    ]
+  },
+  {
+    "publicId": 9003,
+    "name": "RAHUSTE SADAM (EHITAMISEL)",
+    "address": "Saare maakond, Saaremaa vald, Rahuste küla, Lodja, 93235",
+    "coordinates": [
+      58.0665472,
+      22.1274188
+    ]
+  },
+  {
+    "publicId": 341,
+    "name": "RAJA VÄIKESADAM",
+    "address": "Jõgeva maakond, Mustvee vald, Raja küla, Kalda tn 2a, 49509",
+    "coordinates": [
+      58.8288655,
+      26.9450933
+    ]
+  },
+  {
+    "publicId": 3956,
+    "name": "RANNAAUGU SADAM",
+    "address": "Saare maakond, Saaremaa vald, Tagaranna küla, Rannaaugu, 93616",
+    "coordinates": [
+      58.5385898,
+      22.2069206
+    ]
+  },
+  {
+    "publicId": 339,
+    "name": "RANNAMETSA SADAM",
+    "address": "Pärnu maakond, Häädemeeste vald, Rannametsa küla, Merikulla, 86016",
+    "coordinates": [
+      58.1352972,
+      24.5007866
+    ]
+  },
+  {
+    "publicId": 342,
+    "name": "REBASE PAADISADAM",
+    "address": "Tartu maakond, Tartu linn, Tartu linn, Rebase tn 27b, 50104",
+    "coordinates": [
+      58.367662,
+      26.7489511
+    ]
+  },
+  {
+    "publicId": 343,
+    "name": "REMNIKU VANASADAM",
+    "address": "Ida-Viru maakond, Alutaguse vald, Remniku küla, Vanakooli tee 8, 41004",
+    "coordinates": [
+      59.01106629999999,
+      27.5437734
+    ]
+  },
+  {
+    "publicId": 349,
+    "name": "RISTNA LÕUNASADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Kalana küla, Ristna lõunasadam, 92230",
+    "coordinates": [
+      58.92299999999999,
+      22.1005189
+    ]
+  },
+  {
+    "publicId": 345,
+    "name": "RISTNA SADAM",
+    "address": "Harju maakond, Lääne-Harju vald, Keibu küla, Tõnissoo, 76019",
+    "coordinates": [
+      59.2314821,
+      23.7646298
+    ]
+  },
+  {
+    "publicId": 351,
+    "name": "ROHUKÜLA SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Rohuküla, Rohuküla sadam 1 Rohuküla sadam 1, 90441",
+    "coordinates": [
+      58.9064065,
+      23.4235647
+    ]
+  },
+  {
+    "publicId": 352,
+    "name": "ROHUNEEME SADAM",
+    "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Sadama tee 9, 74012",
+    "coordinates": [
+      59.558651,
+      24.794496
+    ]
+  },
+  {
+    "publicId": 354,
+    "name": "ROHUNEEME VÄIKESADAM",
+    "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Sadama tee 11, 74012",
+    "coordinates": [
+      59.55929039999999,
+      24.7941884
+    ]
+  },
+  {
+    "publicId": 355,
+    "name": "ROOGRAHU SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Hiiessaare küla, Roograhu Roograhu, 92335",
+    "coordinates": [
+      58.9972265,
+      22.8208051
+    ]
+  },
+  {
+    "publicId": 357,
+    "name": "ROOMASSAARE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kuressaare linn, Roomassaare tee 12, 93815",
+    "coordinates": [
+      58.21670599999999,
+      22.5045866
+    ]
+  },
+  {
+    "publicId": 358,
+    "name": "ROOPA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Karala küla, Roopa sadam, 93325",
+    "coordinates": [
+      58.2562995,
+      21.9239346
+    ]
+  },
+  {
+    "publicId": 344,
+    "name": "RUHNU SADAM",
+    "address": "Saare maakond, Ruhnu vald, Ruhnu küla, Ruhnu sadam Ruhnu sadam, 93001",
+    "coordinates": [
+      57.7811529,
+      23.26946
+    ]
+  },
+  {
+    "publicId": 1203,
+    "name": "RUHVE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Ruhve küla, Sadama Sadama, 94423",
+    "coordinates": [
+      58.37754859999999,
+      23.0389975
+    ]
+  },
+  {
+    "publicId": 2059,
+    "name": "RÄLBY SADAM",
+    "address": "Lääne maakond, Vormsi vald, Rälby küla, Rälbyranna, 91310",
+    "coordinates": [
+      59.00992780000001,
+      23.2838859
+    ]
+  },
+  {
+    "publicId": 360,
+    "name": "RÄPINA SADAM",
+    "address": "Põlva maakond, Räpina vald, Raigla küla, Sadama, 64417",
+    "coordinates": [
+      58.1127456,
+      27.513381
+    ]
+  },
+  {
+    "publicId": 1966,
+    "name": "SAAGA SADAM",
+    "address": "Tartu maakond, Luunja vald, Kikaste küla, Saaga tee 9c, 62205",
+    "coordinates": [
+      58.38052760000001,
+      26.9927539
+    ]
+  },
+  {
+    "publicId": 305,
+    "name": "SAAREMAA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Ninase küla, Saaremaa sadam, 93613",
+    "coordinates": [
+      58.5364171,
+      22.2356901
+    ]
+  },
+  {
+    "publicId": 361,
+    "name": "SAAREPERA SADAM",
+    "address": "Põlva maakond, Räpina vald, Linte küla, Saarepera sadam Saarepera sadam, 64402",
+    "coordinates": [
+      58.1638452,
+      27.4535839
+    ]
+  },
+  {
+    "publicId": 362,
+    "name": "SAASTNA VANASADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Saastna küla, Sadama Sadama, 90233",
+    "coordinates": [
+      58.7212492,
+      23.5695305
+    ]
+  },
+  {
+    "publicId": 1650,
+    "name": "SALINÕMME PAADISADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Salinõmme küla, Sadama, 92317",
+    "coordinates": [
+      58.84468620000001,
+      22.9373696
+    ]
+  },
+  {
+    "publicId": 363,
+    "name": "SALINÕMME SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Salinõmme küla, Salinõmme sadam Salinõmme sadam, 92317",
+    "coordinates": [
+      58.8269616,
+      22.9510403
+    ]
+  },
+  {
+    "publicId": 365,
+    "name": "SALME JÕESADAM",
+    "address": "Saare maakond, Saaremaa vald, Salme alevik, Rannapargi tee 4, 93201",
+    "coordinates": [
+      58.16331599999999,
+      22.254761
+    ]
+  },
+  {
+    "publicId": 366,
+    "name": "SALMISTU SADAM",
+    "address": "Harju maakond, Kuusalu vald, Salmistu küla, Sadama tee 26, 74629",
+    "coordinates": [
+      59.4966475,
+      25.3670267
+    ]
+  },
+  {
+    "publicId": 367,
+    "name": "SASSUKVERE SADAM",
+    "address": "Tartu maakond, Peipsiääre vald, Ranna küla, Sadama, 49417",
+    "coordinates": [
+      58.7283274,
+      27.1036456
+    ]
+  },
+  {
+    "publicId": 1936,
+    "name": "SIGATSUARU VÄIKESADAM",
+    "address": "Pärnu maakond, Kihnu vald, Sääre küla, Sigatsuaru lauter, 88005",
+    "coordinates": [
+      58.1494195,
+      23.9955638
+    ]
+  },
+  {
+    "publicId": 368,
+    "name": "SILLAMÄE SADAM",
+    "address": "Ida-Viru maakond, Sillamäe linn, Kesk tn 2d, 40231",
+    "coordinates": [
+      59.4044226,
+      27.73584
+    ]
+  },
+  {
+    "publicId": 7401,
+    "name": "SITME SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kanissaare küla, Sitme paadisadam, 94533",
+    "coordinates": [
+      58.5064632,
+      23.1931691
+    ]
+  },
+  {
+    "publicId": 371,
+    "name": "SOELA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Soela küla, Sadama, 94274",
+    "coordinates": [
+      58.6168599,
+      22.5919974
+    ]
+  },
+  {
+    "publicId": 372,
+    "name": "SOO SADAM",
+    "address": "Tartu maakond, Peipsiääre vald, Ranna küla, Ennuaadu Ennuaadu, 49417",
+    "coordinates": [
+      58.7283274,
+      27.1036456
+    ]
+  },
+  {
+    "publicId": 2670,
+    "name": "SUARU KALASADAM",
+    "address": "Pärnu maakond, Kihnu vald, Lemsi küla, Suaru sadam, 88002",
+    "coordinates": [
+      58.1306348,
+      23.9986906
+    ]
+  },
+  {
+    "publicId": 1907,
+    "name": "SUARU SADAM",
+    "address": "Pärnu maakond, Kihnu vald, Lemsi küla, Suaru sadam, 88002",
+    "coordinates": [
+      58.1306348,
+      23.9986906
+    ]
+  },
+  {
+    "publicId": 373,
+    "name": "SUUR-HOLMI SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Westmeri tn 3, 90502",
+    "coordinates": [
+      58.9579995,
+      23.5261059
+    ]
+  },
+  {
+    "publicId": 1251,
+    "name": "SUUR-LOOTSI SADAM",
+    "address": "Ida-Viru maakond, Narva-Jõesuu linn, Narva-Jõesuu linn, Suur-Lootsi tn 1d, 29023",
+    "coordinates": [
+      59.4678736,
+      28.0420528
+    ]
+  },
+  {
+    "publicId": 1154,
+    "name": "SUURPEA SADAM",
+    "address": "Harju maakond, Kuusalu vald, Suurpea küla, Suurpea sadam Suurpea sadam, 74812",
+    "coordinates": [
+      59.62554399999999,
+      25.6857547
+    ]
+  },
+  {
+    "publicId": 374,
+    "name": "SUURSADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Suuresadama küla, Suursadama, 92346",
+    "coordinates": [
+      58.97790860000001,
+      22.8975891
+    ]
+  },
+  {
+    "publicId": 375,
+    "name": "SVIBY SADAM",
+    "address": "Lääne maakond, Vormsi vald, Sviby küla, Sviby sadam, 91313",
+    "coordinates": [
+      58.970049,
+      23.3125166
+    ]
+  },
+  {
+    "publicId": 1400,
+    "name": "SÕRU JAHISADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Pärna küla, Sadama Sadama, 92017",
+    "coordinates": [
+      58.69899,
+      22.5249498
+    ]
+  },
+  {
+    "publicId": 376,
+    "name": "SÕRU SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Pärna küla, Liini Liini, 92017",
+    "coordinates": [
+      58.69899,
+      22.5249498
+    ]
+  },
+  {
+    "publicId": 2058,
+    "name": "TAALIKU SADAM",
+    "address": "Saare maakond, Saaremaa vald, Pulli küla, Taaliku sadam, 94612",
+    "coordinates": [
+      58.6080815,
+      22.9540249
+    ]
+  },
+  {
+    "publicId": 709,
+    "name": "TALVESADAM",
+    "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Sadama tn 2, 80012",
+    "coordinates": [
+      58.3860731,
+      24.491845
+    ]
+  },
+  {
+    "publicId": 2680,
+    "name": "TAMMNEEME SADAM",
+    "address": "Harju maakond, Viimsi vald, Tammneeme küla, Mereääre tee 11, 74017",
+    "coordinates": [
+      59.52886299999999,
+      24.893335
+    ]
+  },
+  {
+    "publicId": 380,
+    "name": "TAPURLA SADAM",
+    "address": "Harju maakond, Kuusalu vald, Tapurla küla, Tapurla sadam, 74721",
+    "coordinates": [
+      59.6005617,
+      25.5533532
+    ]
+  },
+  {
+    "publicId": 1943,
+    "name": "TARVASTU SADAM",
+    "address": "Viljandi maakond, Viljandi vald, Kivilõppe küla, Poldri puhkeala, 69706",
+    "coordinates": [
+      58.240051,
+      25.968586
+    ]
+  },
+  {
+    "publicId": 381,
+    "name": "TILGU SADAM",
+    "address": "Harju maakond, Harku vald, Meriküla, Tilgu sadam Tilgu sadam, 76925",
+    "coordinates": [
+      59.45571810000001,
+      24.4872517
+    ]
+  },
+  {
+    "publicId": 382,
+    "name": "TOILA SADAM",
+    "address": "Ida-Viru maakond, Toila vald, Toila alevik, Sadama tee 2, 41702",
+    "coordinates": [
+      59.4262335,
+      27.5323099
+    ]
+  },
+  {
+    "publicId": 9007,
+    "name": "TOOMINGA VÄIKESADAM",
+    "address": "Harju maakond, Viimsi vald, Rohuneeme küla, Uuetalu tee 8, 74012",
+    "coordinates": [
+      59.5622992,
+      24.7960715
+    ]
+  },
+  {
+    "publicId": 704,
+    "name": "TOPU SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Kiviküla, Topu sadam Topu sadam, 90433",
+    "coordinates": [
+      58.84411840000001,
+      23.500427
+    ]
+  },
+  {
+    "publicId": 2665,
+    "name": "TORI JÕESADAM",
+    "address": "Saare maakond, Saaremaa vald, Kuressaare linn, Kaluri tee L1, 93810",
+    "coordinates": [
+      58.2466379,
+      22.4669875
+    ]
+  },
+  {
+    "publicId": 383,
+    "name": "TREIMANI SADAM",
+    "address": "Pärnu maakond, Häädemeeste vald, Treimani küla, Treimani sadam, 86003",
+    "coordinates": [
+      57.9222109,
+      24.4162238
+    ]
+  },
+  {
+    "publicId": 385,
+    "name": "TRIIGI SADAM",
+    "address": "Saare maakond, Saaremaa vald, Triigi küla, Saare Saare, 94243",
+    "coordinates": [
+      58.5860251,
+      22.7029971
+    ]
+  },
+  {
+    "publicId": 386,
+    "name": "TULETORNI KAI",
+    "address": "Hiiu maakond, Hiiumaa vald, Orjaku küla, Tuletorni kai Tuletorni kai, 92114",
+    "coordinates": [
+      58.7874363,
+      22.7818914
+    ]
+  },
+  {
+    "publicId": 2122,
+    "name": "TURJA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Turja küla, Sadama, 94317",
+    "coordinates": [
+      58.334369,
+      22.9187413
+    ]
+  },
+  {
+    "publicId": 2133,
+    "name": "TURUSADAM",
+    "address": "Tartu maakond, Tartu linn, Tartu linn, Soola tn 5, 51004",
+    "coordinates": [
+      58.3792385,
+      26.7358555
+    ]
+  },
+  {
+    "publicId": 387,
+    "name": "TÄRKMA SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Tärkma küla, Kastani, 92026",
+    "coordinates": [
+      58.6956572,
+      22.6003218
+    ]
+  },
+  {
+    "publicId": 3921,
+    "name": "UISUSADAM",
+    "address": "Saare maakond, Saaremaa vald, Orissaare alevik, Ranna pst 17, 94601",
+    "coordinates": [
+      58.55840529999999,
+      23.0903857
+    ]
+  },
+  {
+    "publicId": 9168,
+    "name": "ULGE SADAM",
+    "address": "Viljandi maakond, Viljandi vald, Oiu küla, Ulge puhkeala, 70317",
+    "coordinates": [
+      58.4075182,
+      26.01103
+    ]
+  },
+  {
+    "publicId": 378,
+    "name": "UNGUMA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Unguma küla, Unguma sadam, 94545",
+    "coordinates": [
+      58.4605449,
+      23.1471808
+    ]
+  },
+  {
+    "publicId": 9011,
+    "name": "UUS SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Uus-Sadama tn 45, 90502",
+    "coordinates": [
+      58.95938630000001,
+      23.511007
+    ]
+  },
+  {
+    "publicId": 9184,
+    "name": "VAALA SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Vaala sadam Vaala sadam, 80042",
+    "coordinates": [
+      58.37146749999999,
+      24.5570281
+    ]
+  },
+  {
+    "publicId": 3826,
+    "name": "VAHTREPA SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Vahtrepa küla, Vahtrepa väikepaadisadam Vahtrepa väikepaadisadam, 92318",
+    "coordinates": [
+      58.88914189999999,
+      23.0073392
+    ]
+  },
+  {
+    "publicId": 4651,
+    "name": "VAINUPEA SADAM",
+    "address": "Lääne-Viru maakond, Haljala vald, Vainupea küla, Paadisadama Paadisadama, 45446",
+    "coordinates": [
+      59.5773589,
+      26.2446752
+    ]
+  },
+  {
+    "publicId": 7101,
+    "name": "VAINU SADAM",
+    "address": "Harju maakond, Kuusalu vald, Andineeme küla, Vainu Vainu, 74605",
+    "coordinates": [
+      59.49531039999999,
+      25.4623514
+    ]
+  },
+  {
+    "publicId": 1962,
+    "name": "VALMERANNA SADAM",
+    "address": "Saare maakond, Saaremaa vald, Kõrkvere küla, Valmeranna, 94535",
+    "coordinates": [
+      58.49620580000001,
+      23.2325265
+    ]
+  },
+  {
+    "publicId": 166,
+    "name": "VANASADAM",
+    "address": "Harju maakond, Tallinn, Kesklinna linnaosa, Sadama tn 25, 10111",
+    "coordinates": [
+      59.4436197,
+      24.7609978
+    ]
+  },
+  {
+    "publicId": 2147,
+    "name": "VANA-SAUGA SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Pärnu linn, Vana-Sauga kai L1, 80031",
+    "coordinates": [
+      58.3937875,
+      24.4737706
+    ]
+  },
+  {
+    "publicId": 8977,
+    "name": "VANASAUNA SADAM",
+    "address": "Viljandi maakond, Viljandi vald, Valma küla, Vanasauna sadam, 70121",
+    "coordinates": [
+      58.3682501,
+      25.9627635
+    ]
+  },
+  {
+    "publicId": 1401,
+    "name": "VARBLA SADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Rannaküla, Tamme 1, 88228",
+    "coordinates": [
+      58.41699560000001,
+      23.7145236
+    ]
+  },
+  {
+    "publicId": 1212,
+    "name": "VARESE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Pahapilli küla, Varese sadam Varese sadam, 93633",
+    "coordinates": [
+      58.5745641,
+      22.3979971
+    ]
+  },
+  {
+    "publicId": 2158,
+    "name": "VARNJA SADAM",
+    "address": "Tartu maakond, Peipsiääre vald, Varnja alevik, Kesk tn 94, 60305",
+    "coordinates": [
+      58.48604100000001,
+      27.2423348
+    ]
+  },
+  {
+    "publicId": 384,
+    "name": "VASKNARVA",
+    "address": "Ida-Viru maakond, Alutaguse vald, Vasknarva küla, Sõrenetsi tee 88, 41007",
+    "coordinates": [
+      59.00786309999999,
+      27.7359026
+    ]
+  },
+  {
+    "publicId": 389,
+    "name": "VASKNARVA PAADISADAM",
+    "address": "Ida-Viru maakond, Alutaguse vald, Vasknarva küla, Paadisadama, 41007",
+    "coordinates": [
+      59.011781,
+      27.7036222
+    ]
+  },
+  {
+    "publicId": 393,
+    "name": "VASKNARVA UUSSADAM",
+    "address": "Ida-Viru maakond, Alutaguse vald, Vasknarva küla, Sõrenetsi tee 90, 41007",
+    "coordinates": [
+      59.00804579999999,
+      27.7360056
+    ]
+  },
+  {
+    "publicId": 388,
+    "name": "VEERE SADAM",
+    "address": "Saare maakond, Saaremaa vald, Veeremäe küla, Veere sadam, 93453",
+    "coordinates": [
+      58.46159979999999,
+      22.0499261
+    ]
+  },
+  {
+    "publicId": 901,
+    "name": "VEERE VANASADAM",
+    "address": "Saare maakond, Saaremaa vald, Veeremäe küla, Kala, 93453",
+    "coordinates": [
+      58.4606057,
+      22.0395944
+    ]
+  },
+  {
+    "publicId": 3870,
+    "name": "VEIBRI SADAM",
+    "address": "Tartu maakond, Luunja vald, Veibri küla, Jõekaare tee 15, 62220",
+    "coordinates": [
+      58.3370624,
+      26.7919961
+    ]
+  },
+  {
+    "publicId": 390,
+    "name": "VENE-BALTI SADAM",
+    "address": "Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Kopli tn 103, 11712",
+    "coordinates": [
+      59.46540359999999,
+      24.6581799
+    ]
+  },
+  {
+    "publicId": 1150,
+    "name": "VERGI SADAM",
+    "address": "Lääne-Viru maakond, Haljala vald, Vergi küla, Sadama tee 51, 45404",
+    "coordinates": [
+      59.6005195,
+      26.1005464
+    ]
+  },
+  {
+    "publicId": 9006,
+    "name": "VESTSILLA SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Nõmme küla, Vestsilla, 90439",
+    "coordinates": [
+      58.9412154,
+      23.4581487
+    ]
+  },
+  {
+    "publicId": 2645,
+    "name": "VIINISTU SADAM",
+    "address": "Harju maakond, Kuusalu vald, Viinistu küla, Ranna Ranna, 74701",
+    "coordinates": [
+      59.6414352,
+      25.7394794
+    ]
+  },
+  {
+    "publicId": 2551,
+    "name": "VIKATI SADAM",
+    "address": "Saare maakond, Saaremaa vald, Vilsandi küla, Vikati sadam Vikati sadam, 93421",
+    "coordinates": [
+      58.37187619999999,
+      21.8620961
+    ]
+  },
+  {
+    "publicId": 395,
+    "name": "VIRTSU KALASADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Virtsu alevik, Vanalinna tänav lõik 2, 90101",
+    "coordinates": [
+      58.5875715,
+      23.5269552
+    ]
+  },
+  {
+    "publicId": 394,
+    "name": "VIRTSU SADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Virtsu alevik, Virtsu sadam Virtsu sadam, 90101",
+    "coordinates": [
+      58.5749109,
+      23.5086003
+    ]
+  },
+  {
+    "publicId": 396,
+    "name": "VIRTSU VANASADAM",
+    "address": "Pärnu maakond, Lääneranna vald, Virtsu alevik, Tallinna mnt 31, 90101",
+    "coordinates": [
+      58.57970049999999,
+      23.5232729
+    ]
+  },
+  {
+    "publicId": 397,
+    "name": "VÕIDU SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Tõlli küla, Võidu-Sadama, 88119",
+    "coordinates": [
+      58.320116,
+      24.0302207
+    ]
+  },
+  {
+    "publicId": 398,
+    "name": "VÕISTE SADAM",
+    "address": "Pärnu maakond, Häädemeeste vald, Võiste alevik, Kaluri tn 1, 86501",
+    "coordinates": [
+      58.2150919,
+      24.4712654
+    ]
+  },
+  {
+    "publicId": 399,
+    "name": "VÕRKAIA SADAM",
+    "address": "Saare maakond, Muhu vald, Nõmmküla, Võrkaia, 94752",
+    "coordinates": [
+      58.6739449,
+      23.1998536
+    ]
+  },
+  {
+    "publicId": 1600,
+    "name": "VÕSU SADAM",
+    "address": "Lääne-Viru maakond, Haljala vald, Võsu alevik, Piiri tn 6, 45501",
+    "coordinates": [
+      59.5853303,
+      25.9725336
+    ]
+  },
+  {
+    "publicId": 3811,
+    "name": "VÕÕPSU KÜLASADAM",
+    "address": "Võru maakond, Setomaa vald, Võõpsu küla, Silla tn 3, 64318",
+    "coordinates": [
+      58.07920529999999,
+      27.5443241
+    ]
+  },
+  {
+    "publicId": 401,
+    "name": "VÕÕPSU SADAM",
+    "address": "Põlva maakond, Räpina vald, Võõpsu alevik, Vana-Sadama Vana-Sadama, 64401",
+    "coordinates": [
+      58.0815149,
+      27.543967
+    ]
+  },
+  {
+    "publicId": 400,
+    "name": "VÄIKE-TURU SADAM",
+    "address": "Tartu maakond, Tartu linn, Väike-Turu tn 10, 51004",
+    "coordinates": [
+      58.3777177,
+      26.7364164
+    ]
+  },
+  {
+    "publicId": 402,
+    "name": "VÄRATI SADAM",
+    "address": "Pärnu maakond, Pärnu linn, Värati küla, Värati sadam Värati sadam, 88120",
+    "coordinates": [
+      58.3218861,
+      23.981391
+    ]
+  },
+  {
+    "publicId": 6600,
+    "name": "VÄRSKA SADAM",
+    "address": "Võru maakond, Setomaa vald, Värska alevik, Allika tn 15, 64001",
+    "coordinates": [
+      57.9576983,
+      27.6291734
+    ]
+  },
+  {
+    "publicId": 1056,
+    "name": "VÄRSSU SADAM",
+    "address": "Hiiu maakond, Hiiumaa vald, Värssu küla, Sadama, 92349",
+    "coordinates": [
+      58.9319788,
+      22.9528371
+    ]
+  },
+  {
+    "publicId": 404,
+    "name": "WESTMERI JAHISADAM",
+    "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Westmeri tn 1, 90502",
+    "coordinates": [
+      58.9586045,
+      23.5255451
+    ]
+  },
+  {
+    "publicId": 403,
+    "name": "WESTMERI SADAM",
+    "address": "Lääne maakond, Haapsalu linn, Haapsalu linn, Kaluri tn 32, 90502",
+    "coordinates": [
+      58.9596579,
+      23.5223099
+    ]
+  },
+  {
+    "publicId": 405,
+    "name": "ÖSTERBY SADAM",
+    "address": "Lääne maakond, Lääne-Nigula vald, Österby küla, Österby sadam Österby sadam, 91207",
+    "coordinates": [
+      58.9756951,
+      23.518072
+    ]
+  },
+  {
+    "publicId": 2669,
+    "name": "ÜRGORU PAADISADAM",
+    "address": "Tartu maakond, Kastre vald, Veskimäe küla, Ürgoru tn 8, 62314",
+    "coordinates": [
+      58.3795078,
+      26.9905811
+    ]
+  }
+]
