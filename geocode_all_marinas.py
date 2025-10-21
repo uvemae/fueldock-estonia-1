@@ -1,8 +1,11 @@
 import json
 import requests
 import time
+from dotenv import load_dotenv
+import os
 
-GOOGLE_API_KEY = "AIzaSyADJa3n-ytrIk9TdnJKHyGt-c4rC7nnxI8"  # ← PUT KEY
+load_dotenv()
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 # Load marinas
 with open('eesti_sadamad.json', 'r', encoding='utf-8') as f:
