@@ -292,7 +292,7 @@ function getFuelStatusText(station) {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  width: 90%;
+  width: 70%;
   max-width: 450px;
   display: flex;
   gap: 8px;
