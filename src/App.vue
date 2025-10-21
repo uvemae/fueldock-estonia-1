@@ -3,7 +3,7 @@
     <header class="header-fixed">
       <div class="flex justify-between items-center w-full">
         <h1 class="text-2xl font-bold flex items-center gap-2">
-          <img src="/pic/FuelDock-1_no_bg_s.png" alt="Logo" class="w-8 h-8" />
+          <img src="/pic/FuelDock-1_no_bg_s.png" alt="Logo" class="w-16 h-16" />
           FuelDock Estonia
         </h1>
         <button @click="currentView = 'history'" class="text-6xl leading-none">📋</button>
