@@ -873,8 +873,8 @@
     "name": "MÕNTU SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      57.96083540000001,
-      22.1159759
+      57.948558221449865,
+      22.12621804490712
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -970,8 +970,8 @@
     "name": "MÕNTU VÄIKELAEVADE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      57.96083540000001,
-      22.1159759
+      57.949315460072754,
+      22.122961869349453
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -3736,8 +3736,8 @@
     "name": "RAHUSTE SADAM (EHITAMISEL)",
     "location": "Saare maakond",
     "coordinates": [
-      58.0665472,
-      22.1274188
+      58.07108782421003,
+      22.133503437845288
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -4590,8 +4590,8 @@
     "name": "KAUNISPE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.0419444,
-      22.0719444
+      58.04186264452349,
+      22.059860388705594
     ],
     "hasStation": false
   },
@@ -4770,8 +4770,8 @@
     "name": "LÄÄTSA PAADISADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.1413839,
-      22.2509315
+      58.14659002353162,
+      22.253064692365207
     ],
     "hasStation": false
   },
@@ -5050,8 +5050,8 @@
     "name": "SALME JÕESADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.16331599999999,
-      22.254761
+      58.1654474887975,
+      22.252818894890837
     ],
     "hasStation": false
   },

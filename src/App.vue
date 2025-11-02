@@ -21,10 +21,12 @@
 
       <StationDetail v-else-if="selectedStation"
                      :station="selectedStation"
-                     @back="selectedStation = null"
+                     @back="backToMapFromStation"
                      @pay="showPayment" />
 
-      <MapView v-else @station-click="showStation" />
+      <MapView v-show="!selectedStation && currentView === 'map'"
+               ref="mapViewRef"
+               @station-click="showStation" />
     </main>
   </div>
 
@@ -48,6 +50,7 @@ const progress = ref(0)
 const currentView = ref('map')
 const selectedStation = ref(null)
 const paymentStation = ref(null)
+const mapViewRef = ref(null)
 
 // Loading animation
 onMounted(() => {
@@ -78,6 +81,17 @@ function backToMap() {
   currentView.value = 'map'
   selectedStation.value = null
   paymentStation.value = null
+}
+
+function backToMapFromStation() {
+  selectedStation.value = null
+  // Restore the map view when returning from station details
+  if (mapViewRef.value) {
+    // Use nextTick to ensure MapView is visible before restoring
+    setTimeout(() => {
+      mapViewRef.value.restoreMapView()
+    }, 50)
+  }
 }
 
 function completePayment(data) {
