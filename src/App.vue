@@ -19,15 +19,16 @@
                      @back="backToMap"
                      @complete="completePayment" />
 
-      <StationDetail v-else-if="selectedStation"
-                     :station="selectedStation"
-                     @back="backToMapFromStation"
-                     @pay="showPayment" />
-
-      <MapView v-show="!selectedStation && currentView === 'map'"
+      <MapView v-show="currentView === 'map'"
                ref="mapViewRef"
                @station-click="showStation" />
     </main>
+
+    <!-- Station Detail Modal Overlay -->
+    <StationDetail v-if="selectedStation"
+                   :station="selectedStation"
+                   @back="backToMapFromStation"
+                   @pay="showPayment" />
   </div>
 
   <div v-if="loading" class="loading-screen">

@@ -101,8 +101,8 @@
     "name": "KUIVASTU SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.57339640000001,
-      23.3931041
+      58.57294897894946,
+      23.392649978026128
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -326,8 +326,8 @@
     "name": "KURESSAARE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.24517489999999,
-      22.4703425
+      58.24504241378111,
+      22.470592197513312
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -390,8 +390,8 @@
     "name": "ROOMASSAARE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.21670599999999,
-      22.5045866
+      58.216442900827786,
+      22.505283815589987
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -422,8 +422,8 @@
     "name": "SOELA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.6168599,
-      22.5919974
+      58.61757022248619,
+      22.592246484257174
     ],
     "hasStation": true,
     "stationType": "Alexela",
@@ -455,8 +455,8 @@
     "name": "SUURSADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.97790860000001,
-      22.8975891
+      58.97588001930916,
+      22.90780230864535
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -679,8 +679,8 @@
     "name": "SUARU SADAM",
     "location": "Pärnu maakond",
     "coordinates": [
-      58.1306348,
-      23.9986906
+      58.14100107258266,
+      24.01825909036016
     ],
     "hasStation": true,
     "stationType": "Alexela",
@@ -776,8 +776,8 @@
     "name": "LÕUNARANNA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.54274999999999,
-      23.316336
+      58.5410841962558,
+      23.318508199317954
     ],
     "hasStation": true,
     "stationType": "Alexela",
@@ -905,8 +905,8 @@
     "name": "HELTERMAA SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.86623830000001,
-      23.0472653
+      58.86586149705953,
+      23.045427562456016
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -937,8 +937,8 @@
     "name": "RUHNU SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      57.7811529,
-      23.26946
+      57.78123357568677,
+      23.27055552095325
     ],
     "hasStation": true,
     "stationType": "Alexela",
@@ -1194,8 +1194,8 @@
     "name": "KÄRDLA SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      59.00862900000001,
-      22.7513976
+      59.00878218744771,
+      22.75255657459167
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -1323,8 +1323,8 @@
     "name": "KÕIGUSTE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.3702645,
-      22.9759687
+      58.370242604922666,
+      22.97454178228539
     ],
     "hasStation": true,
     "stationType": "Alexela",
@@ -1484,8 +1484,8 @@
     "name": "SÕRU SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.69899,
-      22.5249498
+      58.69156723910896,
+      22.522160411928486
     ],
     "hasStation": true,
     "stationType": "Other",
@@ -1692,8 +1692,8 @@
     "name": "KALLASTE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.6664746,
-      23.25147
+      58.6681380168726,
+      23.253271458237467
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -1804,8 +1804,8 @@
     "name": "NASVA JÕESADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.2294787,
-      22.3808474
+      58.22927401448976,
+      22.3815052413029
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -1860,8 +1860,8 @@
     "name": "ROOGRAHU SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.9972265,
-      22.8208051
+      58.99972382472675,
+      22.819022156007403
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -1916,8 +1916,8 @@
     "name": "KALANA SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.9250066,
-      22.0619314
+      58.9199467123978,
+      22.057586566782323
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2000,8 +2000,8 @@
     "name": "VÕRKAIA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.6739449,
-      23.1998536
+      58.68247571496831,
+      23.198758797370793
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2084,8 +2084,8 @@
     "name": "HALDI SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.80869949999999,
-      22.4703107
+      58.806952076597874,
+      22.446811851797356
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2224,8 +2224,8 @@
     "name": "RISTNA LÕUNASADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.92299999999999,
-      22.1005189
+      58.92166086743255,
+      22.06255289395695
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2252,8 +2252,8 @@
     "name": "ROOPA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.2562995,
-      21.9239346
+      58.26326730006585,
+      21.873827533691543
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2476,8 +2476,8 @@
     "name": "RANNAAUGU SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.5385898,
-      22.2069206
+      58.54532536434771,
+      22.219043842318335
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2560,8 +2560,8 @@
     "name": "SUARU KALASADAM",
     "location": "Pärnu maakond",
     "coordinates": [
-      58.1306348,
-      23.9986906
+      58.14107752311868,
+      24.015984614824013
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2588,8 +2588,8 @@
     "name": "RÄLBY SADAM",
     "location": "Lääne maakond",
     "coordinates": [
-      59.00992780000001,
-      23.2838859
+      59.025715675105985,
+      23.277143300727463
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2728,8 +2728,8 @@
     "name": "MURATSI SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.2302762,
-      22.5760898
+      58.230389667099594,
+      22.575831463546947
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2756,8 +2756,8 @@
     "name": "TORI JÕESADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.2466379,
-      22.4669875
+      58.245886548353305,
+      22.467679256723216
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2812,8 +2812,8 @@
     "name": "KASSARIOTSA SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.7899646,
-      22.8251612
+      58.78134285116765,
+      22.84932573879327
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2840,8 +2840,8 @@
     "name": "TAALIKU SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.6080815,
-      22.9540249
+      58.60419234080926,
+      22.97888690013703
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2924,8 +2924,8 @@
     "name": "VARESE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.5745641,
-      22.3979971
+      58.57447335160411,
+      22.399202350590063
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -2952,8 +2952,8 @@
     "name": "ABAJA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.3696637,
-      22.0181579
+      58.36938736593679,
+      22.01689148827335
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3064,8 +3064,8 @@
     "name": "VALMERANNA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.49620580000001,
-      23.2325265
+      58.49668772855224,
+      23.233283609424635
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3092,8 +3092,8 @@
     "name": "MEREMÄE SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.84468620000001,
-      22.9373696
+      58.827722406684835,
+      22.94929157869701
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3120,8 +3120,8 @@
     "name": "AHOI JÕESADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.22565530000001,
-      22.3821256
+      58.225771484720006,
+      22.382422628013053
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3176,8 +3176,8 @@
     "name": "TULETORNI KAI",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.7874363,
-      22.7818914
+      58.789374519254764,
+      22.771203367080076
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3344,8 +3344,8 @@
     "name": "MÄNNIKU SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.7874363,
-      22.7818914
+      58.78608590230018,
+      22.77686859474286
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3372,8 +3372,8 @@
     "name": "PAPISSAARE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.3598884,
-      21.985745
+      58.359950228367275,
+      21.985874150886424
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3400,8 +3400,8 @@
     "name": "KESSE-JAANI SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.6314913,
-      23.4294849
+      58.63182538532375,
+      23.443455985247624
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3512,8 +3512,8 @@
     "name": "UNGUMA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.4605449,
-      23.1471808
+      58.460365166683424,
+      23.146986403026737
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3540,8 +3540,8 @@
     "name": "SVIBY SADAM",
     "location": "Lääne maakond",
     "coordinates": [
-      58.970049,
-      23.3125166
+      58.971306711840775,
+      23.31288092166234
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3596,8 +3596,8 @@
     "name": "SAAREMAA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.5364171,
-      22.2356901
+      58.53618451842988,
+      22.238451896147108
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3652,8 +3652,8 @@
     "name": "ORJAKU SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.789072,
-      22.772354
+      58.78875184646206,
+      22.771536453302517
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3904,8 +3904,8 @@
     "name": "PAE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.48191479999999,
-      23.2544376
+      58.49131925700116,
+      23.268490170781323
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -3988,8 +3988,8 @@
     "name": "LÕMALA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.1813927,
-      22.1277892
+      58.17286388235762,
+      22.119335565707047
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -4016,8 +4016,8 @@
     "name": "KUNGLA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.3624992,
-      22.9544315
+      58.363062455363405,
+      22.95448957721547
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -4072,8 +4072,8 @@
     "name": "RUHVE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.37754859999999,
-      23.0389975
+      58.37778694035379,
+      23.039960672663877
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -4212,8 +4212,8 @@
     "name": "TRIIGI SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.5860251,
-      22.7029971
+      58.59162845433841,
+      22.717430403041075
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -4240,8 +4240,8 @@
     "name": "SÕRU JAHISADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.69899,
-      22.5249498
+      58.69425158708312,
+      22.523211766635303
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -4324,8 +4324,8 @@
     "name": "UISUSADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.55840529999999,
-      23.0903857
+      58.560141628008886,
+      23.088235290479798
     ],
     "hasStation": true,
     "stationType": "FuelDock",
@@ -4400,8 +4400,8 @@
     "name": "ATLA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.30199939999999,
-      21.8940655
+      58.30182561400056,
+      21.89417462777699
     ],
     "hasStation": false
   },
@@ -4450,8 +4450,8 @@
     "name": "HIIESSAARE SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      59.00218570000001,
-      22.8419739
+      59.00219377023878,
+      22.84236244766205
     ],
     "hasStation": false
   },
@@ -4500,8 +4500,8 @@
     "name": "KAKRI KALASADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.97790860000001,
-      22.8975891
+      58.97625603209905,
+      22.906171653353994
     ],
     "hasStation": false
   },
@@ -4510,8 +4510,8 @@
     "name": "KALANA JAHISADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.9210205,
-      22.0567145
+      58.921752249722424,
+      22.05812188152198
     ],
     "hasStation": false
   },
@@ -4540,8 +4540,8 @@
     "name": "KALDU SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.454343,
-      23.2690089
+      58.45409024759508,
+      23.268570985854836
     ],
     "hasStation": false
   },
@@ -4570,8 +4570,8 @@
     "name": "KASSARI SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.7899646,
-      22.8251612
+      58.78206296922745,
+      22.8497978117697
     ],
     "hasStation": false
   },
@@ -4610,8 +4610,8 @@
     "name": "KIHNU SADAM",
     "location": "Pärnu maakond",
     "coordinates": [
-      58.1405812,
-      24.0170308
+      58.14123325518436,
+      24.02088792334366
     ],
     "hasStation": false
   },
@@ -4620,8 +4620,8 @@
     "name": "KIRDERANNA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.6193,
-      22.869
+      58.62095579164729,
+      22.864040247367672
     ],
     "hasStation": false
   },
@@ -4630,8 +4630,8 @@
     "name": "KÕRGESSAARE SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.9895309,
-      22.4668674
+      58.990071656325064,
+      22.466397377637612
     ],
     "hasStation": false
   },
@@ -4700,8 +4700,8 @@
     "name": "LEHTMA KALURISADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      59.0688713,
-      22.6941507
+      59.06882085554219,
+      22.696219278375228
     ],
     "hasStation": false
   },
@@ -4710,8 +4710,8 @@
     "name": "LEHTMA SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      59.06908619999999,
-      22.6962279
+      59.06761035561787,
+      22.701143728235156
     ],
     "hasStation": false
   },
@@ -4750,8 +4750,8 @@
     "name": "LÕPESUU SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.48191479999999,
-      23.2544376
+      58.48967911640937,
+      23.273795518412854
     ],
     "hasStation": false
   },
@@ -4900,8 +4900,8 @@
     "name": "ORISSAARE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.56267599999999,
-      23.0885419
+      58.562676613132034,
+      23.092617941450893
     ],
     "hasStation": false
   },
@@ -5040,8 +5040,8 @@
     "name": "SALINÕMME SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.8269616,
-      22.9510403
+      58.8270809846774,
+      22.95055220122218
     ],
     "hasStation": false
   },
@@ -5080,8 +5080,8 @@
     "name": "SIGATSUARU VÄIKESADAM",
     "location": "Pärnu maakond",
     "coordinates": [
-      58.1494195,
-      23.9955638
+      58.15445383926815,
+      24.002310626327155
     ],
     "hasStation": false
   },
@@ -5090,8 +5090,8 @@
     "name": "SITME SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.5064632,
-      23.1931691
+      58.51088849396052,
+      23.199316307192024
     ],
     "hasStation": false
   },
@@ -5180,8 +5180,8 @@
     "name": "TURJA SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.334369,
-      22.9187413
+      58.3327473718112,
+      22.93243528887582
     ],
     "hasStation": false
   },
@@ -5200,8 +5200,8 @@
     "name": "TÄRKMA SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.6956572,
-      22.6003218
+      58.69332616544748,
+      22.609981401097386
     ],
     "hasStation": false
   },
@@ -5220,8 +5220,8 @@
     "name": "VAHTREPA SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.88914189999999,
-      23.0073392
+      58.88560138747144,
+      23.02869308620697
     ],
     "hasStation": false
   },
@@ -5280,8 +5280,8 @@
     "name": "VEERE SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.46159979999999,
-      22.0499261
+      58.4616643503602,
+      22.05045075745465
     ],
     "hasStation": false
   },
@@ -5290,8 +5290,8 @@
     "name": "VEERE VANASADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.4606057,
-      22.0395944
+      58.460906732883764,
+      22.04877742773411
     ],
     "hasStation": false
   },
@@ -5330,8 +5330,8 @@
     "name": "VIKATI SADAM",
     "location": "Saare maakond",
     "coordinates": [
-      58.37187619999999,
-      21.8620961
+      58.37183486965951,
+      21.86242812338169
     ],
     "hasStation": false
   },
@@ -5370,8 +5370,8 @@
     "name": "VÄRSSU SADAM",
     "location": "Hiiu maakond",
     "coordinates": [
-      58.9319788,
-      22.9528371
+      58.933159290586694,
+      22.955026035777763
     ],
     "hasStation": false
   },

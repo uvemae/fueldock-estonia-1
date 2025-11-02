@@ -1,56 +1,58 @@
 <template>
-  <div class="detail-page">
-    <header class="header">
-      <button @click="$emit('back')" class="back-btn">← Back</button>
-      <h2>{{ station.name }}</h2>
-    </header>
+  <div class="modal-overlay" @click="$emit('back')">
+    <div class="modal-content" @click.stop>
+      <header class="header">
+        <h2>{{ station.name }}</h2>
+        <button @click="$emit('back')" class="close-btn">✕</button>
+      </header>
 
-    <div class="content">
-      <!-- Station info -->
-      <div class="info-card">
-        <div class="info-row">
-          <span class="label">Provider:</span>
-          <span class="value">⛽ {{ station.stationType }}</span>
+      <div class="content">
+        <!-- Station info -->
+        <div class="info-card">
+          <div class="info-row">
+            <span class="label">Provider:</span>
+            <span class="value">⛽ {{ station.stationType }}</span>
+          </div>
+          <div class="info-row">
+            <span class="label">Location:</span>
+            <span class="value">📍 {{ station.location }}</span>
+          </div>
+          <div class="info-row">
+            <span class="label">Status:</span>
+            <span class="value" :class="statusClass">{{ statusText }}</span>
+          </div>
+          <div class="info-row">
+            <span class="label">Fuel Level:</span>
+            <span class="value">{{ fuelAmount }}L / {{ station.capacity }}L</span>
+          </div>
         </div>
-        <div class="info-row">
-          <span class="label">Location:</span>
-          <span class="value">📍 {{ station.location }}</span>
+
+        <!-- Fuel prices -->
+        <div class="prices-card">
+          <h3>Fuel Prices</h3>
+          <div v-for="(fuel, type) in station.fuels" :key="type" class="price-row">
+            <span class="fuel-type">{{ type.toUpperCase() }}</span>
+            <span class="price">{{ fuel.price.toFixed(2) }}€/L</span>
+          </div>
         </div>
-        <div class="info-row">
-          <span class="label">Status:</span>
-          <span class="value" :class="statusClass">{{ statusText }}</span>
+
+        <!-- Additional info -->
+        <div class="info-card">
+          <div class="info-row">
+            <span class="label">Hours:</span>
+            <span class="value">⏰ {{ station.hours }}</span>
+          </div>
+          <div class="info-row">
+            <span class="label">Payment:</span>
+            <span class="value">💳 {{ station.payment.join(', ') }}</span>
+          </div>
         </div>
-        <div class="info-row">
-          <span class="label">Fuel Level:</span>
-          <span class="value">{{ fuelAmount }}L / {{ station.capacity }}L</span>
-        </div>
+
+        <!-- Action button -->
+        <button @click="$emit('pay', station)" class="fuel-btn">
+          START FUELING
+        </button>
       </div>
-
-      <!-- Fuel prices -->
-      <div class="prices-card">
-        <h3>Fuel Prices</h3>
-        <div v-for="(fuel, type) in station.fuels" :key="type" class="price-row">
-          <span class="fuel-type">{{ type.toUpperCase() }}</span>
-          <span class="price">{{ fuel.price.toFixed(2) }}€/L</span>
-        </div>
-      </div>
-
-      <!-- Additional info -->
-      <div class="info-card">
-        <div class="info-row">
-          <span class="label">Hours:</span>
-          <span class="value">⏰ {{ station.hours }}</span>
-        </div>
-        <div class="info-row">
-          <span class="label">Payment:</span>
-          <span class="value">💳 {{ station.payment.join(', ') }}</span>
-        </div>
-      </div>
-
-      <!-- Action button -->
-      <button @click="$emit('pay', station)" class="fuel-btn">
-        START FUELING
-      </button>
     </div>
   </div>
 </template>
@@ -84,41 +86,109 @@ const statusClass = computed(() => {
 </script>
 
 <style scoped>
-.detail-page {
-  height: 100%;
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1500;
+  padding: 1rem;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  background: white;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
   overflow-y: auto;
-  background: #f3f4f6;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease;
+}
+
+/* Hide scrollbar */
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .header {
-  background: white;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #1e40af;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 16px 16px 0 0;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-.back-btn {
-  padding: 0.5rem 1rem;
-  background: #e5e7eb;
+.header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.close-btn {
+  background: rgba(255, 255, 255, 0.2);
   border: none;
+  color: white;
+  font-size: 24px;
+  width: 36px;
+  height: 36px;
   border-radius: 8px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .content {
-  padding: 1rem;
-  max-width: 600px;
-  margin: 0 auto;
+  padding: 1.5rem;
 }
 
 .info-card, .prices-card {
-  background: white;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .info-row, .price-row {
