@@ -1,6 +1,6 @@
 <template>
   <div class="map-container">
-    <div class="search-container">
+    <div v-if="!guestMode" class="search-container">
       <div class="search-bar">
         <input
             ref="searchInput"
@@ -46,19 +46,28 @@
       </button>
     </div>
 
-    <!-- SAVE COORDINATES BUTTON (only visible in EDIT_MODE) -->
-    <button
-        v-if="EDIT_MODE"
-        @click="saveCoordinates"
-        class="save-coordinates-btn"
-        title="Save updated coordinates"
-    >
-      💾 Save Coordinates
-    </button>
+    <!-- EDIT MODE BUTTONS (only visible in EDIT_MODE and not guest mode) -->
+    <div v-if="EDIT_MODE && !guestMode" class="edit-buttons">
+      <button
+          @click="undoLastMove"
+          :disabled="!lastDraggedStation"
+          class="undo-btn"
+          title="Undo last marker move"
+      >
+        ↶
+      </button>
+      <button
+          @click="saveCoordinates"
+          class="save-coordinates-btn"
+          title="Save updated coordinates"
+      >
+        💾 Save Coordinates
+      </button>
+    </div>
 
     <div ref="mapRef" class="map"></div>
 
-    <div class="legend">
+    <div v-if="!guestMode" class="legend">
       <div><span class="dot green"></span> Fuel >20%</div>
       <div><span class="dot yellow"></span> Fuel <20%</div>
       <div><span class="dot red"></span> No station</div>
@@ -79,6 +88,13 @@ import stationsData from '../data/stations.json'
 // EDIT MODE TOGGLE - SET TO false FOR PRODUCTION
 const EDIT_MODE = true  // Toggle this to enable/disable dragging
 
+const props = defineProps({
+  guestMode: {
+    type: Boolean,
+    default: false
+  }
+})
+
 const emit = defineEmits(['station-click'])
 
 // Refs
@@ -88,6 +104,7 @@ const searchQuery = ref('')
 const showDropdown = ref(false)
 const selectedMarker = ref(null)
 const saveNotification = ref('')
+const lastDraggedStation = ref(null)
 
 // Map related
 let map = null
@@ -166,8 +183,8 @@ function initializeMap() {
 
   markerLayerGroup = L.layerGroup().addTo(map)
 
-  // Add coordinate display for edit mode
-  if (EDIT_MODE) {
+  // Add coordinate display for edit mode (not in guest mode)
+  if (EDIT_MODE && !props.guestMode) {
     // Add red border to map container
     mapRef.value.style.border = '4px solid red'
 
@@ -209,11 +226,11 @@ function createMarker(station) {
 
   const markerOptions = {
     icon,
-    draggable: EDIT_MODE  // Enable dragging in edit mode
+    draggable: EDIT_MODE && !props.guestMode  // Enable dragging in edit mode but not guest mode
   }
 
   // Add hand cursor for draggable markers
-  if (EDIT_MODE) {
+  if (EDIT_MODE && !props.guestMode) {
     markerOptions.autoPan = true
     markerOptions.autoPanPadding = [50, 50]
   }
@@ -221,8 +238,8 @@ function createMarker(station) {
   const marker = L.marker(station.coordinates, markerOptions)
       .on('click', () => handleMarkerClick(station))
 
-  // Add drag handlers for edit mode
-  if (EDIT_MODE) {
+  // Add drag handlers for edit mode (not in guest mode)
+  if (EDIT_MODE && !props.guestMode) {
     marker.on('dragstart', function(e) {
       const coordDiv = document.querySelector('.coordinate-display')
       if (coordDiv) {
@@ -255,6 +272,13 @@ function createMarker(station) {
       // Update the station data in updatedStations
       const stationIndex = updatedStations.findIndex(s => s.id === station.id)
       if (stationIndex !== -1) {
+        // Store previous coordinates for undo
+        lastDraggedStation.value = {
+          id: station.id,
+          previousCoordinates: [...updatedStations[stationIndex].coordinates],
+          newCoordinates: [latlng.lat, latlng.lng]
+        }
+
         updatedStations[stationIndex].coordinates = [latlng.lat, latlng.lng]
 
         // Also update the station reference in markers array
@@ -276,17 +300,33 @@ function createMarker(station) {
         setTimeout(() => {
           coordDiv.style.display = 'none'
           coordDiv.style.background = 'rgba(255, 255, 255, 0.95)'
-        }, 3000)
+        }, 5000)
       }
     })
 
-    // Change cursor to hand
+    // Change cursor to hand and show coordinates on hover
     marker.on('mouseover', function(e) {
       mapRef.value.style.cursor = 'grab'
+      const latlng = e.target.getLatLng()
+      const coordDiv = document.querySelector('.coordinate-display')
+      if (coordDiv) {
+        const currentStation = updatedStations.find(s => s.id === station.id)
+        coordDiv.style.display = 'block'
+        coordDiv.style.background = 'rgba(255, 255, 255, 0.95)'
+        coordDiv.innerHTML = `
+          <strong>${currentStation ? currentStation.name : station.name}</strong><br>
+          Lat: ${latlng.lat.toFixed(6)}<br>
+          Lng: ${latlng.lng.toFixed(6)}
+        `
+      }
     })
 
     marker.on('mouseout', function(e) {
       mapRef.value.style.cursor = ''
+      const coordDiv = document.querySelector('.coordinate-display')
+      if (coordDiv) {
+        coordDiv.style.display = 'none'
+      }
     })
   }
 
@@ -322,24 +362,65 @@ function clearMarkers() {
   markers = []
 }
 
-// Save coordinates function
-function saveCoordinates() {
-  const jsonContent = JSON.stringify(updatedStations, null, 2)
-  const blob = new Blob([jsonContent], { type: 'application/json' })
-  const url = URL.createObjectURL(blob)
-  const link = document.createElement('a')
-  link.href = url
-  link.download = 'stations.json'
-  document.body.appendChild(link)
-  link.click()
-  document.body.removeChild(link)
-  URL.revokeObjectURL(url)
+// Undo last marker move
+function undoLastMove() {
+  if (!lastDraggedStation.value) return
 
-  // Show notification
-  saveNotification.value = '✅ stations.json downloaded! Replace the file in src/data/'
-  setTimeout(() => {
-    saveNotification.value = ''
-  }, 4000)
+  const stationIndex = updatedStations.findIndex(s => s.id === lastDraggedStation.value.id)
+  if (stationIndex !== -1) {
+    // Restore previous coordinates
+    updatedStations[stationIndex].coordinates = [...lastDraggedStation.value.previousCoordinates]
+
+    // Update marker position
+    const markerObj = markers.find(m => m.station.id === lastDraggedStation.value.id)
+    if (markerObj) {
+      markerObj.station.coordinates = [...lastDraggedStation.value.previousCoordinates]
+      markerObj.marker.setLatLng(lastDraggedStation.value.previousCoordinates)
+    }
+
+    // Show notification
+    saveNotification.value = '↶ Last move undone'
+    setTimeout(() => {
+      saveNotification.value = ''
+    }, 2000)
+
+    // Clear undo history
+    lastDraggedStation.value = null
+  }
+}
+
+// Save coordinates function
+async function saveCoordinates() {
+  try {
+    const response = await fetch('http://localhost:3001/api/save-stations', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(updatedStations)
+    })
+
+    const result = await response.json()
+
+    if (result.success) {
+      // Show success notification
+      saveNotification.value = '✅ Saved! stations.json updated successfully'
+      setTimeout(() => {
+        saveNotification.value = ''
+      }, 3000)
+
+      // Clear undo history after save
+      lastDraggedStation.value = null
+    } else {
+      throw new Error(result.message)
+    }
+  } catch (error) {
+    console.error('Save error:', error)
+    saveNotification.value = '❌ Error saving file. Is the save server running?'
+    setTimeout(() => {
+      saveNotification.value = ''
+    }, 5000)
+  }
 }
 
 // Search functionality
@@ -438,6 +519,9 @@ function updateMarkersVisibility() {
 
 // Helper functions
 function getMarkerColor(station) {
+  // In guest mode, all markers are purple
+  if (props.guestMode) return 'purple'
+
   if (!station.hasStation) return 'red'
   if (station.fuelLevel === 0) return 'gray'
   if (station.fuelLevel < 20) return 'yellow'
@@ -449,10 +533,12 @@ function createColoredIcon(color, isSelected = false) {
     green: '#10b981',
     yellow: '#fbbf24',
     gray: '#9ca3af',
-    red: '#ef4444'
+    red: '#ef4444',
+    purple: '#a855f7'
   }
 
-  const baseSize = color === 'red' ? 10 : 20
+  // In guest mode, all markers are small and same size
+  const baseSize = props.guestMode ? 10 : (color === 'red' ? 10 : 20)
   const size = isSelected ? baseSize + 4 : baseSize
   const borderWidth = isSelected ? 4 : 2
 
@@ -545,13 +631,51 @@ function getFuelStatusText(station) {
   color: #374151;
 }
 
+/* EDIT MODE BUTTONS */
+.edit-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* UNDO BUTTON */
+.undo-btn {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.undo-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  box-shadow: 0 6px 16px rgba(245, 158, 11, 0.6);
+  transform: translateY(-2px);
+}
+
+.undo-btn:disabled {
+  background: #d1d5db;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
 /* SAVE COORDINATES BUTTON */
 .save-coordinates-btn {
-  position: absolute;
-  top: 70px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
   padding: 12px 24px;
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: white;
@@ -568,7 +692,7 @@ function getFuelStatusText(station) {
 .save-coordinates-btn:hover {
   background: linear-gradient(135deg, #059669 0%, #047857 100%);
   box-shadow: 0 6px 16px rgba(16, 185, 129, 0.6);
-  transform: translateX(-50%) translateY(-2px);
+  transform: translateY(-2px);
 }
 
 @keyframes pulse-save {
@@ -582,29 +706,29 @@ function getFuelStatusText(station) {
 
 /* SAVE NOTIFICATION */
 .save-notification {
-  position: fixed;
-  top: 140px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: absolute;
+  top: 68px;
+  right: 10px;
   z-index: 2000;
-  padding: 16px 32px;
+  padding: 12px 20px;
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: white;
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   box-shadow: 0 8px 24px rgba(16, 185, 129, 0.4);
   animation: slideDown 0.3s ease;
+  max-width: 300px;
 }
 
 @keyframes slideDown {
   from {
     opacity: 0;
-    transform: translateX(-50%) translateY(-20px);
+    transform: translateY(-10px);
   }
   to {
     opacity: 1;
-    transform: translateX(-50%) translateY(0);
+    transform: translateY(0);
   }
 }
 
