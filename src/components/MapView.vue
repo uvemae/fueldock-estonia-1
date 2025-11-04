@@ -199,10 +199,12 @@ function initializeMap() {
 
   markerLayerGroup = L.layerGroup().addTo(map)
 
-  // Add coordinate display for edit mode (only for admins)
-  if (EDIT_MODE && props.isAdmin && !props.guestMode) {
-    // Add red border to map container
-    mapRef.value.style.border = '4px solid red'
+  // Add coordinate display for authenticated users (not guests)
+  if (!props.guestMode) {
+    // Add red border to map container (only for admins in edit mode)
+    if (EDIT_MODE && props.isAdmin) {
+      mapRef.value.style.border = '4px solid red'
+    }
 
     // Create coordinate display overlay
     coordinateDisplay = L.control({ position: 'bottomleft' })
@@ -334,9 +336,19 @@ function createMarker(station) {
       }
     })
 
-    // Change cursor to hand and show coordinates on hover
+    // Change cursor to hand for dragging (admin only)
     marker.on('mouseover', function(e) {
       mapRef.value.style.cursor = 'grab'
+    })
+
+    marker.on('mouseout', function(e) {
+      mapRef.value.style.cursor = ''
+    })
+  }
+
+  // Show coordinates on hover for all authenticated users (not guests)
+  if (!props.guestMode) {
+    marker.on('mouseover', function(e) {
       const latlng = e.target.getLatLng()
       const coordDiv = document.querySelector('.coordinate-display')
       if (coordDiv) {
@@ -352,7 +364,6 @@ function createMarker(station) {
     })
 
     marker.on('mouseout', function(e) {
-      mapRef.value.style.cursor = ''
       const coordDiv = document.querySelector('.coordinate-display')
       if (coordDiv) {
         coordDiv.style.display = 'none'

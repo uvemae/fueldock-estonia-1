@@ -16,9 +16,10 @@
         </h1>
         <div class="header-actions">
           <button
-            v-if="!isGuestMode && !user"
+            v-if="!isGuestMode && user"
             @click="currentView = 'history'"
-            class="text-6xl leading-none"
+            class="history-btn"
+            title="Fuel History"
           >
             📋
           </button>
@@ -238,6 +239,26 @@ function completePayment(data) {
   border: 1px solid rgba(251, 191, 36, 0.5);
   border-radius: 12px;
   font-weight: 600;
+}
+
+.history-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
 }
 
 .admin-btn {

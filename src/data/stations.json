@@ -9,7 +9,7 @@
     ],
     "hasStation": true,
     "stationType": "Olerex",
-    "fuelLevel": 23,
+    "fuelLevel": 65,
     "capacity": 3000,
     "fuels": {
       "diesel": {
@@ -41,7 +41,7 @@
     ],
     "hasStation": true,
     "stationType": "Olerex",
-    "fuelLevel": 1,
+    "fuelLevel": 75,
     "capacity": 8000,
     "fuels": {
       "diesel": {
@@ -363,7 +363,7 @@
     ],
     "hasStation": true,
     "stationType": "Other",
-    "fuelLevel": 9,
+    "fuelLevel": 29,
     "capacity": 8000,
     "fuels": {
       "diesel": {
@@ -620,7 +620,7 @@
     ],
     "hasStation": true,
     "stationType": "Other",
-    "fuelLevel": 12,
+    "fuelLevel": 85,
     "capacity": 8000,
     "fuels": {
       "diesel": {
@@ -652,7 +652,7 @@
     ],
     "hasStation": true,
     "stationType": "Other",
-    "fuelLevel": 11,
+    "fuelLevel": 65,
     "capacity": 5000,
     "fuels": {
       "diesel": {
@@ -4355,7 +4355,7 @@
       58.26959033387641,
       24.1929459655635
     ],
-    "hasStation": true,
+    "hasStation": false,
     "stationType": "FuelDock",
     "fuelLevel": 73,
     "capacity": 3000,
