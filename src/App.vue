@@ -17,11 +17,35 @@
         <div class="header-actions">
           <button
             v-if="!isGuestMode && user"
+            @click="currentView = 'favorites'"
+            class="favorites-btn"
+            title="My Favorites"
+          >
+            ⭐
+          </button>
+          <button
+            v-if="!isGuestMode && user"
             @click="currentView = 'history'"
             class="history-btn"
             title="Fuel History"
           >
             📋
+          </button>
+          <button
+            v-if="!isGuestMode && user && currentView === 'map'"
+            @click="toggleFilters"
+            class="filters-btn"
+            title="Filters"
+          >
+            🎚️
+          </button>
+          <button
+            v-if="!isGuestMode && user && currentView === 'map'"
+            @click="toggleMapType"
+            class="map-type-btn-header"
+            title="Map Type"
+          >
+            🗺️
           </button>
           <button
             v-if="isAdmin && !isGuestMode"
@@ -52,8 +76,15 @@
     </header>
 
     <main class="h-[calc(100vh-80px)]">
+      <FavoritesScreen
+        v-if="currentView === 'favorites'"
+        @back="backToMap"
+        @view-station="showStation"
+        @show-on-map="showFavoritesOnMap"
+      />
+
       <HistoryScreen
-        v-if="currentView === 'history'"
+        v-else-if="currentView === 'history'"
         @back="backToMap"
       />
 
@@ -74,7 +105,11 @@
         ref="mapViewRef"
         :guest-mode="isGuestMode"
         :is-admin="isAdmin"
+        :show-filters-from-parent="showFiltersPanel"
+        :show-map-type-from-parent="showMapTypePanel"
         @station-click="showStation"
+        @close-filters="showFiltersPanel = false"
+        @close-map-type="showMapTypePanel = false"
       />
     </main>
 
@@ -121,6 +156,7 @@ import MapView from './components/MapView.vue'
 import StationDetail from './components/StationDetail.vue'
 import PaymentScreen from './components/PaymentScreen.vue'
 import HistoryScreen from './components/HistoryScreen.vue'
+import FavoritesScreen from './components/FavoritesScreen.vue'
 import AdminPanel from './components/AdminPanel.vue'
 
 const { user, loading: authLoading, isAdmin, checkUser, signOut, initAuthListener } = useAuth()
@@ -132,6 +168,8 @@ const paymentStation = ref(null)
 const mapViewRef = ref(null)
 const isGuestMode = ref(false)
 const showLoginPrompt = ref(false)
+const showFiltersPanel = ref(false)
+const showMapTypePanel = ref(false)
 
 // Initialize auth
 onMounted(async () => {
@@ -143,7 +181,7 @@ onMounted(async () => {
     }
   }, 100)
 
-  // Check authentication status
+  // Check authentication status (with built-in 2-second delay)
   await checkUser()
   initAuthListener()
 })
@@ -192,12 +230,13 @@ function backToMap() {
   paymentStation.value = null
 }
 
-function backToMapFromStation() {
+async function backToMapFromStation() {
   selectedStation.value = null
-  // Restore the map view when returning from station details
+  // Restore the map view and refresh favorites when returning from station details
   if (mapViewRef.value) {
-    setTimeout(() => {
+    setTimeout(async () => {
       mapViewRef.value.restoreMapView()
+      await mapViewRef.value.refreshFavorites()
     }, 50)
   }
 }
@@ -207,6 +246,24 @@ function completePayment(data) {
   history.unshift({...data, date: new Date().toISOString()})
   localStorage.setItem('fuelHistory', JSON.stringify(history))
   backToMap()
+}
+
+async function showFavoritesOnMap(favorites) {
+  currentView.value = 'map'
+  // Wait for map to be visible, then refresh favorites
+  if (mapViewRef.value) {
+    setTimeout(async () => {
+      await mapViewRef.value.refreshFavorites()
+    }, 50)
+  }
+}
+
+function toggleFilters() {
+  showFiltersPanel.value = !showFiltersPanel.value
+}
+
+function toggleMapType() {
+  showMapTypePanel.value = !showMapTypePanel.value
 }
 </script>
 
@@ -241,6 +298,26 @@ function completePayment(data) {
   font-weight: 600;
 }
 
+.favorites-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorites-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
 .history-btn {
   background: rgba(255, 255, 255, 0.2);
   border: none;
@@ -257,6 +334,46 @@ function completePayment(data) {
 }
 
 .history-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.filters-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filters-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.map-type-btn-header {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-type-btn-header:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.05);
 }

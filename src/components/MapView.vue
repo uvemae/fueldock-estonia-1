@@ -46,6 +46,242 @@
       </button>
     </div>
 
+    <!-- Active Filters Display -->
+    <div v-if="!guestMode && activeFiltersCount > 0" class="active-filters">
+      <span class="active-filters-label">Active:</span>
+      <span v-for="(filter, index) in activeFiltersList" :key="index" class="filter-chip">
+        {{ filter.label }}
+        <button @click="removeFilter(filter.type, filter.value)" class="chip-remove">✕</button>
+      </span>
+      <button @click="clearAllFilters" class="clear-all-btn">Clear all</button>
+    </div>
+
+    <!-- Results Counter -->
+    <div v-if="!guestMode && activeFiltersCount > 0" class="results-counter">
+      Showing {{ visibleStationsCount }} of {{ totalStationsCount }} stations
+    </div>
+
+    <!-- Filter Panel (Slide from right) -->
+    <div v-if="showFiltersFromParent" class="filter-overlay" @click="emit('close-filters')">
+      <div class="filter-panel" @click.stop>
+        <div class="filter-header">
+          <h3>🎚️ Filters</h3>
+          <button @click="emit('close-filters')" class="close-panel-btn">✕</button>
+        </div>
+
+        <div class="filter-content">
+          <!-- Distance Filter -->
+          <div class="filter-section">
+            <h4>🎯 Distance</h4>
+            <div class="radio-group">
+              <label>
+                <input type="radio" v-model="filters.distance" value="any" />
+                Any distance
+              </label>
+              <label>
+                <input type="radio" v-model="filters.distance" value="10" />
+                Within 10 km
+              </label>
+              <label>
+                <input type="radio" v-model="filters.distance" value="25" />
+                Within 25 km
+              </label>
+              <label>
+                <input type="radio" v-model="filters.distance" value="50" />
+                Within 50 km
+              </label>
+            </div>
+          </div>
+
+          <!-- Fuel Type Filter -->
+          <div class="filter-section">
+            <h4>⛽ Fuel Type</h4>
+            <div class="checkbox-group">
+              <label>
+                <input type="checkbox" v-model="filters.fuelTypes" value="diesel" />
+                Diesel
+              </label>
+              <label>
+                <input type="checkbox" v-model="filters.fuelTypes" value="e95" />
+                E95
+              </label>
+              <label>
+                <input type="checkbox" v-model="filters.fuelTypes" value="e98" />
+                E98
+              </label>
+            </div>
+          </div>
+
+          <!-- Price Range Filter -->
+          <div class="filter-section">
+            <h4>💰 Price Range</h4>
+            <div class="price-range">
+              <input
+                type="range"
+                v-model="filters.maxPrice"
+                min="1.0"
+                max="3.0"
+                step="0.1"
+                class="price-slider"
+              />
+              <div class="price-display">
+                Max: {{ filters.maxPrice }}€/L
+              </div>
+            </div>
+          </div>
+
+          <!-- Fuel Level Filter -->
+          <div class="filter-section">
+            <h4>📊 Fuel Level</h4>
+            <div class="checkbox-group">
+              <label>
+                <input type="checkbox" v-model="filters.fuelLevels" value="available" />
+                Available (>20%)
+              </label>
+              <label>
+                <input type="checkbox" v-model="filters.fuelLevels" value="low" />
+                Low (<20%)
+              </label>
+              <label>
+                <input type="checkbox" v-model="filters.fuelLevels" value="empty" />
+                Empty (0%)
+              </label>
+            </div>
+          </div>
+
+          <!-- Provider Filter -->
+          <div class="filter-section">
+            <h4>🏢 Provider</h4>
+            <div class="checkbox-group">
+              <label>
+                <input type="checkbox" v-model="filters.providers" value="Olerex" />
+                Olerex
+              </label>
+              <label>
+                <input type="checkbox" v-model="filters.providers" value="Circle K" />
+                Circle K
+              </label>
+              <label>
+                <input type="checkbox" v-model="filters.providers" value="Alexela" />
+                Alexela
+              </label>
+              <label>
+                <input type="checkbox" v-model="filters.providers" value="Other" />
+                Other
+              </label>
+            </div>
+          </div>
+
+          <!-- Has Station Filter -->
+          <div class="filter-section">
+            <h4>⛽ Station Status</h4>
+            <div class="checkbox-group">
+              <label>
+                <input type="checkbox" v-model="filters.hasStation" />
+                Only show active fuel stations
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-actions">
+          <button @click="clearAllFilters" class="clear-filters-btn">Clear All</button>
+          <button @click="applyFilters" class="apply-filters-btn">
+            Apply ({{ getFilteredCount() }})
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map Type Panel (Slide from right) -->
+    <div v-if="showMapTypeFromParent" class="filter-overlay" @click="emit('close-map-type')">
+      <div class="map-type-panel" @click.stop>
+        <div class="filter-header">
+          <h3>🗺️ Map Type</h3>
+          <button @click="emit('close-map-type')" class="close-panel-btn">✕</button>
+        </div>
+
+        <div class="map-type-content">
+          <!-- Map Type Options -->
+          <div class="map-type-options">
+            <div
+              @click="switchMapType('street')"
+              class="map-type-option"
+              :class="{ active: currentMapType === 'street' }"
+            >
+              <div class="map-type-icon">🛣️</div>
+              <div class="map-type-info">
+                <h4>Street Map</h4>
+                <p>Standard OpenStreetMap view</p>
+              </div>
+              <div v-if="currentMapType === 'street'" class="active-indicator">✓</div>
+            </div>
+
+            <div
+              @click="switchMapType('satellite')"
+              class="map-type-option"
+              :class="{ active: currentMapType === 'satellite' }"
+            >
+              <div class="map-type-icon">🛰️</div>
+              <div class="map-type-info">
+                <h4>Satellite</h4>
+                <p>Aerial imagery view</p>
+              </div>
+              <div v-if="currentMapType === 'satellite'" class="active-indicator">✓</div>
+            </div>
+
+            <div
+              @click="switchMapType('nautical')"
+              class="map-type-option"
+              :class="{ active: currentMapType === 'nautical' }"
+            >
+              <div class="map-type-icon">⚓</div>
+              <div class="map-type-info">
+                <h4>Nautical</h4>
+                <p>Light nautical chart with sea marks</p>
+              </div>
+              <div v-if="currentMapType === 'nautical'" class="active-indicator">✓</div>
+            </div>
+
+            <div
+              @click="switchMapType('nautical-dark')"
+              class="map-type-option"
+              :class="{ active: currentMapType === 'nautical-dark' }"
+            >
+              <div class="map-type-icon">🧭</div>
+              <div class="map-type-info">
+                <h4>Nautical+</h4>
+                <p>Enhanced nautical with better contrast</p>
+              </div>
+              <div v-if="currentMapType === 'nautical-dark'" class="active-indicator">✓</div>
+            </div>
+
+            <div
+              @click="switchMapType('terrain')"
+              class="map-type-option"
+              :class="{ active: currentMapType === 'terrain' }"
+            >
+              <div class="map-type-icon">⛰️</div>
+              <div class="map-type-info">
+                <h4>Terrain</h4>
+                <p>Topographic map with elevation</p>
+              </div>
+              <div v-if="currentMapType === 'terrain'" class="active-indicator">✓</div>
+            </div>
+          </div>
+
+          <!-- Sea Marks Toggle -->
+          <div v-if="currentMapType !== 'nautical' && currentMapType !== 'nautical-dark'" class="sea-marks-toggle">
+            <label class="toggle-label">
+              <input type="checkbox" v-model="showSeaMarks" @change="toggleSeaMarks" />
+              <span>Show Nautical Markers</span>
+              <small>Overlay sea marks on current map</small>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- EDIT MODE BUTTONS (only visible for admins) -->
     <div v-if="EDIT_MODE && isAdmin && !guestMode" class="edit-buttons">
       <button
@@ -92,9 +328,13 @@
 import { ref, onMounted, computed } from 'vue'
 import L from 'leaflet'
 import stationsData from '../data/stations.json'
+import { useAuth } from '../composables/useAuth'
+import { supabase } from '../supabase'
 
 // EDIT MODE TOGGLE - SET TO false FOR PRODUCTION
 const EDIT_MODE = true  // Toggle this to enable/disable dragging
+
+const { user } = useAuth()
 
 const props = defineProps({
   guestMode: {
@@ -104,10 +344,18 @@ const props = defineProps({
   isAdmin: {
     type: Boolean,
     default: false
+  },
+  showFiltersFromParent: {
+    type: Boolean,
+    default: false
+  },
+  showMapTypeFromParent: {
+    type: Boolean,
+    default: false
   }
 })
 
-const emit = defineEmits(['station-click'])
+const emit = defineEmits(['station-click', 'close-filters', 'close-map-type'])
 
 // Refs
 const mapRef = ref(null)
@@ -117,16 +365,34 @@ const showDropdown = ref(false)
 const selectedMarker = ref(null)
 const saveNotification = ref('')
 const lastDraggedStation = ref(null)
+const userFavorites = ref([])
 
 // Undo/Redo history
 const undoHistory = ref([])
 const redoHistory = ref([])
+
+// Filter
+const filters = ref({
+  distance: 'any',
+  fuelTypes: [],
+  maxPrice: 3.0,
+  fuelLevels: [],
+  providers: [],
+  hasStation: false
+})
+
+// Map type
+const currentMapType = ref('street')
+const showSeaMarks = ref(false)
 
 // Map related
 let map = null
 let markers = []
 let markerLayerGroup = null
 let coordinateDisplay = null
+let baseLayers = {}
+let currentBaseLayer = null
+let seaMarksLayer = null
 
 // Store updated positions
 let updatedStations = JSON.parse(JSON.stringify(stationsData))
@@ -152,10 +418,59 @@ const filteredStations = computed(() => {
       .slice(0, 8) // Limit dropdown results for better UX
 })
 
+// Get user's current position for distance calculations
+const userPosition = ref(null)
+
+// Filter & Sort Computed Properties
+const activeFiltersCount = computed(() => {
+  let count = 0
+  if (filters.value.distance !== 'any') count++
+  if (filters.value.fuelTypes.length > 0) count += filters.value.fuelTypes.length
+  if (filters.value.maxPrice < 3.0) count++
+  if (filters.value.fuelLevels.length > 0) count += filters.value.fuelLevels.length
+  if (filters.value.providers.length > 0) count += filters.value.providers.length
+  if (filters.value.hasStation) count++
+  return count
+})
+
+const activeFiltersList = computed(() => {
+  const list = []
+  if (filters.value.distance !== 'any') {
+    list.push({ label: `Distance <${filters.value.distance}km`, type: 'distance', value: 'any' })
+  }
+  filters.value.fuelTypes.forEach(fuel => {
+    list.push({ label: fuel.toUpperCase(), type: 'fuelTypes', value: fuel })
+  })
+  if (filters.value.maxPrice < 3.0) {
+    list.push({ label: `Price ≤${filters.value.maxPrice}€`, type: 'maxPrice', value: 3.0 })
+  }
+  filters.value.fuelLevels.forEach(level => {
+    const labels = { available: 'Available >20%', low: 'Low <20%', empty: 'Empty' }
+    list.push({ label: labels[level], type: 'fuelLevels', value: level })
+  })
+  filters.value.providers.forEach(provider => {
+    list.push({ label: provider, type: 'providers', value: provider })
+  })
+  if (filters.value.hasStation) {
+    list.push({ label: 'Active stations only', type: 'hasStation', value: false })
+  }
+  return list
+})
+
+const visibleStationsCount = computed(() => {
+  return getFilteredAndSortedStations().length
+})
+
+const totalStationsCount = computed(() => {
+  return updatedStations.length
+})
+
 // Lifecycle
-onMounted(() => {
+onMounted(async () => {
   initializeMap()
   addAllMarkers()
+  getUserLocation()
+  await loadUserFavorites()
 
   // Add export function to window for console access
   if (EDIT_MODE) {
@@ -171,6 +486,53 @@ onMounted(() => {
   }
 })
 
+// Get user's location for distance calculations
+function getUserLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        userPosition.value = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        }
+      },
+      (error) => {
+        console.log('Location access denied:', error)
+        // Use Estonia center as fallback
+        userPosition.value = { lat: 58.5953, lng: 25.0136 }
+      }
+    )
+  } else {
+    userPosition.value = { lat: 58.5953, lng: 25.0136 }
+  }
+}
+
+// Load user's favorites from Supabase
+async function loadUserFavorites() {
+  if (!user.value || props.guestMode) return
+
+  try {
+    const { data, error } = await supabase
+      .from('favorites')
+      .select('station_id')
+      .eq('user_id', user.value.id)
+
+    if (error) {
+      console.error('Error loading favorites:', error)
+      return
+    }
+
+    userFavorites.value = data.map(f => f.station_id)
+  } catch (error) {
+    console.error('Error loading favorites:', error)
+  }
+}
+
+// Check if a station is favorited
+function isFavoriteStation(stationId) {
+  return userFavorites.value.includes(stationId)
+}
+
 // Expose method to restore map view
 function restoreMapView() {
   if (map && lastMapView.center && lastMapView.zoom) {
@@ -181,7 +543,11 @@ function restoreMapView() {
 }
 
 defineExpose({
-  restoreMapView
+  restoreMapView,
+  refreshFavorites: async () => {
+    await loadUserFavorites()
+    addAllMarkers() // Redraw markers with updated favorite status
+  }
 })
 
 // Map initialization
@@ -193,9 +559,38 @@ function initializeMap() {
 
   map = L.map(mapRef.value).setView(savedView[0], savedView[1])
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap'
-  }).addTo(map)
+  // Create base layers
+  baseLayers = {
+    street: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+      maxZoom: 19
+    }),
+    satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '© Esri',
+      maxZoom: 19
+    }),
+    terrain: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenTopoMap',
+      maxZoom: 17
+    }),
+    // CartoDB Voyager - better base for nautical overlay
+    cartoVoyager: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution: '© OpenStreetMap, © CARTO',
+      maxZoom: 19
+    })
+  }
+
+  // OpenSeaMap overlay for nautical marks (can be toggled on any base layer)
+  // Using updated tile server: t1.openseamap.org
+  seaMarksLayer = L.tileLayer('https://t1.openseamap.org/seamark/{z}/{x}/{y}.png', {
+    attribution: '© OpenSeaMap contributors',
+    maxZoom: 18,
+    transparent: true
+  })
+
+  // Add default layer (street)
+  currentBaseLayer = baseLayers.street
+  currentBaseLayer.addTo(map)
 
   markerLayerGroup = L.layerGroup().addTo(map)
 
@@ -226,6 +621,66 @@ function initializeMap() {
   }
 }
 
+// Map type switching
+function switchMapType(type) {
+  if (!map) return
+
+  // ALWAYS remove seamark layer first to prevent ordering issues
+  if (map.hasLayer(seaMarksLayer)) {
+    map.removeLayer(seaMarksLayer)
+  }
+
+  // Remove current base layer
+  if (currentBaseLayer) {
+    map.removeLayer(currentBaseLayer)
+  }
+
+  // For nautical views, use appropriate base map + seamarksLayer
+  if (type === 'nautical') {
+    // Light nautical - street base + seamark overlay
+    currentBaseLayer = baseLayers.street
+    currentBaseLayer.addTo(map)
+    // Re-add seamark layer on top
+    seaMarksLayer.addTo(map)
+    showSeaMarks.value = true
+  } else if (type === 'nautical-dark') {
+    // Dark nautical - Voyager base + seamark overlay (better contrast)
+    currentBaseLayer = baseLayers.cartoVoyager
+    currentBaseLayer.addTo(map)
+    // Re-add seamark layer on top
+    seaMarksLayer.addTo(map)
+    showSeaMarks.value = true
+  } else {
+    // For other types, use the selected base layer
+    if (!baseLayers[type]) return
+
+    currentBaseLayer = baseLayers[type]
+    currentBaseLayer.addTo(map)
+
+    // When switching away from nautical, disable sea marks
+    showSeaMarks.value = false
+    // Sea marks layer already removed at the top of function
+  }
+
+  currentMapType.value = type
+  emit('close-map-type')
+}
+
+// Toggle sea marks overlay
+function toggleSeaMarks() {
+  showSeaMarks.value = !showSeaMarks.value
+
+  if (showSeaMarks.value) {
+    if (!map.hasLayer(seaMarksLayer)) {
+      seaMarksLayer.addTo(map)
+    }
+  } else {
+    if (map.hasLayer(seaMarksLayer)) {
+      map.removeLayer(seaMarksLayer)
+    }
+  }
+}
+
 // Marker management
 function addAllMarkers() {
   clearMarkers()
@@ -240,7 +695,8 @@ function addAllMarkers() {
 
 function createMarker(station) {
   const color = getMarkerColor(station)
-  const icon = createColoredIcon(color, station === selectedMarker.value)
+  const isFavorite = isFavoriteStation(station.id)
+  const icon = createColoredIcon(color, station === selectedMarker.value, isFavorite)
 
   const markerOptions = {
     icon,
@@ -585,19 +1041,151 @@ function clearSearch() {
 }
 
 function updateMarkersVisibility() {
+  const filteredStations = getFilteredAndSortedStations()
+  const filteredIds = new Set(filteredStations.map(s => s.id))
+
   const query = searchQuery.value.toLowerCase()
 
   markers.forEach(({ marker, station }) => {
     // Check in updatedStations for current data
     const currentStation = updatedStations.find(s => s.id === station.id)
-    const matches = !query ||
+
+    // Check if matches search query
+    const matchesSearch = !query ||
         (currentStation && (
             currentStation.name.toLowerCase().includes(query) ||
             currentStation.location.toLowerCase().includes(query)
         ))
 
-    marker.setOpacity(matches ? 1 : 0.3)
+    // Check if passes filters
+    const passesFilters = filteredIds.has(station.id)
+
+    marker.setOpacity(matchesSearch && passesFilters ? 1 : 0.3)
   })
+}
+
+// Filter & Sort Functions
+function calculateDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371 // Radius of Earth in km
+  const dLat = (lat2 - lat1) * Math.PI / 180
+  const dLon = (lon2 - lon1) * Math.PI / 180
+  const a =
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2)
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
+  return R * c
+}
+
+function getFilteredAndSortedStations() {
+  let stations = [...updatedStations]
+
+  // Apply filters
+  if (filters.value.hasStation) {
+    stations = stations.filter(s => s.hasStation)
+  }
+
+  if (filters.value.providers.length > 0) {
+    stations = stations.filter(s => {
+      if (!s.stationType) return filters.value.providers.includes('Other')
+      return filters.value.providers.includes(s.stationType)
+    })
+  }
+
+  if (filters.value.fuelLevels.length > 0) {
+    stations = stations.filter(s => {
+      if (filters.value.fuelLevels.includes('available') && s.fuelLevel >= 20) return true
+      if (filters.value.fuelLevels.includes('low') && s.fuelLevel < 20 && s.fuelLevel > 0) return true
+      if (filters.value.fuelLevels.includes('empty') && s.fuelLevel === 0) return true
+      return false
+    })
+  }
+
+  if (filters.value.fuelTypes.length > 0) {
+    stations = stations.filter(s => {
+      if (!s.fuels) return false
+      return filters.value.fuelTypes.some(type => s.fuels[type]?.available)
+    })
+  }
+
+  if (filters.value.maxPrice < 3.0) {
+    stations = stations.filter(s => {
+      if (!s.fuels) return false
+      const prices = Object.values(s.fuels).map(f => f.price).filter(p => p > 0)
+      return prices.length > 0 && Math.min(...prices) <= filters.value.maxPrice
+    })
+  }
+
+  if (filters.value.distance !== 'any' && userPosition.value) {
+    const maxDist = parseFloat(filters.value.distance)
+    stations = stations.filter(s => {
+      const dist = calculateDistance(
+        userPosition.value.lat,
+        userPosition.value.lng,
+        s.coordinates[0],
+        s.coordinates[1]
+      )
+      return dist <= maxDist
+    })
+  }
+
+  // Sort by distance by default
+  if (userPosition.value) {
+    stations.sort((a, b) => {
+      const distA = calculateDistance(
+        userPosition.value.lat,
+        userPosition.value.lng,
+        a.coordinates[0],
+        a.coordinates[1]
+      )
+      const distB = calculateDistance(
+        userPosition.value.lat,
+        userPosition.value.lng,
+        b.coordinates[0],
+        b.coordinates[1]
+      )
+      return distA - distB
+    })
+  }
+
+  return stations
+}
+
+function getFilteredCount() {
+  return getFilteredAndSortedStations().length
+}
+
+function applyFilters() {
+  emit('close-filters')
+  updateMarkersVisibility()
+}
+
+function clearAllFilters() {
+  filters.value = {
+    distance: 'any',
+    fuelTypes: [],
+    maxPrice: 3.0,
+    fuelLevels: [],
+    providers: [],
+    hasStation: false
+  }
+  updateMarkersVisibility()
+}
+
+function removeFilter(type, value) {
+  if (type === 'distance') {
+    filters.value.distance = value
+  } else if (type === 'maxPrice') {
+    filters.value.maxPrice = value
+  } else if (type === 'hasStation') {
+    filters.value.hasStation = value
+  } else if (Array.isArray(filters.value[type])) {
+    const index = filters.value[type].indexOf(value)
+    if (index > -1) {
+      filters.value[type].splice(index, 1)
+    }
+  }
+  updateMarkersVisibility()
 }
 
 // Helper functions
@@ -611,7 +1199,7 @@ function getMarkerColor(station) {
   return 'green'
 }
 
-function createColoredIcon(color, isSelected = false) {
+function createColoredIcon(color, isSelected = false, isFavorite = false) {
   const colors = {
     green: '#10b981',
     yellow: '#fbbf24',
@@ -627,17 +1215,41 @@ function createColoredIcon(color, isSelected = false) {
   const size = isSelected ? baseSize + 40 : baseSize
   const borderWidth = isSelected ? 4 : 2
 
+  // Star badge for favorites (only show for authenticated non-guest users)
+  const starBadge = isFavorite && !props.guestMode ? `
+    <div style="
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      background: #fbbf24;
+      color: white;
+      width: ${Math.max(12, size * 0.5)}px;
+      height: ${Math.max(12, size * 0.5)}px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: ${Math.max(8, size * 0.4)}px;
+      border: 1px solid white;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+      z-index: 10;
+    ">★</div>
+  ` : ''
+
   return L.divIcon({
     className: 'custom-marker',
     html: `
-      <div style="
-        background: ${colors[color]};
-        width: ${size}px;
-        height: ${size}px;
-        border-radius: 50%;
-        border: ${borderWidth}px solid ${isSelected ? '#1e40af' : 'white'};
-        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-      "></div>
+      <div style="position: relative; width: ${size}px; height: ${size}px;">
+        <div style="
+          background: ${colors[color]};
+          width: ${size}px;
+          height: ${size}px;
+          border-radius: 50%;
+          border: ${borderWidth}px solid ${isSelected ? '#1e40af' : 'white'};
+          box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        "></div>
+        ${starBadge}
+      </div>
     `,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2]
@@ -714,6 +1326,306 @@ function getFuelStatusText(station) {
 .clear-button:hover {
   background: #f3f4f6;
   color: #374151;
+}
+
+/* Filter Button */
+.filter-btn {
+  padding: 12px 16px;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  height: 48px;
+}
+
+.filter-btn:hover {
+  border-color: #3b82f6;
+  background: #f0f9ff;
+}
+
+.filter-badge {
+  background: #3b82f6;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Active Filters Display */
+.active-filters {
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-width: 90%;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.active-filters-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.filter-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: #eff6ff;
+  color: #1e40af;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.chip-remove {
+  background: none;
+  border: none;
+  color: #1e40af;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin-left: 2px;
+  transition: color 0.2s;
+}
+
+.chip-remove:hover {
+  color: #ef4444;
+}
+
+.clear-all-btn {
+  padding: 4px 10px;
+  background: #fee2e2;
+  color: #dc2626;
+  border: none;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.clear-all-btn:hover {
+  background: #fecaca;
+}
+
+/* Results Counter */
+.results-counter {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 998;
+  background: #10b981;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+}
+
+/* Filter Panel */
+.filter-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  animation: fadeIn 0.2s ease;
+}
+
+.filter-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  box-shadow: -4px 0 16px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  animation: slideInRight 0.3s ease;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.filter-header {
+  padding: 1.5rem;
+  border-bottom: 2px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9fafb;
+}
+
+.filter-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #111827;
+}
+
+.close-panel-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #6b7280;
+  transition: color 0.2s;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-panel-btn:hover {
+  color: #111827;
+}
+
+.filter-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.filter-section {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.filter-section:last-child {
+  border-bottom: none;
+}
+
+.filter-section h4 {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  color: #111827;
+  font-weight: 600;
+}
+
+.radio-group, .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-group label, .checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #374151;
+}
+
+.radio-group input[type="radio"],
+.checkbox-group input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price-slider {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.price-display {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #10b981;
+  padding: 8px;
+  background: #d1fae5;
+  border-radius: 8px;
+}
+
+.filter-actions {
+  padding: 1rem 1.5rem;
+  border-top: 2px solid #e5e7eb;
+  display: flex;
+  gap: 10px;
+  background: #f9fafb;
+}
+
+.clear-filters-btn {
+  flex: 1;
+  padding: 12px;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #6b7280;
+  transition: all 0.2s;
+}
+
+.clear-filters-btn:hover {
+  border-color: #ef4444;
+  color: #ef4444;
+  background: #fef2f2;
+}
+
+.apply-filters-btn {
+  flex: 2;
+  padding: 12px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.apply-filters-btn:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
 }
 
 /* EDIT MODE BUTTONS */
@@ -991,5 +1903,146 @@ function getFuelStatusText(station) {
 
 .search-dropdown::-webkit-scrollbar-thumb:hover {
   background: #9ca3af;
+}
+
+/* Map Type Button */
+.map-type-btn {
+  padding: 12px 16px;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  height: 48px;
+}
+
+.map-type-btn:hover {
+  border-color: #1e40af;
+  background: #f0f9ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.15);
+}
+
+/* Map Type Panel */
+.map-type-panel {
+  background: white;
+  width: 400px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  box-shadow: -4px 0 16px rgba(0, 0, 0, 0.2);
+  animation: slideInRight 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  z-index: 1001;
+}
+
+.map-type-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.map-type-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.map-type-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: #f9fafb;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.map-type-option:hover {
+  background: #f0f9ff;
+  border-color: #3b82f6;
+  transform: translateX(-4px);
+}
+
+.map-type-option.active {
+  background: #dbeafe;
+  border-color: #1e40af;
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.15);
+}
+
+.map-type-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.map-type-info {
+  flex: 1;
+}
+
+.map-type-info h4 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.125rem;
+  color: #111827;
+}
+
+.map-type-info p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.active-indicator {
+  font-size: 1.5rem;
+  color: #10b981;
+  font-weight: 700;
+}
+
+/* Sea Marks Toggle */
+.sea-marks-toggle {
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
+}
+
+.toggle-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.toggle-label input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.toggle-label span {
+  font-weight: 600;
+  color: #111827;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.toggle-label small {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-left: 28px;
 }
 </style>

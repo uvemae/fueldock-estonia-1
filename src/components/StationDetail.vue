@@ -3,7 +3,19 @@
     <div class="modal-content" @click.stop>
       <header class="header">
         <h2>{{ station.name }}</h2>
-        <button @click="$emit('back')" class="close-btn">✕</button>
+        <div class="header-actions">
+          <button
+            v-if="user"
+            @click="toggleFavorite"
+            :disabled="loading"
+            class="favorite-btn"
+            :class="{ 'is-favorite': isFavorite }"
+            :title="isFavorite ? 'Remove from favorites' : 'Add to favorites'"
+          >
+            {{ isFavorite ? '★' : '☆' }}
+          </button>
+          <button @click="$emit('back')" class="close-btn">✕</button>
+        </div>
       </header>
 
       <div class="content">
@@ -58,17 +70,30 @@
         </button>
       </div>
     </div>
+
+    <!-- Notification Toast -->
+    <div v-if="notification" class="notification" :class="{ 'error': notification.isError }">
+      {{ notification.message }}
+    </div>
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
+import { useAuth } from '../composables/useAuth'
+import { supabase } from '../supabase'
 
 const props = defineProps({
   station: { type: Object, required: true }
 })
 
 defineEmits(['back', 'pay'])
+
+const { user } = useAuth()
+const isFavorite = ref(false)
+const favoriteId = ref(null)
+const loading = ref(false)
+const notification = ref(null)
 
 // Calculate fuel amount in liters
 const fuelAmount = computed(() =>
@@ -93,6 +118,91 @@ const statusClass = computed(() => {
   if (props.station.fuelLevel < 20) return 'text-yellow-600'
   return 'text-green-600'
 })
+
+// Check if station is already favorited
+onMounted(async () => {
+  if (!user.value) return
+
+  try {
+    const { data, error } = await supabase
+      .from('favorites')
+      .select('id')
+      .eq('user_id', user.value.id)
+      .eq('station_id', props.station.id)
+      .maybeSingle()
+
+    if (error && error.code !== 'PGRST116') {
+      console.error('Error checking favorite:', error)
+      return
+    }
+
+    if (data) {
+      isFavorite.value = true
+      favoriteId.value = data.id
+    }
+  } catch (error) {
+    console.error('Error checking favorite:', error)
+  }
+})
+
+// Toggle favorite status
+async function toggleFavorite() {
+  if (!user.value || loading.value) return
+
+  loading.value = true
+
+  try {
+    if (isFavorite.value) {
+      // Remove from favorites
+      const { error } = await supabase
+        .from('favorites')
+        .delete()
+        .eq('id', favoriteId.value)
+        .eq('user_id', user.value.id)
+
+      if (error) throw error
+
+      isFavorite.value = false
+      favoriteId.value = null
+      showNotification('Removed from favorites')
+    } else {
+      // Add to favorites
+      const { data, error } = await supabase
+        .from('favorites')
+        .insert({
+          user_id: user.value.id,
+          station_id: props.station.id,
+          name: props.station.name,
+          location: props.station.location,
+          coordinates: props.station.coordinates,
+          station_type: props.station.stationType,
+          fuel_level: props.station.fuelLevel,
+          capacity: props.station.capacity,
+          fuels: props.station.fuels
+        })
+        .select()
+        .single()
+
+      if (error) throw error
+
+      isFavorite.value = true
+      favoriteId.value = data.id
+      showNotification('Added to favorites!')
+    }
+  } catch (error) {
+    console.error('Error toggling favorite:', error)
+    showNotification('Error updating favorites', true)
+  } finally {
+    loading.value = false
+  }
+}
+
+function showNotification(message, isError = false) {
+  notification.value = { message, isError }
+  setTimeout(() => {
+    notification.value = null
+  }, 3000)
+}
 </script>
 
 <style scoped>
@@ -168,6 +278,56 @@ const statusClass = computed(() => {
 .header h2 {
   margin: 0;
   font-size: 1.25rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.favorite-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 28px;
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.favorite-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.favorite-btn.is-favorite {
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.2);
+  animation: pulse 0.3s ease;
+}
+
+.favorite-btn.is-favorite:hover {
+  background: rgba(251, 191, 36, 0.3);
+}
+
+.favorite-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }
 
 .close-btn {
@@ -256,5 +416,36 @@ const statusClass = computed(() => {
 
 .fuel-btn:hover {
   background: #059669;
+}
+
+/* Notification Toast */
+.notification {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #10b981;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  z-index: 3000;
+  animation: slideInUp 0.3s ease;
+}
+
+.notification.error {
+  background: #ef4444;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
 }
 </style>
