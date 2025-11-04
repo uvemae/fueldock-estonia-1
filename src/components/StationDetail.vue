@@ -18,6 +18,10 @@
             <span class="value">📍 {{ station.location }}</span>
           </div>
           <div class="info-row">
+            <span class="label">Coordinates:</span>
+            <span class="value coordinates">{{ formatCoordinates }}</span>
+          </div>
+          <div class="info-row">
             <span class="label">Status:</span>
             <span class="value" :class="statusClass">{{ statusText }}</span>
           </div>
@@ -70,6 +74,12 @@ defineEmits(['back', 'pay'])
 const fuelAmount = computed(() =>
     Math.round(props.station.capacity * props.station.fuelLevel / 100)
 )
+
+// Format coordinates for display
+const formatCoordinates = computed(() => {
+  const [lat, lng] = props.station.coordinates
+  return `${lat.toFixed(6)}, ${lng.toFixed(6)}`
+})
 
 // Determine status text and color
 const statusText = computed(() => {
@@ -209,6 +219,15 @@ const statusClass = computed(() => {
 
 .value {
   font-weight: 600;
+}
+
+.value.coordinates {
+  font-family: 'Courier New', monospace;
+  color: #1e40af;
+  font-size: 0.9rem;
+  background: #dbeafe;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
 }
 
 .fuel-type {

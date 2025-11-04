@@ -46,15 +46,23 @@
       </button>
     </div>
 
-    <!-- EDIT MODE BUTTONS (only visible in EDIT_MODE and not guest mode) -->
-    <div v-if="EDIT_MODE && !guestMode" class="edit-buttons">
+    <!-- EDIT MODE BUTTONS (only visible for admins) -->
+    <div v-if="EDIT_MODE && isAdmin && !guestMode" class="edit-buttons">
       <button
           @click="undoLastMove"
-          :disabled="!lastDraggedStation"
+          :disabled="undoHistory.length === 0"
           class="undo-btn"
           title="Undo last marker move"
       >
         ↶
+      </button>
+      <button
+          @click="redoLastMove"
+          :disabled="redoHistory.length === 0"
+          class="redo-btn"
+          title="Redo last undone move"
+      >
+        ↷
       </button>
       <button
           @click="saveCoordinates"
@@ -92,6 +100,10 @@ const props = defineProps({
   guestMode: {
     type: Boolean,
     default: false
+  },
+  isAdmin: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -105,6 +117,10 @@ const showDropdown = ref(false)
 const selectedMarker = ref(null)
 const saveNotification = ref('')
 const lastDraggedStation = ref(null)
+
+// Undo/Redo history
+const undoHistory = ref([])
+const redoHistory = ref([])
 
 // Map related
 let map = null
@@ -183,8 +199,8 @@ function initializeMap() {
 
   markerLayerGroup = L.layerGroup().addTo(map)
 
-  // Add coordinate display for edit mode (not in guest mode)
-  if (EDIT_MODE && !props.guestMode) {
+  // Add coordinate display for edit mode (only for admins)
+  if (EDIT_MODE && props.isAdmin && !props.guestMode) {
     // Add red border to map container
     mapRef.value.style.border = '4px solid red'
 
@@ -226,11 +242,11 @@ function createMarker(station) {
 
   const markerOptions = {
     icon,
-    draggable: EDIT_MODE && !props.guestMode  // Enable dragging in edit mode but not guest mode
+    draggable: EDIT_MODE && props.isAdmin && !props.guestMode  // Enable dragging only for admins
   }
 
   // Add hand cursor for draggable markers
-  if (EDIT_MODE && !props.guestMode) {
+  if (EDIT_MODE && props.isAdmin && !props.guestMode) {
     markerOptions.autoPan = true
     markerOptions.autoPanPadding = [50, 50]
   }
@@ -238,8 +254,8 @@ function createMarker(station) {
   const marker = L.marker(station.coordinates, markerOptions)
       .on('click', () => handleMarkerClick(station))
 
-  // Add drag handlers for edit mode (not in guest mode)
-  if (EDIT_MODE && !props.guestMode) {
+  // Add drag handlers for edit mode (only for admins)
+  if (EDIT_MODE && props.isAdmin && !props.guestMode) {
     marker.on('dragstart', function(e) {
       const coordDiv = document.querySelector('.coordinate-display')
       if (coordDiv) {
@@ -272,19 +288,33 @@ function createMarker(station) {
       // Update the station data in updatedStations
       const stationIndex = updatedStations.findIndex(s => s.id === station.id)
       if (stationIndex !== -1) {
-        // Store previous coordinates for undo
+        // Store move in undo history
+        const previousCoordinates = [...updatedStations[stationIndex].coordinates]
+        const newCoordinates = [latlng.lat, latlng.lng]
+
+        undoHistory.value.push({
+          id: station.id,
+          name: updatedStations[stationIndex].name,
+          previousCoordinates: previousCoordinates,
+          newCoordinates: newCoordinates
+        })
+
+        // Clear redo history when new action is performed
+        redoHistory.value = []
+
+        // Keep for backwards compatibility
         lastDraggedStation.value = {
           id: station.id,
-          previousCoordinates: [...updatedStations[stationIndex].coordinates],
-          newCoordinates: [latlng.lat, latlng.lng]
+          previousCoordinates: previousCoordinates,
+          newCoordinates: newCoordinates
         }
 
-        updatedStations[stationIndex].coordinates = [latlng.lat, latlng.lng]
+        updatedStations[stationIndex].coordinates = newCoordinates
 
         // Also update the station reference in markers array
         const markerObj = markers.find(m => m.station.id === station.id)
         if (markerObj) {
-          markerObj.station.coordinates = [latlng.lat, latlng.lng]
+          markerObj.station.coordinates = newCoordinates
         }
       }
 
@@ -364,28 +394,69 @@ function clearMarkers() {
 
 // Undo last marker move
 function undoLastMove() {
-  if (!lastDraggedStation.value) return
+  if (undoHistory.value.length === 0) return
 
-  const stationIndex = updatedStations.findIndex(s => s.id === lastDraggedStation.value.id)
+  const lastMove = undoHistory.value.pop()
+  const stationIndex = updatedStations.findIndex(s => s.id === lastMove.id)
+
   if (stationIndex !== -1) {
+    // Store in redo history
+    redoHistory.value.push(lastMove)
+
     // Restore previous coordinates
-    updatedStations[stationIndex].coordinates = [...lastDraggedStation.value.previousCoordinates]
+    updatedStations[stationIndex].coordinates = [...lastMove.previousCoordinates]
 
     // Update marker position
-    const markerObj = markers.find(m => m.station.id === lastDraggedStation.value.id)
+    const markerObj = markers.find(m => m.station.id === lastMove.id)
     if (markerObj) {
-      markerObj.station.coordinates = [...lastDraggedStation.value.previousCoordinates]
-      markerObj.marker.setLatLng(lastDraggedStation.value.previousCoordinates)
+      markerObj.station.coordinates = [...lastMove.previousCoordinates]
+      markerObj.marker.setLatLng(lastMove.previousCoordinates)
+    }
+
+    // Update lastDraggedStation for backwards compatibility
+    if (undoHistory.value.length > 0) {
+      lastDraggedStation.value = undoHistory.value[undoHistory.value.length - 1]
+    } else {
+      lastDraggedStation.value = null
     }
 
     // Show notification
-    saveNotification.value = '↶ Last move undone'
+    saveNotification.value = `↶ Undone: ${lastMove.name}`
     setTimeout(() => {
       saveNotification.value = ''
     }, 2000)
+  }
+}
 
-    // Clear undo history
-    lastDraggedStation.value = null
+// Redo last undone move
+function redoLastMove() {
+  if (redoHistory.value.length === 0) return
+
+  const lastUndone = redoHistory.value.pop()
+  const stationIndex = updatedStations.findIndex(s => s.id === lastUndone.id)
+
+  if (stationIndex !== -1) {
+    // Store back in undo history
+    undoHistory.value.push(lastUndone)
+
+    // Apply the new coordinates
+    updatedStations[stationIndex].coordinates = [...lastUndone.newCoordinates]
+
+    // Update marker position
+    const markerObj = markers.find(m => m.station.id === lastUndone.id)
+    if (markerObj) {
+      markerObj.station.coordinates = [...lastUndone.newCoordinates]
+      markerObj.marker.setLatLng(lastUndone.newCoordinates)
+    }
+
+    // Update lastDraggedStation
+    lastDraggedStation.value = lastUndone
+
+    // Show notification
+    saveNotification.value = `↷ Redone: ${lastUndone.name}`
+    setTimeout(() => {
+      saveNotification.value = ''
+    }, 2000)
   }
 }
 
@@ -407,10 +478,11 @@ async function saveCoordinates() {
       saveNotification.value = '✅ Saved! stations.json updated successfully'
       setTimeout(() => {
         saveNotification.value = ''
-      }, 3000)
+      }, 4000)
 
-      // Clear undo history after save
-      lastDraggedStation.value = null
+      // DON'T clear undo history after save - allow undo after saving
+      // lastDraggedStation.value = null
+      // undoHistory and redoHistory remain intact
     } else {
       throw new Error(result.message)
     }
@@ -537,9 +609,11 @@ function createColoredIcon(color, isSelected = false) {
     purple: '#a855f7'
   }
 
-  // In guest mode, all markers are small and same size
-  const baseSize = props.guestMode ? 10 : (color === 'red' ? 10 : 20)
-  const size = isSelected ? baseSize + 4 : baseSize
+  // In guest mode, all markers are small (10px)
+  // Red (no station) markers stay small (10px)
+  // For authenticated users/admins: green, yellow, gray markers are 2x bigger (40px)
+  const baseSize = props.guestMode ? 10 : (color === 'red' ? 10 : 15)
+  const size = isSelected ? baseSize + 40 : baseSize
   const borderWidth = isSelected ? 4 : 2
 
   return L.divIcon({
@@ -668,6 +742,38 @@ function getFuelStatusText(station) {
 }
 
 .undo-btn:disabled {
+  background: #d1d5db;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* REDO BUTTON */
+.redo-btn {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redo-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.6);
+  transform: translateY(-2px);
+}
+
+.redo-btn:disabled {
   background: #d1d5db;
   box-shadow: none;
   cursor: not-allowed;

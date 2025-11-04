@@ -72,6 +72,7 @@
         v-show="currentView === 'map'"
         ref="mapViewRef"
         :guest-mode="isGuestMode"
+        :is-admin="isAdmin"
         @station-click="showStation"
       />
     </main>
