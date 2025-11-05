@@ -11,10 +11,12 @@
       <div class="flex justify-between items-center w-full">
         <h1 class="text-2xl font-bold flex items-center gap-2">
           <img src="/pic/FuelDock-1_no_bg_s.png" alt="Logo" class="w-16 h-16" />
-          FuelDock Estonia
+          <span class="app-title">FuelDock Estonia</span>
           <span v-if="isGuestMode" class="guest-badge">Guest</span>
         </h1>
-        <div class="header-actions">
+
+        <!-- Desktop Actions -->
+        <div class="header-actions desktop-actions">
           <button
             v-if="!isGuestMode && user"
             @click="currentView = 'favorites'"
@@ -68,6 +70,66 @@
             @click="handleLogout"
             class="logout-btn"
             title="Logout"
+          >
+            ← Logout
+          </button>
+        </div>
+
+        <!-- Mobile Hamburger Menu -->
+        <button @click="showMobileMenu = !showMobileMenu" class="hamburger-btn mobile-only">
+          ☰
+        </button>
+      </div>
+
+      <!-- Mobile Menu Slide-out -->
+      <div v-if="showMobileMenu" class="mobile-menu-overlay" @click="showMobileMenu = false">
+        <div class="mobile-menu" @click.stop>
+          <button
+            v-if="!isGuestMode && user"
+            @click="currentView = 'favorites'; showMobileMenu = false"
+            class="mobile-menu-item"
+          >
+            ⭐ Favorites
+          </button>
+          <button
+            v-if="!isGuestMode && user"
+            @click="currentView = 'history'; showMobileMenu = false"
+            class="mobile-menu-item"
+          >
+            📋 History
+          </button>
+          <button
+            v-if="!isGuestMode && user && currentView === 'map'"
+            @click="toggleFilters(); showMobileMenu = false"
+            class="mobile-menu-item"
+          >
+            🎚️ Filters
+          </button>
+          <button
+            v-if="!isGuestMode && user && currentView === 'map'"
+            @click="toggleMapType(); showMobileMenu = false"
+            class="mobile-menu-item"
+          >
+            🗺️ Map Type
+          </button>
+          <button
+            v-if="isAdmin && !isGuestMode"
+            @click="currentView = 'admin'; showMobileMenu = false"
+            class="mobile-menu-item"
+          >
+            ⚙️ Admin
+          </button>
+          <button
+            v-if="isGuestMode"
+            @click="goToLogin(); showMobileMenu = false"
+            class="mobile-menu-item login-item"
+          >
+            🔑 Login
+          </button>
+          <button
+            v-if="user"
+            @click="handleLogout(); showMobileMenu = false"
+            class="mobile-menu-item logout-item"
           >
             ← Logout
           </button>
@@ -170,6 +232,7 @@ const isGuestMode = ref(false)
 const showLoginPrompt = ref(false)
 const showFiltersPanel = ref(false)
 const showMapTypePanel = ref(false)
+const showMobileMenu = ref(false)
 
 // Initialize auth
 onMounted(async () => {
@@ -281,6 +344,7 @@ function toggleMapType() {
 }
 
 .header-fixed {
+  position: relative;
   height: 80px;
   background: #1e40af;
   color: white;
@@ -288,6 +352,7 @@ function toggleMapType() {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   display: flex;
   align-items: center;
+  z-index: 100;
 }
 
 .header-actions {
@@ -418,6 +483,9 @@ function toggleMapType() {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
 }
 
 .logout-btn:hover {
@@ -552,6 +620,128 @@ function toggleMapType() {
   border-color: #3b82f6;
   color: #3b82f6;
   background: #f0f9ff;
+}
+
+/* Mobile Responsive Styles */
+.hamburger-btn {
+  display: none;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 1.75rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.mobile-menu-overlay {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  animation: fadeIn 0.2s ease;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #e5e7eb;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  animation: slideDown 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mobile-menu-item {
+  width: 100%;
+  padding: 1rem;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.mobile-menu-item:hover {
+  background: #f9fafb;
+  transform: translateX(4px);
+}
+
+.mobile-menu-item.login-item {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+}
+
+.mobile-menu-item.login-item:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+.mobile-menu-item.logout-item {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+}
+
+.mobile-menu-item.logout-item:hover {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+}
+
+/* Show hamburger and hide desktop actions on mobile */
+@media (max-width: 768px) {
+  .desktop-actions {
+    display: none !important;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .app-title {
+    font-size: 1rem;
+  }
+
+  h1 img {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  .guest-badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+  }
 }
 
 /* FIX: Set as a fixed, high-z-index overlay */
