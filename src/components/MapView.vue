@@ -542,8 +542,16 @@ function restoreMapView() {
   }
 }
 
+// Fix map size after view changes
+function invalidateMapSize() {
+  if (map) {
+    map.invalidateSize()
+  }
+}
+
 defineExpose({
   restoreMapView,
+  invalidateMapSize,
   refreshFavorites: async () => {
     await loadUserFavorites()
     addAllMarkers() // Redraw markers with updated favorite status
@@ -830,8 +838,17 @@ function createMarker(station) {
   return marker
 }
 
-function handleMarkerClick(station) {
-  // Save current map view before opening station details
+async function handleMarkerClick(station) {
+  // Smooth fly-to animation from current zoom to target zoom over 2 seconds
+  map.flyTo(station.coordinates, 14, {
+    animate: true,
+    duration: 2
+  })
+
+  // Wait for zoom animation (2s) + additional delay (0s) = 2s total
+  await new Promise(resolve => setTimeout(resolve, 2000))
+
+  // Save map view AFTER zoom animation completes
   lastMapView.center = map.getCenter()
   lastMapView.zoom = map.getZoom()
   lastMapView.focusedStation = station
@@ -984,24 +1001,27 @@ function handleSearchBlur() {
   }, 200)
 }
 
-function selectStation(station) {
+async function selectStation(station) {
   searchQuery.value = station.name
   showDropdown.value = false
   selectedMarker.value = station
 
-  // Save the view we're about to set
-  lastMapView.center = station.coordinates
-  lastMapView.zoom = 12
-  lastMapView.focusedStation = station
-
-  // Center map on selected station
-  map.setView(station.coordinates, 12, {
+  // Smooth fly-to animation from current zoom to target zoom over 2 seconds
+  map.flyTo(station.coordinates, 14, {
     animate: true,
-    duration: 0.5
+    duration: 2
   })
 
   // Highlight selected marker
   updateMarkersVisibility()
+
+  // Wait for zoom animation (2s) + additional delay (1s) = 3s total
+  await new Promise(resolve => setTimeout(resolve, 3000))
+
+  // Save map view AFTER zoom animation completes
+  lastMapView.center = map.getCenter()
+  lastMapView.zoom = map.getZoom()
+  lastMapView.focusedStation = station
 
   // Find and open popup for selected station
   const markerObj = markers.find(m => m.station.id === station.id)

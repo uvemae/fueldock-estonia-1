@@ -9,7 +9,7 @@
     ],
     "hasStation": true,
     "stationType": "Olerex",
-    "fuelLevel": 65,
+    "fuelLevel": 100,
     "capacity": 3000,
     "fuels": {
       "diesel": {
@@ -41,7 +41,7 @@
     ],
     "hasStation": true,
     "stationType": "Olerex",
-    "fuelLevel": 75,
+    "fuelLevel": 20,
     "capacity": 8000,
     "fuels": {
       "diesel": {
@@ -73,7 +73,7 @@
     ],
     "hasStation": true,
     "stationType": "Alexela",
-    "fuelLevel": 47,
+    "fuelLevel": 20,
     "capacity": 5000,
     "fuels": {
       "diesel": {
@@ -106,7 +106,7 @@
     ],
     "hasStation": true,
     "stationType": "Other",
-    "fuelLevel": 90,
+    "fuelLevel": 20,
     "capacity": 5000,
     "fuels": {
       "diesel": {
@@ -4268,8 +4268,8 @@
     "name": "OSMUSSAARE SADAM",
     "location": "Lääne maakond",
     "coordinates": [
-      59.2943469,
-      23.38744
+      59.27636803821998,
+      23.411967874777897
     ],
     "hasStation": true,
     "stationType": "FuelDock",

@@ -269,7 +269,7 @@
         <div class="modal-icon">⚠️</div>
         <h3>Confirm Delete</h3>
         <p>
-          Are you sure you want to delete
+          Are you sure you want to delete<br>
           <strong>{{ deleteConfirmModal.item.name || deleteConfirmModal.item.email }}</strong>?
           <br>This action cannot be undone.
         </p>
@@ -297,7 +297,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, watch } from 'vue'
 import stationsData from '../data/stations.json'
 import { supabase } from '../supabase'
 
@@ -357,9 +357,11 @@ const filteredUsers = computed(() => {
   return users.value.filter(u => u.email.toLowerCase().includes(query))
 })
 
-// Lifecycle
-onMounted(async () => {
-  await loadUsers()
+// Watch for tab changes and only load users when users tab is active
+watch(activeTab, async (newTab) => {
+  if (newTab === 'users' && users.value.length === 0) {
+    await loadUsers()
+  }
 })
 
 // Functions

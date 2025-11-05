@@ -228,6 +228,13 @@ function backToMap() {
   currentView.value = 'map'
   selectedStation.value = null
   paymentStation.value = null
+
+  // Fix map rendering after switching views
+  if (mapViewRef.value) {
+    setTimeout(() => {
+      mapViewRef.value.invalidateMapSize()
+    }, 50)
+  }
 }
 
 async function backToMapFromStation() {
