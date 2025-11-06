@@ -10,7 +10,13 @@
     <header class="header-fixed">
       <div class="flex justify-between items-center w-full">
         <h1 class="text-2xl font-bold flex items-center gap-2">
-          <img src="/pic/FuelDock-1_no_bg_s.png" alt="Logo" class="w-16 h-16" />
+          <img
+            src="/pic/FuelDock-1_no_bg_s.png"
+            alt="Logo"
+            class="w-16 h-16 logo-clickable"
+            @click="goToMapHome"
+            title="Go to Map"
+          />
           <span class="app-title">FuelDock Estonia</span>
           <span v-if="isGuestMode" class="guest-badge">Guest</span>
         </h1>
@@ -80,62 +86,69 @@
           ☰
         </button>
       </div>
-
-      <!-- Mobile Menu Slide-out -->
-      <div v-if="showMobileMenu" class="mobile-menu-overlay" @click="showMobileMenu = false">
-        <div class="mobile-menu" @click.stop>
-          <button
-            v-if="!isGuestMode && user"
-            @click="currentView = 'favorites'; showMobileMenu = false"
-            class="mobile-menu-item"
-          >
-            ⭐ Favorites
-          </button>
-          <button
-            v-if="!isGuestMode && user"
-            @click="currentView = 'history'; showMobileMenu = false"
-            class="mobile-menu-item"
-          >
-            📋 History
-          </button>
-          <button
-            v-if="!isGuestMode && user && currentView === 'map'"
-            @click="toggleFilters(); showMobileMenu = false"
-            class="mobile-menu-item"
-          >
-            🎚️ Filters
-          </button>
-          <button
-            v-if="!isGuestMode && user && currentView === 'map'"
-            @click="toggleMapType(); showMobileMenu = false"
-            class="mobile-menu-item"
-          >
-            🗺️ Map Type
-          </button>
-          <button
-            v-if="isAdmin && !isGuestMode"
-            @click="currentView = 'admin'; showMobileMenu = false"
-            class="mobile-menu-item"
-          >
-            ⚙️ Admin
-          </button>
-          <button
-            v-if="isGuestMode"
-            @click="goToLogin(); showMobileMenu = false"
-            class="mobile-menu-item login-item"
-          >
-            🔑 Login
-          </button>
-          <button
-            v-if="user"
-            @click="handleLogout(); showMobileMenu = false"
-            class="mobile-menu-item logout-item"
-          >
-            ← Logout
-          </button>
-        </div>
-      </div>
     </header>
+
+    <!-- Mobile Menu Slide-out (Outside header to escape stacking context) -->
+    <div v-if="showMobileMenu" class="mobile-menu-overlay" @click="showMobileMenu = false">
+      <div class="mobile-menu" @click.stop>
+        <button
+          v-if="!isGuestMode && user"
+          @click="currentView = 'favorites'; showMobileMenu = false"
+          class="mobile-menu-item"
+          title="Favorites"
+        >
+          ⭐
+        </button>
+        <button
+          v-if="!isGuestMode && user"
+          @click="currentView = 'history'; showMobileMenu = false"
+          class="mobile-menu-item"
+          title="History"
+        >
+          📋
+        </button>
+        <button
+          v-if="!isGuestMode && user && currentView === 'map'"
+          @click="toggleFilters(); showMobileMenu = false"
+          class="mobile-menu-item"
+          title="Filters"
+        >
+          🎚️
+        </button>
+        <button
+          v-if="!isGuestMode && user && currentView === 'map'"
+          @click="toggleMapType(); showMobileMenu = false"
+          class="mobile-menu-item"
+          title="Map Type"
+        >
+          🗺️
+        </button>
+        <button
+          v-if="isAdmin && !isGuestMode"
+          @click="currentView = 'admin'; showMobileMenu = false"
+          class="mobile-menu-item"
+          title="Admin"
+        >
+          ⚙️
+        </button>
+        <button
+          v-if="isGuestMode"
+          @click="goToLogin(); showMobileMenu = false"
+          class="mobile-menu-item login-item"
+          title="Login"
+        >
+          🔑
+        </button>
+        <button
+          v-if="user"
+          @click="handleLogout(); showMobileMenu = false"
+          class="mobile-menu-item logout-item"
+          title="Logout"
+        >
+          ←
+        </button>
+      </div>
+    </div>
 
     <main class="h-[calc(100vh-80px)]">
       <FavoritesScreen
@@ -170,6 +183,7 @@
         :show-filters-from-parent="showFiltersPanel"
         :show-map-type-from-parent="showMapTypePanel"
         @station-click="showStation"
+        @open-filters="showFiltersPanel = true"
         @close-filters="showFiltersPanel = false"
         @close-map-type="showMapTypePanel = false"
       />
@@ -335,6 +349,17 @@ function toggleFilters() {
 function toggleMapType() {
   showMapTypePanel.value = !showMapTypePanel.value
 }
+
+function goToMapHome() {
+  currentView.value = 'map'
+  selectedStation.value = null
+  // Wait for map to be visible, then reset to default view with zoom out
+  if (mapViewRef.value) {
+    setTimeout(() => {
+      mapViewRef.value.resetToDefaultView()
+    }, 100)
+  }
+}
 </script>
 
 <style scoped>
@@ -359,6 +384,16 @@ function toggleMapType() {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.logo-clickable {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.logo-clickable:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
 }
 
 .guest-badge {
@@ -650,8 +685,9 @@ function toggleMapType() {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 2000;
+  z-index: 9999;
   animation: fadeIn 0.2s ease;
+  pointer-events: auto;
 }
 
 .mobile-menu {
@@ -659,13 +695,17 @@ function toggleMapType() {
   top: 0;
   left: 0;
   right: 0;
-  background: #e5e7eb;
+  background: rgba(30, 64, 175, 0.98);
   padding: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   animation: slideDown 0.3s ease;
   display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  pointer-events: auto;
+  z-index: 10000;
 }
 
 @keyframes slideDown {
@@ -680,43 +720,43 @@ function toggleMapType() {
 }
 
 .mobile-menu-item {
-  width: 100%;
-  padding: 1rem;
-  background: white;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.2);
   border: none;
   border-radius: 10px;
-  font-size: 1.125rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: #374151;
+  color: white;
   cursor: pointer;
   transition: all 0.2s;
-  text-align: left;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: center;
 }
 
 .mobile-menu-item:hover {
-  background: #f9fafb;
-  transform: translateX(4px);
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
 }
 
 .mobile-menu-item.login-item {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: rgba(16, 185, 129, 0.8);
   color: white;
 }
 
 .mobile-menu-item.login-item:hover {
-  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  background: rgba(5, 150, 105, 0.9);
 }
 
 .mobile-menu-item.logout-item {
-  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  background: rgba(239, 68, 68, 0.8);
   color: white;
 }
 
 .mobile-menu-item.logout-item:hover {
-  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  background: rgba(220, 38, 38, 0.9);
 }
 
 /* Show hamburger and hide desktop actions on mobile */

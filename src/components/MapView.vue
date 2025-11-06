@@ -46,19 +46,15 @@
       </button>
     </div>
 
-    <!-- Active Filters Display -->
-    <div v-if="!guestMode && activeFiltersCount > 0" class="active-filters">
-      <span class="active-filters-label">Active:</span>
-      <span v-for="(filter, index) in activeFiltersList" :key="index" class="filter-chip">
-        {{ filter.label }}
-        <button @click="removeFilter(filter.type, filter.value)" class="chip-remove">✕</button>
-      </span>
-      <button @click="clearAllFilters" class="clear-all-btn">Clear all</button>
-    </div>
-
-    <!-- Results Counter -->
-    <div v-if="!guestMode && activeFiltersCount > 0" class="results-counter">
-      Showing {{ visibleStationsCount }} of {{ totalStationsCount }} stations
+    <!-- Active Filters Badge (Top Right) -->
+    <div
+      v-if="!guestMode && activeFiltersCount > 0"
+      class="active-filters-badge"
+      :class="{ 'admin-mode': EDIT_MODE && isAdmin }"
+      title="Click to open filters"
+      @click="emit('open-filters')"
+    >
+      Filters ({{ activeFiltersCount }})
     </div>
 
     <!-- Filter Panel (Slide from right) -->
@@ -73,23 +69,33 @@
           <!-- Distance Filter -->
           <div class="filter-section">
             <h4>🎯 Distance</h4>
+            <div class="filter-info">
+              📍 From: Map Center (Live Updates)
+            </div>
             <div class="radio-group">
               <label>
-                <input type="radio" v-model="filters.distance" value="any" />
+                <input type="radio" v-model="filters.distance" value="any" @change="onDistanceFilterChange" />
                 Any distance
               </label>
               <label>
-                <input type="radio" v-model="filters.distance" value="10" />
-                Within 10 km
-              </label>
-              <label>
-                <input type="radio" v-model="filters.distance" value="25" />
+                <input type="radio" v-model="filters.distance" value="25" @change="onDistanceFilterChange" />
                 Within 25 km
               </label>
               <label>
-                <input type="radio" v-model="filters.distance" value="50" />
+                <input type="radio" v-model="filters.distance" value="50" @change="onDistanceFilterChange" />
                 Within 50 km
               </label>
+              <label>
+                <input type="radio" v-model="filters.distance" value="100" @change="onDistanceFilterChange" />
+                Within 100 km
+              </label>
+              <label>
+                <input type="radio" v-model="filters.distance" value="250" @change="onDistanceFilterChange" />
+                Within 250 km
+              </label>
+            </div>
+            <div class="filter-hint">
+              💡 Pan/zoom the map to update the reference point
             </div>
           </div>
 
@@ -311,6 +317,32 @@
 
     <div ref="mapRef" class="map"></div>
 
+    <!-- Fixed Crosshair Overlay -->
+    <div class="crosshair-overlay">
+      <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+        <line x1="40" y1="0" x2="40" y2="30" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="40" y1="80" x2="40" y2="50" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="0" y1="40" x2="30" y2="40" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="80" y1="40" x2="50" y2="40" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- Fixed Distance Circle Overlay -->
+    <div v-if="filters.distance !== 'any' && circleRadiusPx > 0" class="circle-overlay">
+      <svg :width="circleRadiusPx * 2" :height="circleRadiusPx * 2" xmlns="http://www.w3.org/2000/svg">
+        <circle
+          :cx="circleRadiusPx"
+          :cy="circleRadiusPx"
+          :r="circleRadiusPx"
+          fill="#d1d5db"
+          fill-opacity="0.15"
+          stroke="#9ca3af"
+          stroke-width="2"
+          stroke-opacity="0.5"
+        />
+      </svg>
+    </div>
+
     <div v-if="!guestMode" class="legend">
       <div><span class="dot green"></span> Fuel >20%</div>
       <div><span class="dot yellow"></span> Fuel <20%</div>
@@ -355,7 +387,7 @@ const props = defineProps({
   }
 })
 
-const emit = defineEmits(['station-click', 'close-filters', 'close-map-type'])
+const emit = defineEmits(['station-click', 'close-filters', 'close-map-type', 'open-filters'])
 
 // Refs
 const mapRef = ref(null)
@@ -366,19 +398,20 @@ const selectedMarker = ref(null)
 const saveNotification = ref('')
 const lastDraggedStation = ref(null)
 const userFavorites = ref([])
+const circleRadiusPx = ref(0) // Pixel radius for CSS distance circle
 
 // Undo/Redo history
 const undoHistory = ref([])
 const redoHistory = ref([])
 
-// Filter
+// Filter - All options selected by default
 const filters = ref({
-  distance: 'any',
-  fuelTypes: [],
-  maxPrice: 3.0,
-  fuelLevels: [],
-  providers: [],
-  hasStation: false
+  distance: 'any', // Will use map center as reference
+  fuelTypes: ['diesel', 'e95', 'e98'], // All fuel types selected
+  maxPrice: 3.0, // Max price
+  fuelLevels: ['available', 'low', 'empty'], // All fuel levels selected
+  providers: ['Olerex', 'Circle K', 'Alexela', 'Other'], // All providers selected
+  hasStation: false // Show all stations (including empty ones)
 })
 
 // Map type
@@ -420,6 +453,7 @@ const filteredStations = computed(() => {
 
 // Get user's current position for distance calculations
 const userPosition = ref(null)
+const isUsingGPS = ref(false)
 
 // Filter & Sort Computed Properties
 const activeFiltersCount = computed(() => {
@@ -472,6 +506,10 @@ onMounted(async () => {
   getUserLocation()
   await loadUserFavorites()
 
+  // Apply filters initially with all options selected
+  console.log('🎯 Applying initial filters with all options selected')
+  updateMarkersVisibility()
+
   // Add export function to window for console access
   if (EDIT_MODE) {
     window.exportStationCoordinates = () => {
@@ -487,23 +525,32 @@ onMounted(async () => {
 })
 
 // Get user's location for distance calculations
+// ALWAYS use map center as reference point for live updates
 function getUserLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        userPosition.value = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude
-        }
-      },
-      (error) => {
-        console.log('Location access denied:', error)
-        // Use Estonia center as fallback
-        userPosition.value = { lat: 58.5953, lng: 25.0136 }
-      }
-    )
+  // Force use of map center (not GPS) for live interactive distance filtering
+  isUsingGPS.value = false
+  updatePositionFromMapCenter()
+  console.log('📍 Distance filter reference: MAP CENTER (updates as you pan)')
+}
+
+// Update user position from current map center
+function updatePositionFromMapCenter() {
+  if (map) {
+    const center = map.getCenter()
+    userPosition.value = {
+      lat: center.lat,
+      lng: center.lng
+    }
+    console.log('=== MAP CENTER UPDATE ===')
+    console.log('New userPosition:', userPosition.value)
+    console.log('Map zoom:', map.getZoom())
+    console.log('isUsingGPS:', isUsingGPS.value)
+    console.log('Distance filter:', filters.value.distance)
+    console.log('========================')
   } else {
+    // If map not initialized yet, use Estonia center
     userPosition.value = { lat: 58.5953, lng: 25.0136 }
+    console.log('Map not initialized, using Estonia center:', userPosition.value)
   }
 }
 
@@ -542,6 +589,18 @@ function restoreMapView() {
   }
 }
 
+// Reset map to default view with zoom out
+function resetToDefaultView() {
+  if (map) {
+    map.flyTo([58.5953, 25.0136], 7, {
+      duration: 1.5
+    })
+    // Update saved view
+    lastMapView.center = [58.5953, 25.0136]
+    lastMapView.zoom = 7
+  }
+}
+
 // Fix map size after view changes
 function invalidateMapSize() {
   if (map) {
@@ -552,6 +611,7 @@ function invalidateMapSize() {
 defineExpose({
   restoreMapView,
   invalidateMapSize,
+  resetToDefaultView,
   refreshFavorites: async () => {
     await loadUserFavorites()
     addAllMarkers() // Redraw markers with updated favorite status
@@ -626,6 +686,62 @@ function initializeMap() {
       return div
     }
     coordinateDisplay.addTo(map)
+  }
+
+  // Create distance circle (initially hidden)
+  updateDistanceCircle()
+
+  // Listen to map movement to update distance reference point LIVE
+  // Update circle position and markers during panning for smooth fixed-to-center effect
+  map.on('move', () => {
+    updatePositionFromMapCenter()
+    updateDistanceCircle()
+    updateMarkersVisibility()
+  })
+
+  // Update circle radius during zoom animation for smooth scaling
+  map.on('zoom', () => {
+    updateDistanceCircle()
+  })
+
+  // Update markers after zoom completes
+  map.on('zoomend', () => {
+    console.log('🔍 ZOOM END - Updating markers')
+    updateMarkersVisibility()
+  })
+}
+
+// Update distance circle radius in pixels (for CSS overlay)
+function updateDistanceCircle() {
+  if (!map || !userPosition.value) {
+    circleRadiusPx.value = 0
+    return
+  }
+
+  // If distance filter is active, calculate pixel radius
+  if (filters.value.distance !== 'any') {
+    const radiusKm = parseFloat(filters.value.distance)
+    const radiusMeters = radiusKm * 1000
+
+    // Get center point in container pixels
+    const center = map.getCenter()
+    const centerPoint = map.latLngToContainerPoint(center)
+
+    // Calculate a point that's the desired distance away (going north for simplicity)
+    const earthRadius = 6371000 // meters
+    const lat = center.lat
+    const lng = center.lng
+    const latRadians = lat * Math.PI / 180
+
+    // Calculate new latitude that's radiusMeters away
+    const newLat = lat + (radiusMeters / earthRadius) * (180 / Math.PI)
+    const edgePoint = map.latLngToContainerPoint([newLat, lng])
+
+    // Distance in pixels
+    const pixelRadius = Math.abs(edgePoint.y - centerPoint.y)
+    circleRadiusPx.value = pixelRadius
+  } else {
+    circleRadiusPx.value = 0
   }
 }
 
@@ -1080,7 +1196,8 @@ function updateMarkersVisibility() {
     // Check if passes filters
     const passesFilters = filteredIds.has(station.id)
 
-    marker.setOpacity(matchesSearch && passesFilters ? 1 : 0.3)
+    // Hide filtered-out markers completely (opacity 0, not semi-transparent)
+    marker.setOpacity(matchesSearch && passesFilters ? 1 : 0)
   })
 }
 
@@ -1105,14 +1222,22 @@ function getFilteredAndSortedStations() {
     stations = stations.filter(s => s.hasStation)
   }
 
-  if (filters.value.providers.length > 0) {
+  // Only apply provider filter if not all providers are selected
+  const allProviders = ['Olerex', 'Circle K', 'Alexela', 'Other']
+  const allProvidersSelected = allProviders.every(p => filters.value.providers.includes(p))
+
+  if (filters.value.providers.length > 0 && !allProvidersSelected) {
     stations = stations.filter(s => {
       if (!s.stationType) return filters.value.providers.includes('Other')
       return filters.value.providers.includes(s.stationType)
     })
   }
 
-  if (filters.value.fuelLevels.length > 0) {
+  // Only apply fuel level filter if not all levels are selected
+  const allFuelLevels = ['available', 'low', 'empty']
+  const allLevelsSelected = allFuelLevels.every(level => filters.value.fuelLevels.includes(level))
+
+  if (filters.value.fuelLevels.length > 0 && !allLevelsSelected) {
     stations = stations.filter(s => {
       if (filters.value.fuelLevels.includes('available') && s.fuelLevel >= 20) return true
       if (filters.value.fuelLevels.includes('low') && s.fuelLevel < 20 && s.fuelLevel > 0) return true
@@ -1121,7 +1246,11 @@ function getFilteredAndSortedStations() {
     })
   }
 
-  if (filters.value.fuelTypes.length > 0) {
+  // Only apply fuel type filter if not all types are selected
+  const allFuelTypes = ['diesel', 'e95', 'e98']
+  const allTypesSelected = allFuelTypes.every(type => filters.value.fuelTypes.includes(type))
+
+  if (filters.value.fuelTypes.length > 0 && !allTypesSelected) {
     stations = stations.filter(s => {
       if (!s.fuels) return false
       return filters.value.fuelTypes.some(type => s.fuels[type]?.available)
@@ -1138,6 +1267,8 @@ function getFilteredAndSortedStations() {
 
   if (filters.value.distance !== 'any' && userPosition.value) {
     const maxDist = parseFloat(filters.value.distance)
+    console.log(`📏 Filtering by distance: ${maxDist}km from`, userPosition.value)
+    const originalCount = stations.length
     stations = stations.filter(s => {
       const dist = calculateDistance(
         userPosition.value.lat,
@@ -1147,6 +1278,7 @@ function getFilteredAndSortedStations() {
       )
       return dist <= maxDist
     })
+    console.log(`Filtered ${originalCount} stations → ${stations.length} within ${maxDist}km`)
   }
 
   // Sort by distance by default
@@ -1177,24 +1309,34 @@ function getFilteredCount() {
 
 function applyFilters() {
   emit('close-filters')
+  updateDistanceCircle()
   updateMarkersVisibility()
 }
 
 function clearAllFilters() {
   filters.value = {
     distance: 'any',
-    fuelTypes: [],
+    fuelTypes: ['diesel', 'e95', 'e98'],
     maxPrice: 3.0,
-    fuelLevels: [],
-    providers: [],
+    fuelLevels: ['available', 'low', 'empty'],
+    providers: ['Olerex', 'Circle K', 'Alexela', 'Other'],
     hasStation: false
   }
+  updateDistanceCircle()
+  updateMarkersVisibility()
+}
+
+// Handle instant distance filter change
+function onDistanceFilterChange() {
+  console.log('🔄 Distance filter changed to:', filters.value.distance)
+  updateDistanceCircle()
   updateMarkersVisibility()
 }
 
 function removeFilter(type, value) {
   if (type === 'distance') {
     filters.value.distance = value
+    onDistanceFilterChange()
   } else if (type === 'maxPrice') {
     filters.value.maxPrice = value
   } else if (type === 'hasStation') {
@@ -1235,25 +1377,26 @@ function createColoredIcon(color, isSelected = false, isFavorite = false) {
   const size = isSelected ? baseSize + 40 : baseSize
   const borderWidth = isSelected ? 4 : 2
 
-  // Star badge for favorites (only show for authenticated non-guest users)
-  const starBadge = isFavorite && !props.guestMode ? `
+  // Heart badge for favorites (only show for authenticated non-guest users)
+  const heartBadge = isFavorite && !props.guestMode ? `
     <div style="
       position: absolute;
-      top: -4px;
-      right: -4px;
-      background: #fbbf24;
+      top: -6px;
+      right: -6px;
+      background: #ef4444;
       color: white;
-      width: ${Math.max(12, size * 0.5)}px;
-      height: ${Math.max(12, size * 0.5)}px;
+      width: ${Math.max(16, size * 0.6)}px;
+      height: ${Math.max(16, size * 0.6)}px;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: ${Math.max(8, size * 0.4)}px;
-      border: 1px solid white;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+      font-size: ${Math.max(12, size * 0.5)}px;
+      line-height: 1;
+      border: 2px solid white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5);
       z-index: 10;
-    ">★</div>
+    ">♥</div>
   ` : ''
 
   return L.divIcon({
@@ -1268,7 +1411,7 @@ function createColoredIcon(color, isSelected = false, isFavorite = false) {
           border: ${borderWidth}px solid ${isSelected ? '#1e40af' : 'white'};
           box-shadow: 0 2px 4px rgba(0,0,0,0.3);
         "></div>
-        ${starBadge}
+        ${heartBadge}
       </div>
     `,
     iconSize: [size, size],
@@ -1293,6 +1436,24 @@ function getFuelStatusText(station) {
 .map-container {
   position: relative;
   height: 100%;
+}
+
+.crosshair-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1400;
+}
+
+.circle-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1300;
 }
 
 .search-container {
@@ -1380,22 +1541,33 @@ function getFuelStatusText(station) {
   font-weight: 700;
 }
 
-/* Active Filters Display */
-.active-filters {
+/* Active Filters Badge (Top Right) */
+.active-filters-badge {
   position: absolute;
-  top: 65px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 10px;
+  right: 10px;
   z-index: 999;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  max-width: 90%;
   background: white;
-  padding: 8px 12px;
+  padding: 8px 16px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e40af;
+  border: 2px solid #1e40af;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.active-filters-badge:hover {
+  background: #1e40af;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Adjust position when admin buttons are visible */
+.active-filters-badge.admin-mode {
+  top: 70px;
 }
 
 .active-filters-label {
@@ -1553,6 +1725,27 @@ function getFuelStatusText(station) {
   font-size: 1rem;
   color: #111827;
   font-weight: 600;
+}
+
+.filter-info {
+  background: #dbeafe;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: #1e40af;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.filter-hint {
+  background: #fef3c7;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: #92400e;
+  margin-top: 0.75rem;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .radio-group, .checkbox-group {
