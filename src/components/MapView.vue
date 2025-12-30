@@ -327,18 +327,42 @@
       </svg>
     </div>
 
-    <!-- Fixed Distance Circle Overlay -->
+    <!-- Fixed Distance Circle Overlay with Gray Outside Area -->
     <div v-if="filters.distance !== 'any' && circleRadiusPx > 0" class="circle-overlay">
-      <svg :width="circleRadiusPx * 2" :height="circleRadiusPx * 2" xmlns="http://www.w3.org/2000/svg">
+      <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+        <!-- Define mask to cut out the circle -->
+        <defs>
+          <mask id="circle-mask">
+            <!-- White fills the entire area (visible) -->
+            <rect width="100%" height="100%" fill="white" />
+            <!-- Black circle creates transparent area inside -->
+            <circle
+              cx="50%"
+              cy="50%"
+              :r="circleRadiusPx"
+              fill="black"
+            />
+          </mask>
+        </defs>
+
+        <!-- Gray overlay covering entire map, with circle cut out -->
+        <rect
+          width="100%"
+          height="100%"
+          fill="gray"
+          fill-opacity="0.5"
+          mask="url(#circle-mask)"
+        />
+
+        <!-- Circle border -->
         <circle
-          :cx="circleRadiusPx"
-          :cy="circleRadiusPx"
+          cx="50%"
+          cy="50%"
           :r="circleRadiusPx"
-          fill="#d1d5db"
-          fill-opacity="0.15"
+          fill="none"
           stroke="#9ca3af"
           stroke-width="2"
-          stroke-opacity="0.5"
+          stroke-opacity="0.8"
         />
       </svg>
     </div>
@@ -549,7 +573,7 @@ function updatePositionFromMapCenter() {
     // console.log('========================')
   } else {
     // If map not initialized yet, use Estonia center
-    userPosition.value = { lat: 58.5953, lng: 25.0136 }
+    userPosition.value = { lat: 58.9, lng: 25.0136 }
     // console.log('Map not initialized, using Estonia center:', userPosition.value)
   }
 }
@@ -601,12 +625,12 @@ function restoreMapView() {
 // Reset map to default view with zoom out
 function resetToDefaultView() {
   if (map) {
-    map.flyTo([58.5953, 25.0136], 7, {
+    map.flyTo([58.9, 25.0136], 8, {
       duration: 1.5
     })
     // Update saved view
-    lastMapView.center = [58.5953, 25.0136]
-    lastMapView.zoom = 7
+    lastMapView.center = [58.9, 25.0136]
+    lastMapView.zoom = 8
   }
 }
 
@@ -632,7 +656,7 @@ function initializeMap() {
   // Check if we have a saved view to restore
   const savedView = lastMapView.center && lastMapView.zoom
       ? [lastMapView.center, lastMapView.zoom]
-      : [[58.5953, 25.0136], 7]
+      : [[58.9, 25.0136], 8]
 
   map = L.map(mapRef.value).setView(savedView[0], savedView[1])
 
@@ -1178,7 +1202,7 @@ function clearSearch() {
   // Don't reset map view if we have a saved focused station
   if (!lastMapView.focusedStation) {
     // Only reset to default view if no station was previously focused
-    map.setView([58.5953, 25.0136], 7, {
+    map.setView([58.9, 25.0136], 8, {
       animate: true,
       duration: 0.5
     })
@@ -1383,8 +1407,8 @@ function createColoredIcon(color, isSelected = false, isFavorite = false) {
   const size = isSelected ? baseSize + 40 : baseSize
   const borderWidth = isSelected ? 4 : 2
 
-  // Heart badge for favorites (only show for authenticated non-guest users)
-  const heartBadge = isFavorite && !props.guestMode ? `
+  // Heart badge for favorites (show for all users including guests)
+  const heartBadge = isFavorite ? `
     <div style="
       position: absolute;
       top: -6px;
@@ -1455,9 +1479,10 @@ function getFuelStatusText(station) {
 
 .circle-overlay {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   pointer-events: none;
   z-index: 1300;
 }

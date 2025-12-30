@@ -53,7 +53,7 @@
               </div>
               <div class="info-row">
                 <span class="icon">⛽</span>
-                <span>{{ favorite.stationType }}</span>
+                <span>{{ favorite.station_type }}</span>
               </div>
               <div class="info-row" v-if="favorite.distance">
                 <span class="icon">🗺️</span>
@@ -167,7 +167,7 @@ function getUserLocation() {
         calculateDistances()
       },
       () => {
-        userPosition.value = { lat: 58.5953, lng: 25.0136 }
+        userPosition.value = { lat: 58.9, lng: 25.0136 }
         calculateDistances()
       }
     )
@@ -228,7 +228,7 @@ const sortedFavorites = computed(() => {
   } else if (sortBy.value === 'name') {
     sorted.sort((a, b) => a.name.localeCompare(b.name))
   } else if (sortBy.value === 'fuelLevel') {
-    sorted.sort((a, b) => b.fuelLevel - a.fuelLevel)
+    sorted.sort((a, b) => (b.fuel_level || 0) - (a.fuel_level || 0))
   } else if (sortBy.value === 'dateAdded') {
     sorted.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
   }
@@ -237,15 +237,15 @@ const sortedFavorites = computed(() => {
 })
 
 function getFuelBadgeClass(favorite) {
-  if (favorite.fuelLevel === 0) return 'fuel-empty'
-  if (favorite.fuelLevel < 20) return 'fuel-low'
+  if (favorite.fuel_level === 0) return 'fuel-empty'
+  if (favorite.fuel_level < 20) return 'fuel-low'
   return 'fuel-good'
 }
 
 function getFuelBadgeText(favorite) {
-  if (favorite.fuelLevel === 0) return 'Empty'
-  if (favorite.fuelLevel < 20) return `${favorite.fuelLevel}% Low`
-  return `${favorite.fuelLevel}%`
+  if (favorite.fuel_level === 0) return 'Empty'
+  if (favorite.fuel_level < 20) return `${favorite.fuel_level}% Low`
+  return `${favorite.fuel_level}%`
 }
 
 function getLowestPrice(favorite) {

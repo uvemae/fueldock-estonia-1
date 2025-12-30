@@ -15,6 +15,13 @@ Portable fuel station locator for Estonian marinas. MVP prototype for startup bu
 - 📊 Transaction history
 - 📱 PWA - works on mobile
 
+## 📸 Screenshots
+
+![FuelDock Screenshot 1](public/pic/scr/scr1.jpg)
+![FuelDock Screenshot 2](public/pic/scr/scr2.jpg)
+![FuelDock Screenshot 3](public/pic/scr/scr3.jpg)
+![FuelDock Screenshot 4](public/pic/scr/scr4.jpg)
+
 ## 🛠️ Tech Stack
 
 - Vue 3 + Vite
@@ -56,4 +63,5 @@ TalTech Business IT Student
 
 ---
 
-**MVP Prototype** - October 2025
+**MVP Prototype** - October 2025  
+**MVP Prototype** - December 2025 (updated)

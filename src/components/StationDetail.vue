@@ -5,7 +5,6 @@
         <h2>{{ station.name }}</h2>
         <div class="header-actions">
           <button
-            v-if="user"
             @click="toggleFavorite"
             :disabled="loading"
             class="favorite-btn"
@@ -178,15 +177,15 @@ async function toggleFavorite() {
         favoriteId.value = null
         showNotification('Removed from favorites')
       } else {
-        // Add to favorites
+        // Add to favorites (use snake_case to match Supabase schema)
         const newFavorite = {
           id: Date.now().toString(), // Generate a simple ID for localStorage
           station_id: props.station.id,
           name: props.station.name,
           location: props.station.location,
           coordinates: props.station.coordinates,
-          stationType: props.station.stationType,
-          fuelLevel: props.station.fuelLevel,
+          station_type: props.station.stationType,
+          fuel_level: props.station.fuelLevel,
           capacity: props.station.capacity,
           fuels: props.station.fuels,
           created_at: new Date().toISOString()
