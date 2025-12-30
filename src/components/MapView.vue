@@ -507,7 +507,7 @@ onMounted(async () => {
   await loadUserFavorites()
 
   // Apply filters initially with all options selected
-  console.log('🎯 Applying initial filters with all options selected')
+  // console.log('🎯 Applying initial filters with all options selected')
   updateMarkersVisibility()
 
   // Add export function to window for console access
@@ -518,9 +518,9 @@ onMounted(async () => {
       console.log('=== Copy the above JSON to update stations.json ===')
       return updatedStations
     }
-    console.log('%c📍 EDIT MODE ENABLED', 'color: red; font-size: 16px; font-weight: bold')
-    console.log('Drag markers to update positions.')
-    console.log('Click "Save Coordinates" button or run exportStationCoordinates() in console.')
+    // console.log('%c📍 EDIT MODE ENABLED', 'color: red; font-size: 16px; font-weight: bold')
+    // console.log('Drag markers to update positions.')
+    // console.log('Click "Save Coordinates" button or run exportStationCoordinates() in console.')
   }
 })
 
@@ -530,7 +530,7 @@ function getUserLocation() {
   // Force use of map center (not GPS) for live interactive distance filtering
   isUsingGPS.value = false
   updatePositionFromMapCenter()
-  console.log('📍 Distance filter reference: MAP CENTER (updates as you pan)')
+  // console.log('📍 Distance filter reference: MAP CENTER (updates as you pan)')
 }
 
 // Update user position from current map center
@@ -541,16 +541,16 @@ function updatePositionFromMapCenter() {
       lat: center.lat,
       lng: center.lng
     }
-    console.log('=== MAP CENTER UPDATE ===')
-    console.log('New userPosition:', userPosition.value)
-    console.log('Map zoom:', map.getZoom())
-    console.log('isUsingGPS:', isUsingGPS.value)
-    console.log('Distance filter:', filters.value.distance)
-    console.log('========================')
+    // console.log('=== MAP CENTER UPDATE ===')
+    // console.log('New userPosition:', userPosition.value)
+    // console.log('Map zoom:', map.getZoom())
+    // console.log('isUsingGPS:', isUsingGPS.value)
+    // console.log('Distance filter:', filters.value.distance)
+    // console.log('========================')
   } else {
     // If map not initialized yet, use Estonia center
     userPosition.value = { lat: 58.5953, lng: 25.0136 }
-    console.log('Map not initialized, using Estonia center:', userPosition.value)
+    // console.log('Map not initialized, using Estonia center:', userPosition.value)
   }
 }
 
@@ -715,7 +715,7 @@ function initializeMap() {
 
   // Update markers after zoom completes
   map.on('zoomend', () => {
-    console.log('🔍 ZOOM END - Updating markers')
+    // console.log('🔍 ZOOM END - Updating markers')
     updateMarkersVisibility()
   })
 }
@@ -1276,7 +1276,7 @@ function getFilteredAndSortedStations() {
 
   if (filters.value.distance !== 'any' && userPosition.value) {
     const maxDist = parseFloat(filters.value.distance)
-    console.log(`📏 Filtering by distance: ${maxDist}km from`, userPosition.value)
+    // console.log(`📏 Filtering by distance: ${maxDist}km from`, userPosition.value)
     const originalCount = stations.length
     stations = stations.filter(s => {
       const dist = calculateDistance(
@@ -1287,7 +1287,7 @@ function getFilteredAndSortedStations() {
       )
       return dist <= maxDist
     })
-    console.log(`Filtered ${originalCount} stations → ${stations.length} within ${maxDist}km`)
+    // console.log(`Filtered ${originalCount} stations → ${stations.length} within ${maxDist}km`)
   }
 
   // Sort by distance by default
@@ -1337,7 +1337,7 @@ function clearAllFilters() {
 
 // Handle instant distance filter change
 function onDistanceFilterChange() {
-  console.log('🔄 Distance filter changed to:', filters.value.distance)
+  // console.log('🔄 Distance filter changed to:', filters.value.distance)
   updateDistanceCircle()
   updateMarkersVisibility()
 }

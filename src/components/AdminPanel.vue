@@ -531,7 +531,7 @@ async function saveMarinasToServer() {
       result = await response.json()
     } catch (e) {
       // If JSON parsing fails, assume success since HTTP status was OK
-      console.log('No JSON response, but HTTP status OK - treating as success')
+      // console.log('No JSON response, but HTTP status OK - treating as success')
       showNotification('✅ Marinas saved successfully!', 'success')
       return
     }
