@@ -1,0 +1,5408 @@
+[
+  {
+    "id": "station-151",
+    "name": "DIRHAMI SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      59.21003692279346,
+      23.49896192760152
+    ],
+    "hasStation": true,
+    "stationType": "Olerex",
+    "fuelLevel": 23,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1401",
+    "name": "VARBLA SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.43484598380541,
+      23.684324121426343
+    ],
+    "hasStation": true,
+    "stationType": "Olerex",
+    "fuelLevel": 1,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-326",
+    "name": "NAISSAARE SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.55759484273108,
+      24.55348856209784
+    ],
+    "hasStation": true,
+    "stationType": "Alexela",
+    "fuelLevel": 47,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr",
+      "app"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-250",
+    "name": "KUIVASTU SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.57294897894946,
+      23.392649978026128
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 15,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-207",
+    "name": "KELNASE SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.636951026768706,
+      25.011867300486617
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 24,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-348",
+    "name": "PATAREISADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.448366521516434,
+      24.752465507475613
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 84,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-201",
+    "name": "KALLASTE SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.668860481142566,
+      27.165702769947824
+    ],
+    "hasStation": true,
+    "stationType": "Alexela",
+    "fuelLevel": 21,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr",
+      "app"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-370",
+    "name": "PÄRNU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.38634198599385,
+      24.481508870106325
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 22,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-313",
+    "name": "LEPPNEEME SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.5509187722641,
+      24.868294011100197
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 78,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-390",
+    "name": "VENE-BALTI SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.4593728708958,
+      24.660111697149414
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 50,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-302",
+    "name": "KURESSAARE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.24504241378111,
+      22.470592197513312
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 59,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-347",
+    "name": "PALDISKI PÕHJASADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.34843151798162,
+      24.051153538315592
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 9,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-357",
+    "name": "ROOMASSAARE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.216442900827786,
+      22.505283815589987
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 98,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-371",
+    "name": "SOELA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.61757022248619,
+      22.592246484257174
+    ],
+    "hasStation": true,
+    "stationType": "Alexela",
+    "fuelLevel": 98,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr",
+      "app"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-374",
+    "name": "SUURSADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.97588001930916,
+      22.90780230864535
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 37,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1403",
+    "name": "KARLOVA PAADISADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.36924669964509,
+      26.745325133140085
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 58,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-373",
+    "name": "SUUR-HOLMI SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.958300072379465,
+      23.526310476455595
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 33,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-382",
+    "name": "TOILA SADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.426146613728704,
+      27.533379584723257
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 24,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1600",
+    "name": "VÕSU SADAM",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.585700818310315,
+      25.970719810712986
+    ],
+    "hasStation": true,
+    "stationType": "Olerex",
+    "fuelLevel": 99,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-318",
+    "name": "LOHUSALU SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.402582381641324,
+      24.20638965593215
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 12,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-6600",
+    "name": "VÄRSKA SADAM",
+    "location": "Võru maakond",
+    "coordinates": [
+      57.958099398442535,
+      27.628566145050225
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 11,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1907",
+    "name": "SUARU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.14100107258266,
+      24.01825909036016
+    ],
+    "hasStation": true,
+    "stationType": "Alexela",
+    "fuelLevel": 33,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr",
+      "app"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-51",
+    "name": "KOLJUNUKI SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.50503122798446,
+      25.089844423357498
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 99,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1452",
+    "name": "KOLKJA SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.55530338233313,
+      27.21829548241359
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 48,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-324",
+    "name": "LÕUNARANNA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.5410841962558,
+      23.318508199317954
+    ],
+    "hasStation": true,
+    "stationType": "Alexela",
+    "fuelLevel": 0,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr",
+      "app"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-368",
+    "name": "SILLAMÄE SADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.418699435561486,
+      27.737863067827544
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 30,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-168",
+    "name": "PIRITA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.466849255484284,
+      24.822584053315577
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 87,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-330",
+    "name": "MÕNTU SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      57.948558221449865,
+      22.12621804490712
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 96,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-154",
+    "name": "HELTERMAA SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.86586149705953,
+      23.045427562456016
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 42,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-344",
+    "name": "RUHNU SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      57.78123357568677,
+      23.27055552095325
+    ],
+    "hasStation": true,
+    "stationType": "Alexela",
+    "fuelLevel": 94,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr",
+      "app"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-2101",
+    "name": "MÕNTU VÄIKELAEVADE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      57.949315460072754,
+      22.122961869349453
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 33,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-402",
+    "name": "VÄRATI SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.30904639720103,
+      23.98906592639463
+    ],
+    "hasStation": true,
+    "stationType": "Olerex",
+    "fuelLevel": 95,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-360",
+    "name": "RÄPINA SADAM",
+    "location": "Põlva maakond",
+    "coordinates": [
+      58.12528842065397,
+      27.529742753356434
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 75,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-389",
+    "name": "VASKNARVA PAADISADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      58.99686410270323,
+      27.741337017336683
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 96,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-804",
+    "name": "NEEME SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.531374963563266,
+      25.160386352856108
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 0,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1201",
+    "name": "PÄRNU JAHTKLUBI JAHISADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.386999980487374,
+      24.49066001630294
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 70,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-2115",
+    "name": "NARVA-JÕESUU SADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.46474251606081,
+      28.04529010935306
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 80,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-452",
+    "name": "KÄRDLA SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      59.00878218744771,
+      22.75255657459167
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 79,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-3934",
+    "name": "LUUNJA JÕESADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.35422312635373,
+      26.881983927553723
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 80,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1210",
+    "name": "KABERNEEME SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.520062821619156,
+      25.278242581356942
+    ],
+    "hasStation": true,
+    "stationType": "Olerex",
+    "fuelLevel": 48,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-163",
+    "name": "KAKUMÄE SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.45097870670802,
+      24.603946567184025
+    ],
+    "hasStation": true,
+    "stationType": "Alexela",
+    "fuelLevel": 57,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr",
+      "app"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1207",
+    "name": "KÕIGUSTE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.370242604922666,
+      22.97454178228539
+    ],
+    "hasStation": true,
+    "stationType": "Alexela",
+    "fuelLevel": 100,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr",
+      "app"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-2266",
+    "name": "MEHIKOORMA SADAM",
+    "location": "Põlva maakond",
+    "coordinates": [
+      58.23711955631759,
+      27.474515950329753
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 26,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-450",
+    "name": "EISMA SADAM",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.56978286768515,
+      26.303200688222102
+    ],
+    "hasStation": true,
+    "stationType": "Olerex",
+    "fuelLevel": 49,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-332",
+    "name": "OIU SADAM",
+    "location": "Viljandi maakond",
+    "coordinates": [
+      58.398338614687276,
+      25.97592285103282
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 83,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-2114",
+    "name": "HARA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.58873686885067,
+      25.613293788125322
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 8,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-376",
+    "name": "SÕRU SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.69156723910896,
+      22.522160411928486
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 37,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-1966",
+    "name": "SAAGA SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.381139460562494,
+      26.99149335204067
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 59,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "station-404",
+    "name": "WESTMERI JAHISADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.95912661614998,
+      23.52535516470745
+    ],
+    "hasStation": true,
+    "stationType": "Other",
+    "fuelLevel": 2,
+    "capacity": 8000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e95": {
+        "available": true,
+        "price": 1.69
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-362",
+    "name": "SAASTNA VANASADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.73073039790515,
+      23.566114437338317
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 34,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9184",
+    "name": "VAALA SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.363177821976116,
+      24.56847690319154
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 59,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-3989",
+    "name": "KIIDEVA SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.77161284265908,
+      23.547805120308286
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 2,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-384",
+    "name": "VASKNARVA",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.007928664881895,
+      27.736718062775935
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 22,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-200",
+    "name": "KALLASTE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.6681380168726,
+      23.253271458237467
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 85,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2659",
+    "name": "ALLIKLEPA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.28493976831885,
+      23.79287842078223
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 95,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-310",
+    "name": "LAO SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.23406118749257,
+      24.12211430721333
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 46,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-6155",
+    "name": "NARVA-JÕESUU KALURISADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.45928564119241,
+      28.065444184945235
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 62,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2200",
+    "name": "NASVA JÕESADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.22927401448976,
+      22.3815052413029
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 73,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-710",
+    "name": "ADMIRALI VÄIKESADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.52980831241627,
+      23.67822960415182
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 90,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-355",
+    "name": "ROOGRAHU SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.99972382472675,
+      22.819022156007403
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 41,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-397",
+    "name": "VÕIDU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.30861522084546,
+      24.020126188552936
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 8,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-164",
+    "name": "KALANA SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.9199467123978,
+      22.057586566782323
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 46,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-352",
+    "name": "ROHUNEEME SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.558595051987844,
+      24.7929295975825
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 52,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-212",
+    "name": "KOGUVA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.5960754,
+      23.075541
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 6,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-399",
+    "name": "VÕRKAIA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.68247571496831,
+      23.198758797370793
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 42,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-354",
+    "name": "ROHUNEEME VÄIKESADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.559144067264775,
+      24.793449784823064
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 77,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-52",
+    "name": "MIIDURANNA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.49981500907193,
+      24.814816485991393
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 7,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-708",
+    "name": "HALDI SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.806952076597874,
+      22.446811851797356
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 0,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-162",
+    "name": "JÕEKÄÄRU SADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      58.982702907194515,
+      27.18212296967626
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 0,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-319",
+    "name": "MUNALAIU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.22911019419104,
+      24.118643304592368
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 0,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-331",
+    "name": "MÄNNI VÄIKESADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.517979719027004,
+      23.66405820378694
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 53,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-329",
+    "name": "NURME SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.51790225516271,
+      24.80058976342078
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 89,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-349",
+    "name": "RISTNA LÕUNASADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.92166086743255,
+      22.06255289395695
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 71,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-358",
+    "name": "ROOPA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.26326730006585,
+      21.873827533691543
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 89,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1650",
+    "name": "SALINÕMME PAADISADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.84468620000001,
+      22.9373696
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 1,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2139",
+    "name": "NAISTLAIU SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.82473230000001,
+      23.0324017
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 57,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-7101",
+    "name": "VAINU SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.501530243091835,
+      25.458218586290347
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 5,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-333",
+    "name": "PALDISKI LÕUNASADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.3349842563559,
+      24.07896335384912
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 53,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-150",
+    "name": "BEKKERI SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.455599980566376,
+      24.666024192915636
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 55,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-3703",
+    "name": "ASERI VÄIKESADAM (EHITAMISEL)",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.45894762396577,
+      26.88345739849666
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 34,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-315",
+    "name": "LINDI SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.32955079426123,
+      24.2899292277986
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 88,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-3956",
+    "name": "RANNAAUGU SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.54532536434771,
+      22.219043842318335
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 99,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-160",
+    "name": "JUHETA VÄIKESADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.36906383262766,
+      24.294891453787876
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 51,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1202",
+    "name": "PRANGLI LÕUNASADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.61477372687315,
+      25.015589776094654
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 82,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2670",
+    "name": "SUARU KALASADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.14107752311868,
+      24.015984614824013
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 52,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2059",
+    "name": "RÄLBY SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      59.025715675105985,
+      23.277143300727463
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 4,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-383",
+    "name": "TREIMANI SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      57.918494898835526,
+      24.384048374730778
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 39,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-159",
+    "name": "JAAGUPI SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.03645036928897,
+      24.458270931851438
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 68,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-361",
+    "name": "SAAREPERA SADAM",
+    "location": "Põlva maakond",
+    "coordinates": [
+      58.1742387352723,
+      27.496037095724574
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 66,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-210",
+    "name": "MUUGA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.49536860774204,
+      24.968909471408764
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 77,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2201",
+    "name": "MURATSI SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.230389667099594,
+      22.575831463546947
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 49,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2665",
+    "name": "TORI JÕESADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.245886548353305,
+      22.467679256723216
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 5,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2158",
+    "name": "VARNJA SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.48841461385842,
+      27.24307947289049
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 8,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9354",
+    "name": "KASSARIOTSA SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.78134285116765,
+      22.84932573879327
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 90,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2058",
+    "name": "TAALIKU SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.60419234080926,
+      22.97888690013703
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 24,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-401",
+    "name": "VÕÕPSU SADAM",
+    "location": "Põlva maakond",
+    "coordinates": [
+      58.08184717841632,
+      27.544961574835792
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 81,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2152",
+    "name": "NÕVA SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      59.24743622790684,
+      23.664776411518794
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 80,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1212",
+    "name": "VARESE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.57447335160411,
+      22.399202350590063
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 17,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2674",
+    "name": "ABAJA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.36938736593679,
+      22.01689148827335
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 76,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-203",
+    "name": "PALJASSAARE SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.46336338912072,
+      24.714709799050695
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 20,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2640",
+    "name": "KAAVI PAADISADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      57.9815627,
+      22.2023884
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 21,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-300",
+    "name": "KUNDA SADAM",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.52789303465741,
+      26.546938436101357
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 96,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1962",
+    "name": "VALMERANNA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.49668772855224,
+      23.233283609424635
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 19,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9000",
+    "name": "MEREMÄE SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.827722406684835,
+      22.94929157869701
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 49,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2662",
+    "name": "AHOI JÕESADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.225771484720006,
+      22.382422628013053
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 80,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-398",
+    "name": "VÕISTE SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.21498208590553,
+      24.468800907359537
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 46,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-386",
+    "name": "TULETORNI KAI",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.789374519254764,
+      22.771203367080076
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 96,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1939",
+    "name": "JÕE PAADISADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.3719368,
+      26.7402542
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 16,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-339",
+    "name": "RANNAMETSA SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.1228266725876,
+      24.478076514051146
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 67,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-320",
+    "name": "LOHUSUU SADAM",
+    "location": "Jõgeva maakond",
+    "coordinates": [
+      58.9420857161942,
+      27.052084407598997
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 79,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-323",
+    "name": "MUSTVEE SADAM",
+    "location": "Jõgeva maakond",
+    "coordinates": [
+      58.84657657518838,
+      26.950010156582593
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 33,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9006",
+    "name": "VESTSILLA SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.94112537132108,
+      23.45780081404875
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 71,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9119",
+    "name": "MÄNNIKU SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.78608590230018,
+      22.77686859474286
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 94,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2257",
+    "name": "PAPISSAARE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.359950228367275,
+      21.985874150886424
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 1,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-854",
+    "name": "KESSE-JAANI SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.63182538532375,
+      23.443455985247624
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 87,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-369",
+    "name": "PUSI VÄIKESADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.64599657833848,
+      27.169645630816664
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 36,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-312",
+    "name": "LENNUSADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.45306994544707,
+      24.73578212131489
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 13,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-101",
+    "name": "AEGNA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.57139401986587,
+      24.757647451495856
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 45,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-378",
+    "name": "UNGUMA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.460365166683424,
+      23.146986403026737
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 27,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-375",
+    "name": "SVIBY SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.971306711840775,
+      23.31288092166234
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 16,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2132",
+    "name": "PASLEPA-VIIGI SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      59.0242330852399,
+      23.44388008955642
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 74,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-305",
+    "name": "SAAREMAA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.53618451842988,
+      22.238451896147108
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 15,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-6967",
+    "name": "HAAPSALU VANASADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.956072724190506,
+      23.530434591097862
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 58,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-336",
+    "name": "ORJAKU SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.78875184646206,
+      22.771536453302517
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 73,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-709",
+    "name": "TALVESADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.385433708468824,
+      24.492859909525208
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 74,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1943",
+    "name": "TARVASTU SADAM",
+    "location": "Viljandi maakond",
+    "coordinates": [
+      58.25279979063932,
+      25.96429932088659
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 66,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9003",
+    "name": "RAHUSTE SADAM (EHITAMISEL)",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.07108782421003,
+      22.133503437845288
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 66,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-396",
+    "name": "VIRTSU VANASADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.579062850862094,
+      23.519255379601553
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 58,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-341",
+    "name": "RAJA VÄIKESADAM",
+    "location": "Jõgeva maakond",
+    "coordinates": [
+      58.82887193850611,
+      26.946083113486765
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 0,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9169",
+    "name": "JÕESUU SADAM",
+    "location": "Viljandi maakond",
+    "coordinates": [
+      58.38486567162639,
+      26.133840792200246
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 46,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-317",
+    "name": "LIU VÄIKESADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.27911366655924,
+      24.266310835893727
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 41,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2103",
+    "name": "PURTSE KALASADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.43414866191135,
+      26.99094676902478
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 60,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1968",
+    "name": "PAE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.49131925700116,
+      23.268490170781323
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 42,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9009",
+    "name": "PÄRNU VANASADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.387767625213726,
+      24.493385561739647
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 12,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-400",
+    "name": "VÄIKE-TURU SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.378014764316596,
+      26.736441846472427
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 36,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-322",
+    "name": "LÕMALA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.17286388235762,
+      22.119335565707047
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 66,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-301",
+    "name": "KUNGLA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.363062455363405,
+      22.95448957721547
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 86,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-359",
+    "name": "PURTSE SADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.43496703955746,
+      26.991858205788642
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 31,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1203",
+    "name": "RUHVE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.37778694035379,
+      23.039960672663877
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 100,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-167",
+    "name": "KALEVI JAHTKLUBI SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.46737523850052,
+      24.826854488297457
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 50,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-9011",
+    "name": "UUS SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.95942544291826,
+      23.50942821303493
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 94,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-343",
+    "name": "REMNIKU VANASADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.010867566160115,
+      27.54307865153787
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 18,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-303",
+    "name": "KURKSE SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.28832895232838,
+      24.02159065267846
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 48,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-385",
+    "name": "TRIIGI SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.59162845433841,
+      22.717430403041075
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 87,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-1400",
+    "name": "SÕRU JAHISADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.69425158708312,
+      22.523211766635303
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 8,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-2456",
+    "name": "OSMUSSAARE SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      59.2943469,
+      23.38744
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 9,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-805",
+    "name": "LAUTRI SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.8032955665529,
+      22.74449914957879
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 64,
+    "capacity": 5000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-3921",
+    "name": "UISUSADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.560141628008886,
+      23.088235290479798
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 95,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "fueldock-206",
+    "name": "KAVARU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.26959033387641,
+      24.1929459655635
+    ],
+    "hasStation": true,
+    "stationType": "FuelDock",
+    "fuelLevel": 73,
+    "capacity": 3000,
+    "fuels": {
+      "diesel": {
+        "available": true,
+        "price": 1.54
+      },
+      "e98": {
+        "available": true,
+        "price": 1.79
+      }
+    },
+    "payment": [
+      "card",
+      "qr"
+    ],
+    "hours": "24/7"
+  },
+  {
+    "id": "no-fuel-53",
+    "name": "ABRUKA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.16249579999999,
+      22.5253685
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-156",
+    "name": "ALAJÕE KALASADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.00760824317872,
+      27.43315649366905
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-161",
+    "name": "ATLA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.30182561400056,
+      21.89417462777699
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-8403",
+    "name": "BERESJE SADAM",
+    "location": "Võru maakond",
+    "coordinates": [
+      58.08933965040894,
+      27.581745397645683
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-9173",
+    "name": "BÜRGERMEISTRI SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.962750098622465,
+      23.51982933938877
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-152",
+    "name": "HAAPSALU VESKIVIIGI SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.957906797945306,
+      23.527560438372888
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2259",
+    "name": "HARA SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      59.089547144334546,
+      23.528659333244907
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-157",
+    "name": "HIIESSAARE SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      59.00219377023878,
+      22.84236244766205
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-158",
+    "name": "HUNDIPEA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.457312008996055,
+      24.717993325664104
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-3677",
+    "name": "JAPSI KALASADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.3892241359425,
+      24.487270069670497
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-9010",
+    "name": "JÕEÄÄRE PAADISADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.33761913210218,
+      26.786921028512324
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-7151",
+    "name": "KADARIKU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.45423618866158,
+      23.685171323438134
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-8350",
+    "name": "KAKRI KALASADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.97625603209905,
+      22.906171653353994
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-346",
+    "name": "KALANA JAHISADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.921752249722424,
+      22.05812188152198
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-165",
+    "name": "KALASADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.44572413728157,
+      24.748646112018033
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-8909",
+    "name": "KALDASILLA SADAM",
+    "location": "Jõgeva maakond",
+    "coordinates": [
+      58.77706910196583,
+      26.98008280857649
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1960",
+    "name": "KALDU SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.45409024759508,
+      23.268570985854836
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2134",
+    "name": "KALMAKÜLA SADAM",
+    "location": "Jõgeva maakond",
+    "coordinates": [
+      58.89112288008285,
+      26.969858407974247
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2354",
+    "name": "KAREPA SADAM ",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.547455175281335,
+      26.423717795855435
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2611",
+    "name": "KASSARI SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.78206296922745,
+      22.8497978117697
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-204",
+    "name": "KASTNA VÄIKESADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.350374,
+      23.9130336
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-205",
+    "name": "KAUNISPE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.04186264452349,
+      22.059860388705594
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-208",
+    "name": "KELVINGI SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.55546929940867,
+      24.839830324190146
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-211",
+    "name": "KIHNU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.14123325518436,
+      24.02088792334366
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-9005",
+    "name": "KIRDERANNA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.62095579164729,
+      22.864040247367672
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-304",
+    "name": "KÕRGESSAARE SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.990071656325064,
+      22.466397377637612
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-306",
+    "name": "KÄRSA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.2286732,
+      22.7280573
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-8351",
+    "name": "KÄSMU MAJAKA SADAM",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.60446942979059,
+      25.92349111405371
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-9179",
+    "name": "KÜTIOJA SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.5212122,
+      23.7241667
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-307",
+    "name": "LAAKSAARE SADAM",
+    "location": "Põlva maakond",
+    "coordinates": [
+      58.338430088258725,
+      27.417041637358558
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-308",
+    "name": "LAHESUU SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.45833700363406,
+      24.702973080875516
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-8392",
+    "name": "LEESIKALDA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.594514926928966,
+      25.50226025510831
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2123",
+    "name": "LEHTMA KALURISADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      59.06882085554219,
+      22.696219278375228
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-311",
+    "name": "LEHTMA SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      59.06761035561787,
+      22.701143728235156
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-314",
+    "name": "LEPPNEEME KALASADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.55167179919739,
+      24.867263868960684
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-321",
+    "name": "LOKSA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.58444612705517,
+      25.70408193417594
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-801",
+    "name": "LUIGE VÄIKESADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.871280759575235,
+      23.477649072772582
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1964",
+    "name": "LÕPESUU SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.48967911640937,
+      23.273795518412854
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-707",
+    "name": "LÄÄNE SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.5271617204529,
+      23.676867501805706
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-325",
+    "name": "LÄÄTSA PAADISADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.14659002353162,
+      22.253064692365207
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2501",
+    "name": "MAHU SADAM",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.521069587424115,
+      26.72726843815698
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-309",
+    "name": "MANILAIU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.22227849999999,
+      24.1247841
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-9008",
+    "name": "MEERAPALU SADAM",
+    "location": "Põlva maakond",
+    "coordinates": [
+      58.387508933619536,
+      27.37374460137659
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-327",
+    "name": "MEERUSE SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.45045246851013,
+      24.6697146192323
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-316",
+    "name": "MERELAIU VÄIKESADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.30465547982153,
+      24.022958257706886
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2314",
+    "name": "MIHKLI SADAM",
+    "location": "Jõgeva maakond",
+    "coordinates": [
+      58.77751123834221,
+      26.99003963770032
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-9001",
+    "name": "NARVA-JÕESUU JAHTKLUBI SADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.45970543207499,
+      28.057687381023182
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1553",
+    "name": "NARVA KULGU SADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.3442578564839,
+      28.173097424427883
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1552",
+    "name": "NARVA LINNASADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.38395796610147,
+      28.20554144247878
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-328",
+    "name": "NASVA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.2269312,
+      22.3783734
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-353",
+    "name": "NOBLESSNERI SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.452183843127564,
+      24.729565371485567
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-334",
+    "name": "OMEDU RAND",
+    "location": "Jõgeva maakond",
+    "coordinates": [
+      58.77780043141777,
+      26.98858028346087
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-335",
+    "name": "ORISSAARE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.562676613132034,
+      23.092617941450893
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-337",
+    "name": "OTI SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.56629675506538,
+      24.79439948373618
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-338",
+    "name": "OTSA VÄIKESADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.6489774918986,
+      27.169001881798852
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-705",
+    "name": "PAATSALU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.524444905111146,
+      23.67949722512728
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-8457",
+    "name": "PAKRINEEME SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.38888889999999,
+      24.0369444
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-350",
+    "name": "PEERNI SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.246312842792065,
+      24.134033920475662
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1659",
+    "name": "PIHELGALAIU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.44586885868282,
+      23.66907840453489
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1930",
+    "name": "PIIRISSAARE SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.375722394408996,
+      27.511417843756576
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-356",
+    "name": "PIIRIVALVESADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.457268391513615,
+      24.66181822941108
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-377",
+    "name": "PUISE KALASADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.7835441,
+      23.4985324
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-808",
+    "name": "PURTSE JAHTSADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.435106161788916,
+      26.99108540802319
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-342",
+    "name": "REBASE PAADISADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.36787658063787,
+      26.749016207832376
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-345",
+    "name": "RISTNA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.27073824103223,
+      23.744625264828233
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-351",
+    "name": "ROHUKÜLA SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.905958908457656,
+      23.420534724676656
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-363",
+    "name": "SALINÕMME SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.8270809846774,
+      22.95055220122218
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-365",
+    "name": "SALME JÕESADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.1654474887975,
+      22.252818894890837
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-366",
+    "name": "SALMISTU SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.49659394520264,
+      25.366337433421357
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-367",
+    "name": "SASSUKVERE SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.71493614828406,
+      27.126172656299634
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1936",
+    "name": "SIGATSUARU VÄIKESADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.15445383926815,
+      24.002310626327155
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-7401",
+    "name": "SITME SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.51088849396052,
+      23.199316307192024
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-372",
+    "name": "SOO SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.72244286155842,
+      27.12023931143356
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1251",
+    "name": "SUUR-LOOTSI SADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      59.4678736,
+      28.0420528
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1154",
+    "name": "SUURPEA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.6281046477358,
+      25.682983138624618
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2680",
+    "name": "TAMMNEEME SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.529013819775024,
+      24.893335103988647
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-380",
+    "name": "TAPURLA SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.61120815173785,
+      25.573854563726297
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-381",
+    "name": "TILGU SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.45518286496472,
+      24.487001945135006
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-9007",
+    "name": "TOOMINGA VÄIKESADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.56256026313831,
+      24.79553650363329
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-704",
+    "name": "TOPU SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.84439243775599,
+      23.50073748712197
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2122",
+    "name": "TURJA SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.3327473718112,
+      22.93243528887582
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2133",
+    "name": "TURUSADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.3795223030903,
+      26.735905398384677
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-387",
+    "name": "TÄRKMA SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.69332616544748,
+      22.609981401097386
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-9168",
+    "name": "ULGE SADAM",
+    "location": "Viljandi maakond",
+    "coordinates": [
+      58.40635470910224,
+      26.013124772690055
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-3826",
+    "name": "VAHTREPA SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.88560138747144,
+      23.02869308620697
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-4651",
+    "name": "VAINUPEA SADAM",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.583802468572706,
+      26.273932825674926
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-166",
+    "name": "VANASADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.44304063799767,
+      24.75930008714019
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2147",
+    "name": "VANA-SAUGA SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.38997205050698,
+      24.475392484556682
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-8977",
+    "name": "VANASAUNA SADAM",
+    "location": "Viljandi maakond",
+    "coordinates": [
+      58.36875436320875,
+      25.9668093112776
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-393",
+    "name": "VASKNARVA UUSSADAM",
+    "location": "Ida-Viru maakond",
+    "coordinates": [
+      58.99790578740703,
+      27.739502189448658
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-388",
+    "name": "VEERE SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.4616643503602,
+      22.05045075745465
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-901",
+    "name": "VEERE VANASADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.460906732883764,
+      22.04877742773411
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-3870",
+    "name": "VEIBRI SADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.33766136986146,
+      26.792575007800597
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1150",
+    "name": "VERGI SADAM",
+    "location": "Lääne-Viru maakond",
+    "coordinates": [
+      59.59942875325675,
+      26.101439794239237
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2645",
+    "name": "VIINISTU SADAM",
+    "location": "Harju maakond",
+    "coordinates": [
+      59.646704192089956,
+      25.75353627355206
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2551",
+    "name": "VIKATI SADAM",
+    "location": "Saare maakond",
+    "coordinates": [
+      58.37183486965951,
+      21.86242812338169
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-395",
+    "name": "VIRTSU KALASADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.58872092778278,
+      23.525488549491424
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-394",
+    "name": "VIRTSU SADAM",
+    "location": "Pärnu maakond",
+    "coordinates": [
+      58.574979596464345,
+      23.503157983475997
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-3811",
+    "name": "VÕÕPSU KÜLASADAM",
+    "location": "Võru maakond",
+    "coordinates": [
+      58.07978519644125,
+      27.544044310678082
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-1056",
+    "name": "VÄRSSU SADAM",
+    "location": "Hiiu maakond",
+    "coordinates": [
+      58.933159290586694,
+      22.955026035777763
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-403",
+    "name": "WESTMERI SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.95979075002165,
+      23.524604057955777
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-405",
+    "name": "ÖSTERBY SADAM",
+    "location": "Lääne maakond",
+    "coordinates": [
+      58.9756951,
+      23.518072
+    ],
+    "hasStation": false
+  },
+  {
+    "id": "no-fuel-2669",
+    "name": "ÜRGORU PAADISADAM",
+    "location": "Tartu maakond",
+    "coordinates": [
+      58.37948574041217,
+      26.989706925419874
+    ],
+    "hasStation": false
+  }
+]
