@@ -9,7 +9,7 @@
     ],
     "hasStation": true,
     "stationType": "Olerex",
-    "fuelLevel": 100,
+    "fuelLevel": 15,
     "capacity": 3000,
     "fuels": {
       "diesel": {

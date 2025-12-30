@@ -121,8 +121,21 @@ const statusClass = computed(() => {
 
 // Check if station is already favorited
 onMounted(async () => {
-  if (!user.value) return
+  // For guests, check localStorage
+  if (!user.value) {
+    const guestFavorites = localStorage.getItem('guestFavorites')
+    if (guestFavorites) {
+      const favorites = JSON.parse(guestFavorites)
+      const existingFavorite = favorites.find(f => f.station_id === props.station.id)
+      if (existingFavorite) {
+        isFavorite.value = true
+        favoriteId.value = existingFavorite.id
+      }
+    }
+    return
+  }
 
+  // For authenticated users, check Supabase
   try {
     const { data, error } = await supabase
       .from('favorites')
@@ -147,11 +160,48 @@ onMounted(async () => {
 
 // Toggle favorite status
 async function toggleFavorite() {
-  if (!user.value || loading.value) return
+  if (loading.value) return
 
   loading.value = true
 
   try {
+    // For guests, use localStorage
+    if (!user.value) {
+      const guestFavorites = localStorage.getItem('guestFavorites')
+      let favorites = guestFavorites ? JSON.parse(guestFavorites) : []
+
+      if (isFavorite.value) {
+        // Remove from favorites
+        favorites = favorites.filter(f => f.station_id !== props.station.id)
+        localStorage.setItem('guestFavorites', JSON.stringify(favorites))
+        isFavorite.value = false
+        favoriteId.value = null
+        showNotification('Removed from favorites')
+      } else {
+        // Add to favorites
+        const newFavorite = {
+          id: Date.now().toString(), // Generate a simple ID for localStorage
+          station_id: props.station.id,
+          name: props.station.name,
+          location: props.station.location,
+          coordinates: props.station.coordinates,
+          stationType: props.station.stationType,
+          fuelLevel: props.station.fuelLevel,
+          capacity: props.station.capacity,
+          fuels: props.station.fuels,
+          created_at: new Date().toISOString()
+        }
+        favorites.push(newFavorite)
+        localStorage.setItem('guestFavorites', JSON.stringify(favorites))
+        isFavorite.value = true
+        favoriteId.value = newFavorite.id
+        showNotification('Added to favorites!')
+      }
+      loading.value = false
+      return
+    }
+
+    // For authenticated users, use Supabase
     if (isFavorite.value) {
       // Remove from favorites
       const { error } = await supabase

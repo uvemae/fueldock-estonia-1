@@ -24,7 +24,6 @@
         <!-- Desktop Actions -->
         <div class="header-actions desktop-actions">
           <button
-            v-if="!isGuestMode && user"
             @click="currentView = 'favorites'"
             class="favorites-btn"
             title="My Favorites"
@@ -32,7 +31,6 @@
             ⭐
           </button>
           <button
-            v-if="!isGuestMode && user"
             @click="currentView = 'history'"
             class="history-btn"
             title="Fuel History"
@@ -40,7 +38,7 @@
             📋
           </button>
           <button
-            v-if="!isGuestMode && user && currentView === 'map'"
+            v-if="currentView === 'map'"
             @click="toggleFilters"
             class="filters-btn"
             title="Filters"
@@ -48,7 +46,7 @@
             🎚️
           </button>
           <button
-            v-if="!isGuestMode && user && currentView === 'map'"
+            v-if="currentView === 'map'"
             @click="toggleMapType"
             class="map-type-btn-header"
             title="Map Type"
@@ -92,7 +90,6 @@
     <div v-if="showMobileMenu" class="mobile-menu-overlay" @click="showMobileMenu = false">
       <div class="mobile-menu" @click.stop>
         <button
-          v-if="!isGuestMode && user"
           @click="currentView = 'favorites'; showMobileMenu = false"
           class="mobile-menu-item"
           title="Favorites"
@@ -100,7 +97,6 @@
           ⭐
         </button>
         <button
-          v-if="!isGuestMode && user"
           @click="currentView = 'history'; showMobileMenu = false"
           class="mobile-menu-item"
           title="History"
@@ -108,7 +104,7 @@
           📋
         </button>
         <button
-          v-if="!isGuestMode && user && currentView === 'map'"
+          v-if="currentView === 'map'"
           @click="toggleFilters(); showMobileMenu = false"
           class="mobile-menu-item"
           title="Filters"
@@ -116,7 +112,7 @@
           🎚️
         </button>
         <button
-          v-if="!isGuestMode && user && currentView === 'map'"
+          v-if="currentView === 'map'"
           @click="toggleMapType(); showMobileMenu = false"
           class="mobile-menu-item"
           title="Map Type"
@@ -279,12 +275,7 @@ async function handleLogout() {
 }
 
 function showStation(station) {
-  // In guest mode, show login prompt modal instead
-  if (isGuestMode.value) {
-    showLoginPrompt.value = true
-    return
-  }
-
+  // Show station details for both authenticated users and guests
   if (station.hasStation) {
     selectedStation.value = station
   }

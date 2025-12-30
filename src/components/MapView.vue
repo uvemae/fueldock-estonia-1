@@ -1,6 +1,6 @@
 <template>
   <div class="map-container">
-    <div v-if="!guestMode" class="search-container">
+    <div class="search-container">
       <div class="search-bar">
         <input
             ref="searchInput"
@@ -48,9 +48,9 @@
 
     <!-- Active Filters Badge (Top Right) -->
     <div
-      v-if="!guestMode && activeFiltersCount > 0"
+      v-if="activeFiltersCount > 0"
       class="active-filters-badge"
-      :class="{ 'admin-mode': EDIT_MODE && isAdmin }"
+      :class="{ 'admin-mode': EDIT_MODE && isAdmin && !guestMode }"
       title="Click to open filters"
       @click="emit('open-filters')"
     >
@@ -343,7 +343,7 @@
       </svg>
     </div>
 
-    <div v-if="!guestMode" class="legend">
+    <div class="legend">
       <div><span class="dot green"></span> Fuel >20%</div>
       <div><span class="dot yellow"></span> Fuel <20%</div>
       <div><span class="dot red"></span> No station</div>
@@ -554,10 +554,19 @@ function updatePositionFromMapCenter() {
   }
 }
 
-// Load user's favorites from Supabase
+// Load user's favorites from Supabase or localStorage
 async function loadUserFavorites() {
-  if (!user.value || props.guestMode) return
+  // For guests, load from localStorage
+  if (!user.value) {
+    const guestFavorites = localStorage.getItem('guestFavorites')
+    if (guestFavorites) {
+      const favorites = JSON.parse(guestFavorites)
+      userFavorites.value = favorites.map(f => f.station_id)
+    }
+    return
+  }
 
+  // For authenticated users, load from Supabase
   try {
     const { data, error } = await supabase
       .from('favorites')
@@ -1352,9 +1361,7 @@ function removeFilter(type, value) {
 
 // Helper functions
 function getMarkerColor(station) {
-  // In guest mode, all markers are purple
-  if (props.guestMode) return 'purple'
-
+  // Show actual fuel station colors for all users (guests and authenticated)
   if (!station.hasStation) return 'red'
   if (station.fuelLevel === 0) return 'gray'
   if (station.fuelLevel < 20) return 'yellow'
@@ -1370,10 +1377,9 @@ function createColoredIcon(color, isSelected = false, isFavorite = false) {
     purple: '#a855f7'
   }
 
-  // In guest mode, all markers are small (10px)
   // Red (no station) markers stay small (10px)
-  // For authenticated users/admins: green, yellow, gray markers are 2x bigger (40px)
-  const baseSize = props.guestMode ? 10 : (color === 'red' ? 10 : 15)
+  // For all users: green, yellow, gray markers are bigger (15px)
+  const baseSize = (color === 'red' ? 10 : 15)
   const size = isSelected ? baseSize + 40 : baseSize
   const borderWidth = isSelected ? 4 : 2
 

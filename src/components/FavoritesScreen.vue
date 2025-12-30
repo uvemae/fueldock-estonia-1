@@ -200,8 +200,14 @@ function calculateDistances() {
 }
 
 async function loadFavorites() {
-  if (!user.value) return
+  // For guests, load from localStorage
+  if (!user.value) {
+    const guestFavorites = localStorage.getItem('guestFavorites')
+    favorites.value = guestFavorites ? JSON.parse(guestFavorites) : []
+    return
+  }
 
+  // For authenticated users, load from Supabase
   const { data, error } = await supabase
     .from('favorites')
     .select('*')
@@ -277,6 +283,20 @@ function removeTag(index) {
 }
 
 async function saveNotes() {
+  const index = favorites.value.findIndex(f => f.id === editingFavorite.value.id)
+  if (index !== -1) {
+    favorites.value[index].notes = editNotes.value
+    favorites.value[index].tags = editTags.value
+  }
+
+  // For guests, save to localStorage
+  if (!user.value) {
+    localStorage.setItem('guestFavorites', JSON.stringify(favorites.value))
+    editingFavorite.value = null
+    return
+  }
+
+  // For authenticated users, save to Supabase
   const { error } = await supabase
     .from('favorites')
     .update({
@@ -289,11 +309,6 @@ async function saveNotes() {
   if (error) {
     console.error('Error saving notes:', error)
   } else {
-    const index = favorites.value.findIndex(f => f.id === editingFavorite.value.id)
-    if (index !== -1) {
-      favorites.value[index].notes = editNotes.value
-      favorites.value[index].tags = editTags.value
-    }
     editingFavorite.value = null
   }
 }
@@ -301,6 +316,15 @@ async function saveNotes() {
 async function removeFavorite(favorite) {
   if (!confirm(`Remove ${favorite.name} from favorites?`)) return
 
+  favorites.value = favorites.value.filter(f => f.id !== favorite.id)
+
+  // For guests, save to localStorage
+  if (!user.value) {
+    localStorage.setItem('guestFavorites', JSON.stringify(favorites.value))
+    return
+  }
+
+  // For authenticated users, delete from Supabase
   const { error } = await supabase
     .from('favorites')
     .delete()
@@ -309,8 +333,6 @@ async function removeFavorite(favorite) {
 
   if (error) {
     console.error('Error removing favorite:', error)
-  } else {
-    favorites.value = favorites.value.filter(f => f.id !== favorite.id)
   }
 }
 </script>

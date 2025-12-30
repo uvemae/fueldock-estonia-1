@@ -520,12 +520,27 @@ async function saveMarinasToServer() {
       body: JSON.stringify(marinas.value)
     })
 
-    const result = await response.json()
+    // Check if HTTP response is successful (status 200-299)
+    if (!response.ok) {
+      throw new Error(`Server returned ${response.status}: ${response.statusText}`)
+    }
 
-    if (result.success) {
+    // Try to parse JSON response
+    let result
+    try {
+      result = await response.json()
+    } catch (e) {
+      // If JSON parsing fails, assume success since HTTP status was OK
+      console.log('No JSON response, but HTTP status OK - treating as success')
+      showNotification('✅ Marinas saved successfully!', 'success')
+      return
+    }
+
+    // Check result.success if present, otherwise assume success from HTTP 200
+    if (result.success !== false) {
       showNotification('✅ Marinas saved successfully!', 'success')
     } else {
-      throw new Error(result.message)
+      throw new Error(result.message || 'Save failed')
     }
   } catch (error) {
     console.error('Save error:', error)
